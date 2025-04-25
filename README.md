@@ -1,6 +1,5 @@
 <p align="center">
-  <img src="assets/vault-logo.png" alt="VAULT Logo" width="80" style="vertical-align: middle;"/>
-  <span style="font-size:2em; font-weight:bold; vertical-align: middle;">VAULT</span>
+  <img src="assets/Logo_VAULT.png" alt="VAULT Logo" width="200"/>
 </p>
 
 # VAULT_Breast
