@@ -10,6 +10,8 @@
 This is a repository containing the data and code required to reproduce the results and figures of the manuscript "*Capturing actionable breast cancer evolution in discarded tissue*".
 Below is a summary table of how the scripts relate to the different figures. 
 
+---
+
 ## Code for reproduction of the manuscript figures
 The table below links which code reproduces each manuscript figure
 
@@ -38,8 +40,29 @@ The table below links which code reproduces each manuscript figure
 | Main          | 4a              | [analysis/scripts/draw_trees_for_VAULT.R](https://github.com/sanroman-24/tx100_rna_2024/blob/main/analysis/scripts/umap.R)|
 | Main          | 4b              | [analysis/scripts/draw_trees_for_VAULT.R](https://github.com/sanroman-24/tx100_rna_2024/blob/main/analysis/scripts/umap.R)|
 | Main          | 4c              | [analysis/scripts/draw_trees_for_VAULT.R](https://github.com/sanroman-24/tx100_rna_2024/blob/main/analysis/scripts/umap.R)|
+| Main          | 5a              | [analysis/scripts/ki67_heterogeneity.R](https://github.com/sanroman-24/tx100_rna_2024/blob/main/analysis/scripts/umap.R)|
+| Main          | 5b              | [analysis/scripts/HF007_ki67_heterogeneity.R](https://github.com/sanroman-24/tx100_rna_2024/blob/main/analysis/scripts/umap.R)|
+| Main          | 5c              | [analysis/scripts/ki67_heterogeneity.R](https://github.com/sanroman-24/tx100_rna_2024/blob/main/analysis/scripts/umap.R)|
+| Main          | 5d              | [analysis/scripts/ki67_heterogeneity.R](https://github.com/sanroman-24/tx100_rna_2024/blob/main/analysis/scripts/umap.R)|
+| Main          | 5e              | [analysis/scripts/ki67_heterogeneity.R](https://github.com/sanroman-24/tx100_rna_2024/blob/main/analysis/scripts/umap.R)|
 
 
-~/The Francis Crick Dropbox/Brian Hanley/HoLSTF_Breast/Github_Repo/analysis/scripts/draw_trees_for_VAULT.R
+---
+
+## Citation
+The manuscript is in review and citation will be updated upon publication
+
+---
+## Contact
+
+For questions, feedback, or collaborations, please contact:
+
+- Greg Smith | [email@example.com](mailto:email@example.com)
+- Project Website | [crick.ac.uk/RepSamp](https://www.crick.ac.uk/research/labs/samra-turajlic/areas-of-interest/representative-sampling)
+- Clinical Trial : [clinicaltrials.gov/VAULT](https://clinicaltrials.gov/study/NCT03832062?term=NCT03832062&rank=1)
+
+
+
+
 
 
