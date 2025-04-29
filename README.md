@@ -1,24 +1,14 @@
----
-title: "Breast Cancer Analysis Report"
-author: "Greg"
-date: "`r Sys.Date()`"
-output:
-  html_document:
-    toc: true
-    toc_depth: 2
-    number_sections: true
-    theme: flatly
-    highlight: zenburn
----
-
-<p align="center">
-  <img src="assets/Logo_VAULT.png" alt="VAULT Logo" width="200"/>
-</p>
+<table>
+  <tr>
+    <td><img src="assets/Logo_VAULT.png" width="400"/></td>
+    <td><img src="assets/VAULT_Breastlogo.png" width="400"/></td>
+  </tr>
+</table>
 
 # VAULT_Breast
 ## Content of this repository
 This is a repository containing the data and code required to reproduce the results and figures of the manuscript "*Capturing actionable breast cancer evolution in discarded tissue*".
-Below an indect how how the scripts relate to the different figures. 
+Below is a summary table of how the scripts relate to the different figures. 
 
 ## Code for reproduction of the manuscript figures
 The table below links which code reproduces each manuscript figure
@@ -45,7 +35,11 @@ The table below links which code reproduces each manuscript figure
 | Main          | 3h              | [analysis/scripts/known_v_predicted_drivers.R](https://github.com/sanroman-24/tx100_rna_2024/blob/main/analysis/scripts/umap.R)|
 | Main          | 3i              | [analysis/scripts/MYEOV_PTH2_lollipops.R](https://github.com/sanroman-24/tx100_rna_2024/blob/main/analysis/scripts/umap.R)|
 | Main          | 3j              | [analysis/scripts/clonality_selected_drivers.R](https://github.com/sanroman-24/tx100_rna_2024/blob/main/analysis/scripts/umap.R)|
+| Main          | 4a              | [analysis/scripts/draw_trees_for_VAULT.R](https://github.com/sanroman-24/tx100_rna_2024/blob/main/analysis/scripts/umap.R)|
+| Main          | 4b              | [analysis/scripts/draw_trees_for_VAULT.R](https://github.com/sanroman-24/tx100_rna_2024/blob/main/analysis/scripts/umap.R)|
+| Main          | 4c              | [analysis/scripts/draw_trees_for_VAULT.R](https://github.com/sanroman-24/tx100_rna_2024/blob/main/analysis/scripts/umap.R)|
 
 
+~/The Francis Crick Dropbox/Brian Hanley/HoLSTF_Breast/Github_Repo/analysis/scripts/draw_trees_for_VAULT.R
 
 
