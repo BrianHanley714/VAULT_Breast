@@ -1,13 +1,14 @@
-# Density histogram of mutational cancer cell fraction for simulated data
+# Draw the phylogenies from the simulated tumour which was the best fit for breast cancer
 
 rm(list = ls(all = TRUE))
 # LIBRARIES ---------------------------------------------------------------
 library(ape)
-
+library(tidyverse)
 # PATHS -------------------------------------------------------------------
 run = "run001"
-BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
+
 BASE = here::here()
+BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 
 
@@ -101,7 +102,7 @@ tip_col_rs = if_else(tree$tip.label %in% indices_rs, rep_seq_col, "#F0F0F0")
 
 
 # WRITE PLOT --------------------------------------------------------------
-png(file.path(OUT_DIR, "Figure2A_illustrative_phylogenies.png"))
+png(file.path(OUT_DIR, "Figure2A_illustrative_phylogenies.png"), width = 1000, height = 600, res = 150)
 
 layout(matrix(c(1, 2), nrow = 1), widths = c(3, 3))
 par(mar = c(5, 4, 4, 2))

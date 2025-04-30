@@ -1,4 +1,4 @@
-# Create a figure showing the selected genes by CCF
+# Create a figure showing regional heterogeneity in Ki67
 
 rm(list = ls(all = TRUE))
 
@@ -7,8 +7,9 @@ library(tidyverse)
 
 
 # PATHS -------------------------------------------------------------------
-BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
+
 BASE = here::here()
+BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 KI67_LOC = file.path(BASE, "data", "image_analysis", "Ki67_pathologist_scores.txt")
 

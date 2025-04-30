@@ -1,6 +1,7 @@
 # Compare leftover tissue to other sample types
 
 rm(list = ls(all = TRUE))
+
 # LIBRARIES ---------------------------------------------------------------
 library(tidyverse)
 library(highcharter)
@@ -8,8 +9,9 @@ library(ggpubr)
 library(htmlwidgets)
 
 # PATHS -------------------------------------------------------------------
-BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
+
 BASE = here::here()
+BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 TUM_COUNTS = file.path(BASE, "data", "image_analysis", "tumour_cell_counts.tsv")
 
@@ -33,6 +35,7 @@ sr_col = "#33A02Cb7"
 
 
 # Organise data -----------------------------------------------------------
+# definitions for calculating tumour cells
 annotations_tumour = annotations_tumour%>%
   mutate(numtumourcells_ERWSI = num_tumourcells,
          numtumourcells_50um = tumcell_perum3 * Area.µm.2*50,
@@ -68,7 +71,7 @@ plotting_dataframe = (annotations_tumour%>%
                         mutate(number_tumourcells = if_else(col == "mass", number_tumourcells*10^8, number_tumourcells)))
 
 
-# Output plots ------------------------------------------------------------
+# DRAW BOXPLOT ------------------------------------------------------------
 p = plotting_dataframe%>%
   ggplot(aes(sample, number_tumourcells, fill = col))+
   geom_boxplot()+
@@ -103,8 +106,12 @@ p+
                      bracket.size = 1, 
                      label.y.npc = 0.95 )
 
+
+# WRITE BOXPLOT -----------------------------------------------------------
 ggsave(file.path(OUT_DIR, "Figure1E_boxplot.png"))
 
+
+# DRAW PIECHART -----------------------------------------------------------
 pie_df = plotting_dataframe%>%
   mutate(sample = sample_type,
          sample = case_when(sample == "50um" ~ "Paraffin curls",
@@ -142,6 +149,8 @@ hc = highchart() %>%
       )
     )
   )
+
+# WRITE PIECHART ----------------------------------------------------------
 saveWidget(hc, file = file.path(OUT_DIR, "Figure1E_piechart.html"), selfcontained = TRUE)
 
 

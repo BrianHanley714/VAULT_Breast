@@ -1,12 +1,13 @@
 # Density histogram of mutational cancer cell fraction
 
 rm(list = ls(all = TRUE))
+
 # LIBRARIES ---------------------------------------------------------------
 library(tidyverse)
 
 # PATHS -------------------------------------------------------------------
-BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
 BASE = here::here()
+BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 VARIANTS_VAULT = file.path(BASE, "data","variants", "variant_calls_VAULT.txt")
 VARIANTS_MBTCGA = file.path(BASE, "data","variants", "variant_calls_TCGA_MB.txt")
@@ -14,6 +15,7 @@ MATCHED_PT_MBTCGA = file.path(BASE, "data","metadata", "matched_patients.txt")
 MATCHED_PT_CHAR_MBTCGA = file.path(BASE, "data","metadata", "matched_patients_characteristics.txt")
 IDMAP = file.path(BASE, "data","metadata", "tumouridmap_MB.txt")
 INCLUDED_PATIENTS = file.path(BASE, "data","metadata", "cases_included.xlsx")
+
 
 # LOAD DATA ---------------------------------------------------------------
 rs_patients = read.delim(INCLUDED_PATIENTS)[,1]
@@ -36,6 +38,9 @@ gt_col = "grey"
 clonal_col = "#33A02Cb7"
 subclonal_col= "#54278F"
 vault$study = "VAULT"
+
+
+# COMBINED DATAFRAME ------------------------------------------------------
 common_names = Reduce(intersect,list(names(mbtcga), names(vault)))
 
 combined_df = bind_rows(mbtcga%>%dplyr::select(common_names),
@@ -58,4 +63,9 @@ combined_df%>%
   #  ggtitle(paste("Sampling for", run))+
   ylab("Mutational density (scaled)")
 
-ggsave(file.path(OUT_DIR, "Figure_2D_CCF_mutational_density.png"))
+
+
+# WRITE PLOT --------------------------------------------------------------
+ggsave(file.path(OUT_DIR, "Figure2D_CCF_mutational_density.png"))
+
+

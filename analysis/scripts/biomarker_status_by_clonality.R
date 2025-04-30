@@ -5,8 +5,9 @@ rm(list = ls(all = TRUE))
 library(tidyverse)
 
 # PATHS -------------------------------------------------------------------
-BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
+
 BASE = here::here()
+BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 VARIANTS_VAULT = file.path(BASE, "data","variants", "variant_calls_VAULT.txt")
 VARIANTS_MBTCGA = file.path(BASE, "data","variants", "variant_calls_TCGA_MB.txt")
@@ -15,6 +16,7 @@ MATCHED_PT_CHAR_MBTCGA = file.path(BASE, "data","metadata", "matched_patients_ch
 IDMAP = file.path(BASE, "data","metadata", "tumouridmap_MB.txt")
 INCLUDED_PATIENTS = file.path(BASE, "data","metadata", "cases_included.xlsx")
 CLINDATA = file.path(BASE, "data", "metadata", "clinical_data.txt")
+
 # LOAD DATA ---------------------------------------------------------------
 rs_patients = read.delim(INCLUDED_PATIENTS)[,1]
 vault = read.delim(VARIANTS_VAULT)
@@ -24,6 +26,7 @@ matched_patients_char = read.delim(MATCHED_PT_CHAR_MBTCGA)
 tumour_IDs = read.delim(IDMAP)
 matched_patients = c(matched_patients$PATIENT_ID, unique(tumour_IDs$sample[match(matched_patients$PATIENT_ID, tumour_IDs$metabricId)]))
 clinical_data = read.delim(CLINDATA)
+
 # FUNCTIONS ---------------------------------------------------------------
 source(file.path(BASE, "src", "custom_filters.R"))
 source(file.path(BASE, "src", "annotate_driver_summary.R"))
@@ -39,6 +42,7 @@ mix = colorRampPalette(c(rs_col, sr_col))
 mix = mix(3)[2]  
 
 
+# COMBINED DATAFRAME ------------------------------------------------------
 vault$study = "VAULT"
 common_names = Reduce(intersect,list(names(mbtcga), names(vault)))
 

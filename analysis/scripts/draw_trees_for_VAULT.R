@@ -1,4 +1,4 @@
-# Create a figure showing the selected genes by CCF
+# Draw the phylogenies of trees where matched SingReg and metastatic samples were available
 
 rm(list = ls(all = TRUE))
 
@@ -8,8 +8,9 @@ library(CONIPHER)
 library(igraph)
 
 # PATHS -------------------------------------------------------------------
-BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
+
 BASE = here::here()
+BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 DRIVERS_LOC = file.path(BASE, "data", "variants", "drivers.txt")
 
@@ -21,6 +22,12 @@ drivers = read.delim(DRIVERS_LOC)
 source(file.path(BASE, "src", "conipher_helper_functions.R"))
 source(file.path(BASE, "src", "custom_tree_plotting.R"))
 
+# GROUP TREES -------------------------------------------------------------
+sr_trees = c("HF052", "HF168", "HF199", "HF255") # single region captures metastasising subclone
+trees_repseq = c("HF044", "HF390", "HF414", "HF291", "HF268", "HF170", "HF299")
+miss_trees = c("HF270", "HF132", "HF068", "HF032", "HF195", "HF033") #both sample types fail to capture metastasising subclone
+trees_repseq_ck = c("HF044", "HF390", "HF414", "HF291", "HF268", "HF170") #RepSeq captures metastasising subclone
+all = c(trees_repseq, sr_trees, miss_trees)
 
 # LOAD TREES --------------------------------------------------------------
 tree_locations = list.files(file.path(BASE, "data", "trees"), full.names = T)
@@ -32,12 +39,7 @@ trees_list = lapply(all, function(hf){
   tree = readRDS(location)
   return(tree)
 })
-# GROUP TREES -------------------------------------------------------------
-sr_trees = c("HF052", "HF168", "HF199", "HF255") # single region captures metastasising subclone
-trees_repseq = c("HF044", "HF390", "HF414", "HF291", "HF268", "HF170", "HF299")
-miss_trees = c("HF270", "HF132", "HF068", "HF032", "HF195", "HF033") #both sample types fail to capture metastasising subclone
-trees_repseq_ck = c("HF044", "HF390", "HF414", "HF291", "HF268", "HF170") #RepSeq captures metastasising subclone
-all = c(trees_repseq, sr_trees, miss_trees)
+
 
 
 

@@ -1,11 +1,13 @@
-# Create 
+# Create a plot comparing the known and predicted drivers in TCGA and VAULT
 
 rm(list = ls(all = TRUE))
 # LIBRARIES ---------------------------------------------------------------
 library(tidyverse)
+library(ggpubr)
 # PATHS -------------------------------------------------------------------
-BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
+
 BASE = here::here()
+BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 VARIANTS_VAULT = file.path(BASE, "data","variants", "variant_calls_VAULT.txt")
 VARIANTS_MBTCGA = file.path(BASE, "data","variants", "variant_calls_TCGA_MB.txt")
@@ -83,3 +85,4 @@ combined_df%>%
 
 # WRITE PLOT --------------------------------------------------------------
 ggsave(file.path(OUT_DIR, "Figure3H_known_vs_predicted_drivers.png"))
+

@@ -5,8 +5,8 @@ rm(list = ls(all = TRUE))
 library(tidyverse)
 library(cowplot)
 # PATHS -------------------------------------------------------------------
-BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
 BASE = here::here()
+BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 VARIANTS_VAULT = file.path(BASE, "data","variants", "variant_calls_VAULT.txt")
 VARIANTS_MBTCGA = file.path(BASE, "data","variants", "variant_calls_TCGA_MB.txt")
@@ -37,6 +37,8 @@ subclonal_col= "#54278F"
 vault$study = "VAULT"
 common_names = Reduce(intersect,list(names(mbtcga), names(vault)))
 
+
+# DRAW PLOT ---------------------------------------------------------------
 combined_df = bind_rows(mbtcga%>%dplyr::select(common_names),
                         vault%>%dplyr::select(common_names)
 )
@@ -93,6 +95,4 @@ plot_grid(combined_df%>%
 
 
 # WRITE PLOT --------------------------------------------------------------
-
-
 ggsave(file.path(OUT_DIR, "Figure2E_variant_clonality.png"))

@@ -1,4 +1,4 @@
-# Create a figure showing the selected genes by CCF
+# Demonstrate the regional heterogeneity in HF007
 
 rm(list = ls(all = TRUE))
 
@@ -7,8 +7,8 @@ library(tidyverse)
 library(ggpubr)
 
 # PATHS -------------------------------------------------------------------
-BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
 BASE = here::here()
+BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 HF007_LOC = file.path(BASE, "data", "image_analysis", "HF007_image_analysis.txt")
 

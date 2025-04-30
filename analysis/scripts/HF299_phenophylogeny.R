@@ -1,4 +1,4 @@
-# Create a figure showing the selected genes by CCF
+# Draw the pheno-phylogeny for HF299
 
 rm(list = ls(all = TRUE))
 
@@ -8,8 +8,9 @@ library(CONIPHER)
 library(igraph)
 
 # PATHS -------------------------------------------------------------------
-BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
+
 BASE = here::here()
+BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 DRIVERS_LOC = file.path(BASE, "data", "variants", "drivers.txt")
 
@@ -31,3 +32,5 @@ dev.off()
 png(file.path(OUT_DIR, "Figure5D_HF299_phenophylogeny.png"), width = 1000, height = 600, res = 150)
 plot_pyclone_tree(HF299_tree,1, -1.175, "HF299")
 dev.off()
+
+

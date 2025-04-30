@@ -8,8 +8,9 @@ library(CONIPHER)
 library(igraph)
 
 # PATHS -------------------------------------------------------------------
-BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
+
 BASE = here::here()
+BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 DRIVERS_LOC = file.path(BASE, "data", "variants", "drivers.txt")
 

@@ -1,11 +1,14 @@
-# Create 
+# Compare the cancer cell fraction of drivers between studies
 
 rm(list = ls(all = TRUE))
+
 # LIBRARIES ---------------------------------------------------------------
 library(tidyverse)
+library(ggpubr)
+
 # PATHS -------------------------------------------------------------------
-BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
 BASE = here::here()
+BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 VARIANTS_VAULT = file.path(BASE, "data","variants", "variant_calls_VAULT.txt")
 VARIANTS_MBTCGA = file.path(BASE, "data","variants", "variant_calls_TCGA_MB.txt")
@@ -15,6 +18,7 @@ IDMAP = file.path(BASE, "data","metadata", "tumouridmap_MB.txt")
 INCLUDED_PATIENTS = file.path(BASE, "data","metadata", "cases_included.xlsx")
 CLINDATA = file.path(BASE, "data", "metadata", "clinical_data.txt")
 PIK3CA_DOM = file.path(BASE, "data", "metadata", "PIK3CAdomains_P42336_EBI_10022025.tsv")
+
 # LOAD DATA ---------------------------------------------------------------
 rs_patients = read.delim(INCLUDED_PATIENTS)[,1]
 vault = read.delim(VARIANTS_VAULT)
@@ -25,6 +29,7 @@ tumour_IDs = read.delim(IDMAP)
 matched_patients = c(matched_patients$PATIENT_ID, unique(tumour_IDs$sample[match(matched_patients$PATIENT_ID, tumour_IDs$metabricId)]))
 clinical_data = read.delim(CLINDATA)
 pik3ca_domains = read.delim(PIK3CA_DOM)
+
 # FUNCTIONS ---------------------------------------------------------------
 source(file.path(BASE, "src", "custom_filters.R"))
 source(file.path(BASE, "src", "rot.lab.R"))
@@ -63,7 +68,7 @@ combined_df%>%
   geom_boxplot()+
   stat_compare_means(size = 6, label.x.npc = 0.25)+
   theme_classic(base_size = 25)+
-  ggtitle("Actionable Drivers CCF")+
+  ggtitle("Actionable Subclonal Drivers CCF")+
   ylab("CCF")+
   theme(axis.title.x = element_blank(), 
         legend.position = "none")+

@@ -5,8 +5,9 @@ rm(list = ls(all = TRUE))
 library(tidyverse)
 library(gggenes)
 # PATHS -------------------------------------------------------------------
-BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
+
 BASE = here::here()
+BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 VARIANTS_VAULT = file.path(BASE, "data","variants", "variant_calls_VAULT.txt")
 VARIANTS_MBTCGA = file.path(BASE, "data","variants", "variant_calls_TCGA_MB.txt")
@@ -16,6 +17,7 @@ IDMAP = file.path(BASE, "data","metadata", "tumouridmap_MB.txt")
 INCLUDED_PATIENTS = file.path(BASE, "data","metadata", "cases_included.xlsx")
 CLINDATA = file.path(BASE, "data", "metadata", "clinical_data.txt")
 PIK3CA_DOM = file.path(BASE, "data", "metadata", "PIK3CAdomains_P42336_EBI_10022025.tsv")
+
 # LOAD DATA ---------------------------------------------------------------
 rs_patients = read.delim(INCLUDED_PATIENTS)[,1]
 vault = read.delim(VARIANTS_VAULT)
@@ -26,10 +28,14 @@ tumour_IDs = read.delim(IDMAP)
 matched_patients = c(matched_patients$PATIENT_ID, unique(tumour_IDs$sample[match(matched_patients$PATIENT_ID, tumour_IDs$metabricId)]))
 clinical_data = read.delim(CLINDATA)
 pik3ca_domains = read.delim(PIK3CA_DOM)
+
 # FUNCTIONS ---------------------------------------------------------------
 source(file.path(BASE, "src", "custom_filters.R"))
 source(file.path(BASE, "src", "annotate_driver_summary.R"))
+source(file.path(BASE, "src", "plotting_features.R"))
 
+
+# GRAPHICAL PARAMETERS ----------------------------------------------------
 rs_col = "#54278F"
 sr_col = "#33A02Cb7"
 sr_col_1 = "#33A02Cb7"
@@ -38,15 +44,9 @@ gt_col = "grey"
 clonal_col = "#33A02Cb7"
 subclonal_col= "#54278F"
 
-colours = c("#B2DF8A93", "#FDBF6Fdb", "#FB9A99db", "#1F78B4db", "#B15928ff",
-            "#6A3D9Aff", "#FB9A9993", "#FF7F00db", "#CAB2D6ff", "#33A02Cdb", "#FB9A99ff",
-            "#E31A1Cff", "#A6CEE3db", "#FF7F00ff", "#B2DF8Ab7", "#B15928b7", "#CAB2D6db",
-            "#33A02Cb7", "#E31A1Cdb", "#A6CEE3ff", "#33A02Cff", "#CAB2D6b7", "#B2DF8Aff",
-            "#1F78B4ff", "#6A3D9Adb", "#FFFF99db", "#B15928db", "#E31A1Cb7", "#FF7F00b7",
-            "#FFFF99b7", "#A6CEE393", "#B2DF8A6f", "#FFFF99ff", "#B2DF8Adb")
 
 
-
+# COMBINED DATAFRAME ------------------------------------------------------
 vault$study = "VAULT"
 common_names = Reduce(intersect,list(names(mbtcga), names(vault)))
 

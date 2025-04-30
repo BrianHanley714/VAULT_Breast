@@ -1,48 +1,49 @@
 # Density histogram of mutational cancer cell fraction for simulated data
 
 rm(list = ls(all = TRUE))
+
 # LIBRARIES ---------------------------------------------------------------
 library(tidyverse)
+library(cowplot)
 library(scales)
 
 # PATHS -------------------------------------------------------------------
 run = "run001"
-BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
 BASE = here::here()
+BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 input_dir = file.path(BASE, "data/simulations", run, "out/")
 
 
 # LOAD DATA ---------------------------------------------------------------
 if(file.exists(input_dir)){
-  num_mut_out = read.delim(paste0(input_dir, "num_mut_out.txt"))
-  clones_out = read.delim(paste0(input_dir, "clone_details.txt"))
-  mat_repsampling = read.delim(paste0(input_dir, "simulation_data_repseq.txt"))
   ccf_comparisons_rep = read.delim(paste0(input_dir, "ccf_comparisons_data_repseq.txt"))
-  mat_sampling = read.delim(paste0(input_dir, "simulation_data_ffpe.txt"))
   ccf_comparisons_sr = read.delim(paste0(input_dir, "ccf_comparisons_data_sr.txt"))
-  mat_repsampling = as_tibble(mat_repsampling)
-  mat_sampling = as_tibble(mat_sampling)
 }
 
 
 # GRAPHICAL PARAMETERS ----------------------------------------------------
 rs_col = "#54278F"
 sr_col = "#33A02Cb7"
-gt_col = "grey"
 
-thresholds <- 10^seq(-6, 0, by = .01)
-proportions_sr <- sapply(thresholds, function(threshold) mean(ccf_comparisons_sr$ccfs > threshold))
-proportions <- sapply(thresholds, function(threshold) mean(ccf_comparisons_rep$ccfs > threshold))
-sum_sr <- sapply(thresholds, function(threshold) sum(ccf_comparisons_sr$ccfs > threshold))
-sum <- sapply(thresholds, function(threshold) sum(ccf_comparisons_rep$ccfs > threshold))
+
+
+# GET PROPORTION AND SUM VARIANTS CAPTURED --------------------------------
+thresholds = 10^seq(-6, 0, by = .01) # thresholds between 1 and 10^-6
+
+# proportion and sum of variants per single region after 1000 runs
+proportions_sr  = sapply(thresholds, function(threshold) mean(ccf_comparisons_sr$ccfs > threshold))
+sum_sr  = sapply(thresholds, function(threshold) sum(ccf_comparisons_sr$ccfs > threshold))
+
+# proportion and sum of variants per RepSeq sample after 1000 runs
+proportions  = sapply(thresholds, function(threshold) mean(ccf_comparisons_rep$ccfs > threshold))
+sum  = sapply(thresholds, function(threshold) sum(ccf_comparisons_rep$ccfs > threshold))
 
 # DRAW PLOT ---------------------------------------------------------------
 plot_grid(
   as_tibble(rbind(cbind(proportions_sr, thresholds, "SingReg"), cbind(proportions, thresholds, "RepSamp")))%>%
     mutate(Sample = V3)%>%
     ggplot(aes(as.numeric(thresholds), as.numeric(proportions_sr), col = Sample))+
-    #geom_point()+
     geom_smooth()+
     scale_x_log10(
       breaks = trans_breaks("log10", function(x) 10^x),
