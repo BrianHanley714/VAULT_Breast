@@ -1,0 +1,45 @@
+Accession	Name	Source Database	Type	Integrated Into	Integrated Signatures	GO Terms	Protein Accession	Protein Length	Matches
+cd00872	PI3Ka_I	cdd	domain				p42336	1068	525..696
+cd05175	Catalytic domain of Class IA Phosphoinositide 3-kinase alpha	cdd	domain	IPR037704			p42336	1068	695..1064
+cd08398	C2 domain present in class I alpha phosphatidylinositol 3-kinases (PI3Ks)	cdd	domain				p42336	1068	325..484
+G3DSA:1.10.1070.11	Phosphatidylinositol 3-/4-kinase, catalytic domain	cathgene3d	homologous_superfamily	IPR036940			p42336	1068	853..1051
+G3DSA:1.25.40.70	Phosphatidylinositol 3-kinase, accessory domain (PIK)	cathgene3d	homologous_superfamily	IPR042236			p42336	1068	479..695
+G3DSA:2.60.40.150	C2 domain	cathgene3d	homologous_superfamily	IPR035892			p42336	1068	327..478
+G3DSA:3.10.20.90	Phosphatidylinositol 3-kinase Catalytic Subunit; Chain A, domain 1	cathgene3d	homologous_superfamily				p42336	1068	1..108,109..326
+G3DSA:3.30.1010.10	Phosphatidylinositol 3-kinase Catalytic Subunit; Chain A, domain 4	cathgene3d	homologous_superfamily				p42336	1068	696..852
+IPR000341	Phosphatidylinositol 3-kinase Ras-binding (PI3K RBD) domain	interpro	domain		PS51546,PF00794,SM00144		p42336	1068	173..292
+IPR000403	Phosphatidylinositol 3-/4-kinase, catalytic domain	interpro	domain		PS50290,PF00454,SM00146		p42336	1068	765..1065
+IPR001263	Phosphoinositide 3-kinase, accessory (PIK) domain	interpro	domain		PS51545,PF00613,SM00145		p42336	1068	517..704
+IPR002420	C2 phosphatidylinositol 3-kinase-type domain	interpro	domain		PS51547,PF00792,SM00142		p42336	1068	322..487
+IPR003113	Phosphatidylinositol 3-kinase, adaptor-binding domain	interpro	domain		PS51544,PF02192,SM00143		p42336	1068	16..108
+IPR011009	Protein kinase-like domain superfamily	interpro	homologous_superfamily		SSF56112		p42336	1068	699..1060
+IPR015433	Phosphatidylinositol kinase	interpro	family		PTHR10048	GO:0046854	p42336	1068	54..1064
+IPR016024	Armadillo-type fold	interpro	homologous_superfamily		SSF48371		p42336	1068	519..696
+IPR018936	Phosphatidylinositol 3/4-kinase, conserved site	interpro	conserved_site		PS00916,PS00915	GO:0016301	p42336	1068	801..815,900..920
+IPR029071	Ubiquitin-like domain superfamily	interpro	homologous_superfamily		SSF54236		p42336	1068	106..296
+IPR035892	C2 domain superfamily	interpro	homologous_superfamily		SSF49562,G3DSA:2.60.40.150		p42336	1068	327..478
+IPR036940	Phosphatidylinositol 3-/4-kinase, catalytic domain superfamily	interpro	homologous_superfamily		G3DSA:1.10.1070.11		p42336	1068	853..1051
+IPR037704	PI3Kalpha, catalytic domain	interpro	domain		cd05175	GO:0016303,GO:0043491	p42336	1068	695..1064
+IPR042236	Phosphoinositide 3-kinase, accessory (PIK) domain superfamily	interpro	homologous_superfamily		G3DSA:1.25.40.70		p42336	1068	479..695
+PF00454	Phosphatidylinositol 3- and 4-kinase	pfam	family	IPR000403			p42336	1068	798..1015
+PF00613	Phosphoinositide 3-kinase family, accessory domain (PIK domain)	pfam	repeat	IPR001263			p42336	1068	520..703
+PF00792	Phosphoinositide 3-kinase C2	pfam	domain	IPR002420			p42336	1068	351..483
+PF00794	PI3-kinase family, ras-binding domain	pfam	domain	IPR000341			p42336	1068	174..291
+PF02192	PI3-kinase family, p85-binding domain	pfam	family	IPR003113			p42336	1068	32..107
+PS00915	Phosphatidylinositol 3- and 4-kinases signature 1	prosite	conserved_site	IPR018936			p42336	1068	801..815
+PS00916	Phosphatidylinositol 3- and 4-kinases signature 2	prosite	conserved_site	IPR018936			p42336	1068	900..920
+PS50290	Phosphatidylinositol 3- and 4-kinases catalytic domain profile	profile	domain	IPR000403			p42336	1068	765..1051
+PS51544	Phosphatidylinositol 3-kinase adaptor-binding (PI3K ABD) domain profile	profile	domain	IPR003113			p42336	1068	16..105
+PS51545	PIK helical domain profile	profile	domain	IPR001263			p42336	1068	517..694
+PS51546	Phosphatidylinositol 3-kinase Ras-binding (PI3K RBD) domain profile	profile	domain	IPR000341			p42336	1068	187..289
+PS51547	C2 phosphatidylinositol 3-kinase (PI3K)-type domain profile	profile	domain	IPR002420			p42336	1068	330..487
+PTHR10048	PHOSPHATIDYLINOSITOL KINASE	panther	family	IPR015433			p42336	1068	54..1064
+SM00142	Phosphoinositide 3-kinase, region postulated to contain C2 domain	smart	domain	IPR002420			p42336	1068	322..425
+SM00143	PI3-kinase family, p85-binding domain	smart	domain	IPR003113			p42336	1068	31..108
+SM00144	PI3-kinase family, Ras-binding domain	smart	domain	IPR000341			p42336	1068	173..292
+SM00145	Phosphoinositide 3-kinase family, accessory domain (PIK domain)	smart	domain	IPR001263			p42336	1068	518..704
+SM00146	Phosphoinositide 3-kinase, catalytic domain	smart	domain	IPR000403			p42336	1068	798..1065
+SSF48371	ARM repeat	ssf	homologous_superfamily	IPR016024			p42336	1068	519..696
+SSF49562	C2 domain (Calcium/lipid-binding domain, CaLB)	ssf	homologous_superfamily	IPR035892			p42336	1068	331..472
+SSF54236	Ubiquitin-like	ssf	homologous_superfamily	IPR029071			p42336	1068	106..296
+SSF56112	Protein kinase-like (PK-like)	ssf	homologous_superfamily	IPR011009			p42336	1068	699..1060

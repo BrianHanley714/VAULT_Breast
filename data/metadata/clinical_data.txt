@@ -1,0 +1,71 @@
+Trial.ID	Age	Histological.grade	Gender	Histological Subtype	Receptor Subtype	surgery_type	Margin.status	T.Stage	N.stage	M.stage	Paget.disease	DCIS	LCIS	prior_breast_ca	neo_adj_treatment_class	disease_progression_after_VAULT_sample	cause_of_death	recurrence_current_sample_is_recurence	Regimen_neoadj	survival_status_at_last_fu	days_to_first_recurrence	daystolastfollow
+HF004	46	G3	F	IDC_NST	TN	WLE	Un-involved	T1c	N0	M0	Not recorded	Present	Absent	Yes	NA	NO		Yes		Alive	NA	2055
+HF006	57	G2	F	IDC_NST	ER+/HER2-	WLE	Un-involved	T2	N0	NA	Not recorded	Present	Absent	No	NET>30d<90d	NO		No	LETROZOLE	Alive	NA	2186
+HF007	34	G3	F	IDC_NST	ER+/HER2-	Mastectomy	Un-involved	T2	N0	NA	Absent	Present	Absent	No	NA	YES		No		Alive	833	2000
+HF016	53	G2	F	IDC_NST	ER+/HER2-	WLE	Un-involved	T4	N0	NA	Not recorded	Absent	Absent	No	NA	YES	Other	No		Dead_not_cancer_related	37	360
+HF017	44	G1	F	IDC_NST	ER+/HER2-	Mastectomy	Un-involved	T2	N0	NA	Not recorded	Present	Present	No	NA	NO		No		Alive	NA	1867
+HF031	55	G3	F	IDC_NST	HER2+	WLE	less than/ equal to 1mm	T2	N0	NA	Not recorded	Present	Absent	No	NA	NO		No		Alive	NA	1825
+HF032	42	G3	F	IDC_NST	ER+/HER2-	Mastectomy	Un-involved	T4	N2a	M0	Absent	Present	Absent	No	NA	YES	Cancer related	No		Dead_cancer_related	393	851
+HF033	71	G2	F	IDC_NST	ER+/HER2-	WLE	Un-involved	T2a	N1a	NA	Not recorded	Absent	Absent	No	NA	NO		No		Alive	NA	1852
+HF036	53	G2	F	ILC	ER+/HER2-	Mastectomy	Involved	T3	N0(i+)	Mx	Not recorded	Absent	Absent	Yes	NET>90d	YES		Yes	LETROZOLE	Alive	761	1942
+HF039	63	G3	F	ILC	ER+/HER2-	Mastectomy	Un-involved	T4	N0	M0	Not recorded	Absent	Present	No	SACT_NET>90d	NO		No	LETROZOLE,FULVESTRANT,RIBOCICLIB,LETROZOLE,EVEROLIMUS,EXEMESTANE	Alive	NA	1793
+HF041	63	G3	F	IDC_NST	ER+/HER2-	WLE	Un-involved	T2	N0	NA	Not recorded	Present	Absent	No	NET<30d	NO		No	LETROZOLE	Alive	NA	1910
+HF044	56	G3	F	ILC	ER+/HER2-	Mastectomy	Involved	T3	N1x	M0	Absent	Absent	Present	No	NA	YES	Mestatic Disease	No		Dead_cancer_related	777	1902
+HF052	51	G2	F	MixedILC/IDC	ER+/HER2-	Mastectomy	less than/ equal to 1mm	T3	N2a	M0	Not recorded	Present	Present	No	NA	YES		No		Alive	1806	1936
+HF057	71	G3	F	ILC	ER+/HER2-	WLE	Involved	T2	N0	M0	Not recorded	Absent	Absent	Yes	NA	YES		Yes		Alive	127	2092
+HF068	72	G2	F	IDC_NST	HER2+	Mastectomy	Un-involved	T2	N1a	M0	Not recorded	Present	Absent	No	NET>90d	NO		No	LETROZOLE,EXEMESTANE	Alive	NA	1794
+HF079	59	G2	F	IDC_NST	ER+/HER2-	WLE	Un-involved	T2	N0	NA	Not recorded	Present	Absent	No	NA	NO		No		Alive	NA	1858
+HF083	54	G2	F	ILC	ER+/HER2-	Mastectomy	Un-involved	T2	N0	NA	Not recorded	Absent	Present	No	NA	NO		No		Alive	NA	1349
+HF104	75	G2	F	IDC_NST	ER+/HER2-	WLE	Involved	T2	N0	NA	Not recorded	Present	Absent	No	NA	NO		No		Alive	NA	1819
+HF105	76	G3	F	IDC_NST	ER+/HER2-	Mastectomy	Un-involved	T2	N0	NA	Not recorded	Present	Absent	Yes	NET>30d<90d	NO	Other	No	LETROZOLE	Dead_not_cancer_related	NA	814
+HF106	72	G3	F	IDC_NST	TN	WLE	Un-involved	T2	N0	NA	Not recorded	Absent	Absent	No	NA	NO		No		Alive	NA	1573
+HF124	44	G3	F	IDC_NST	ER+/HER2-	Mastectomy	Involved	T3	N0	NA	Not recorded	Present	Absent	No	NA	NO		No		Alive	NA	1707
+HF125	65	G3	F	IDC_NST	ER+/HER2-	WLE	less than/ equal to 1mm	T2	N1a	NA	Not recorded	Present	Absent	No	NA	NO		No		Alive	NA	1467
+HF127	54	G2	F	IDC_NST	HER2+	WLE	less than/ equal to 1mm	T2	Nx	M1	Not recorded	Present	Absent	Yes	NET<30d	YES		No	LETROZOLE	Alive	100	1735
+HF132	53	G2	F	MixedILC/IDC	ER+/HER2-	Mastectomy	Un-involved	T4b	N2a	M1	Not recorded	Absent	Absent	No	SACT	YES	Cancer related	No	PALBOCICLIB,TAMOXFIEN,GOSERELIN,CAPECITABINE	Dead_cancer_related	139	549
+HF134	52	G2	F	ILC	ER+/HER2-	WLE	Involved	T3	N1a	M0	Not recorded	Absent	Present	No	NA	NO		No		Alive	NA	1597
+HF136	59	G1	F	IDC_NST	HER2+	WLE	Un-involved	T1c	N1a	M0	Not recorded	Present	Absent	No	SACT	NO		No	DOCETAXEL,TRASTUZUMAB,PERTUZUMAB,EPIRUBICIN,CYCLOPHOSPHAMIDE	Alive	NA	1510
+HF149	80	G2	M	IDC_NST	ER+/HER2-	Mastectomy	Un-involved	T2	N0	NA	Absent	Present	Absent	No	NA	NO		No		Alive	NA	944
+HF159	77	G2	F	ILC	ER+/HER2-	WLE	less than/ equal to 1mm	T3a	N0	M0	Not recorded	Absent	Present	Yes	NET<30d	NO		No	LETROZOLE	Alive	NA	1393
+HF168	54	G3	F	IDC_NST	ER+/HER2-	WLE	less than/ equal to 1mm	T2	N1a	Mx	Not recorded	Present	Absent	No	NA	YES	Cancer related	No		Dead_cancer_related	261	278
+HF169	56	G3	F	IDC_NST	ER+/HER2-	WLE	less than/ equal to 1mm	T2	N0	NA	Not recorded	Present	Absent	No	NA	NO		No		Alive	NA	1631
+HF170	58	G2	F	IDC_NST	ER+/HER2-	Mastectomy	Un-involved	T3	N2a	M0	Not recorded	Present	Absent	No	NET>30d<90d	YES		No	TAMOXIFEN	Alive	1343	1653
+HF176	95	G2	F	IDC_NST	ER+/HER2-	WLE	Un-involved	T1c	Nx	NA	Not recorded	Absent	Present	No	NET>90d	NO		No	LETROZOLE	Alive	NA	1256
+HF178	78	G3	F	IDC_NST	TN	WLE	Involved	T2	N0	NA	Not recorded	Present	Present	Yes	NA	NO		No		Alive	NA	1324
+HF181	67	G2	F	IDC_NST	ER+/HER2-	WLE	Un-involved	T1c	N0	NA	Not recorded	Present	Absent	No	NA	NO		No		Alive	NA	1465
+HF195	87	G2	F	ILC	ER+/HER2-	Mastectomy	Involved	T4b	N2a	M0	Not recorded	Absent	Present	No	NET>90d	YES	Unknown Cancer related	No	LETROZOLE,EXEMESTANE	Dead_cancer_related	395	990
+HF199	47	G2	F	IDC_NST	ER+/HER2-	Mastectomy	less than/ equal to 1mm	T2	N2a	M1	Not recorded	Present	Absent	No	NA	YES		No		Alive	25	1607
+HF200	63	G3	F	MucinousCarcinoma	HER2+	Mastectomy	less than/ equal to 1mm	T2	N0	M0	Absent	Present	Absent	No	NA	NO		No		Alive	NA	1445
+HF206	56	G3	F	ILC	ER+/HER2-	WLE	less than/ equal to 1mm	T3	N0	M0	Not recorded	Absent	Absent	No	NA	NO		No		Alive	NA	1579
+HF221	47	G2	F	IDC_NST	ER+/HER2-	Mastectomy	less than/ equal to 1mm	T2	N0	NA	Not recorded	Present	Absent	No	NA	NO		No		Alive	NA	668
+HF222	72	G2	F	IDC_NST	ER+/HER2-	WLE	Involved	T2	N0	NA	Not recorded	Present	Absent	No	NA	NO		No		Alive	NA	1516
+HF231	51	G2	F	IDC_NST	ER+/HER2-	WLE	Un-involved	T2	N0	NA	Not recorded	Present	Absent	No	NA	NO		No		Alive	NA	1463
+HF238	50	G2	F	ILC	ER+/HER2-	WLE	Involved	T3	N0	NA	Not recorded	Present	Present	No	NET<30d	NO		No	TAMOXIFEN	Alive	NA	1449
+HF246	64	G2	F	IDC_NST	ER+/HER2-	Mastectomy	Un-involved	T2	N0	M0	Absent	Present	Present	Yes	NET<30d	YES	Not exactly known. Possible cardiovascular event. Not cancer related.	No	LETROZOLE	Dead_not_cancer_related	978	1034
+HF247	40	G2	F	ILC	ER+/HER2-	Mastectomy	less than/ equal to 1mm	T3	N0	M0	Not recorded	Present	Present	No	NET<30d	NO		No	TAMOXIFEN	Alive	NA	1094
+HF250	55	G3	F	IDC_NST	ER+/HER2-	Mastectomy	Un-involved	T1c	N1a	NA	Not recorded	Present	Absent	No	NA	NO		No		Alive	NA	1497
+HF251	79	G2	F	IDC_NST	ER+/HER2-	Mastectomy	Not recorded	T2	N0	NA	Not recorded	Present	Absent	No	NA	NO		No		Alive	NA	1350
+HF252	53	G1	F	IDC_NST	ER+/HER2-	Mastectomy	Un-involved	T3	N0	NA	Absent	Present	Absent	No	NA	NO		No		Alive	NA	1429
+HF255	53	G3	F	IDC_NST	ER+/HER2-	Mastectomy	less than/ equal to 1mm	T3	N2a	NA	Absent	Present	Absent	No	SACT	YES		No	EPIRUBICIN,CYCLOPHOSPHAMIDE,PACLITAXEL	Alive	514	1488
+HF268	50	G3	F	IDC_NST	ER+/HER2-	Mastectomy	Un-involved	T2	N1a	M0	Absent	Present	Absent	No	NA	NO		No		Alive	NA	1437
+HF270	64	G2	F	ILC	ER+/HER2-	Mastectomy	Involved	T2	N1a	M0	Not recorded	Absent	Present	No	SACT	NO		No	EPIRUBICIN,CYCLOPHOSPHAMIDE,PACLITAXEL	Alive	NA	1367
+HF272	71	G2	F	MixedILC/IDC	ER+/HER2-	WLE	Involved	T2	N0	M0	Not recorded	Present	Absent	No	NA	NO		No		Alive	NA	1184
+HF276	42	G2	F	IDC_NST	ER+/HER2-	WLE	Involved	T2	N0	NA	Not recorded	Present	Absent	No	NA	NO		No		Alive	NA	1428
+HF279	61	G3	F	IDC_NST	ER+/HER2-	WLE	less than/ equal to 1mm	T2	Nx	M0	Absent	Absent	Absent	Yes	NA	YES		Yes		Alive	226	1434
+HF283	50	G3	F	IDC_NST	ER+/HER2-	WLE	less than/ equal to 1mm	T3	N1a	NA	Not recorded	Present	Absent	No	NET<30d	NO		No	TAMOXIFEN	Alive	NA	1276
+HF291	69	G3	F	MixedILC/IDC	HER2+	Mastectomy	less than/ equal to 1mm	T3	N3a	M0	Not recorded	Present	Absent	No	NA	NO		No		Alive	NA	1303
+HF299	67	G3	F	MixedILC/IDC	ER+/HER2-	WLE	Un-involved	T3	N3	NA	Not recorded	Present	Present	No	NET>30d<90d	YES	Cancer related	No	LETROZOLE	Dead_cancer_related	149	277
+HF328	45	G2	F	ILC	ER+/HER2-	Mastectomy	Involved	T3	N2x	M0	Not recorded	Present	Present	No	NA	NO		No		Alive	NA	1275
+HF350	77	G3	F	IDC_NST	ER+/HER2-	Mastectomy	Involved	T2	N1	M0	Not recorded	Present	Absent	No	NA	NO		No		Alive	NA	1073
+HF374	76	G1	F	IDC_NST	ER+/HER2-	Mastectomy	Involved	T1b	N0	NA	Not recorded	Present	Absent	No	NA	NO		No		Alive	NA	678
+HF388	57	G3	F	IDC_NST	ER+/HER2-	Mastectomy	Involved	T2	N1a	M0	Not recorded	Absent	Absent	No	NET<30d	NO		No	LETROZOLE	Alive	NA	811
+HF389	67	G3	F	IDC_NST	HER2+	Mastectomy	less than/ equal to 1mm	T2	N0	M0	Not recorded	Present	Present	No	NA	NO		No		Alive	NA	362
+HF390	67	G2	F	ILC	ER+/HER2-	Mastectomy	Involved	T3	N2	M0	Not recorded	Present	Present	No	NA	NO		No		Alive	NA	874
+HF394	69	G3	M	IDC_NST	ER+/HER2-	Mastectomy	Involved	T1c	N0	NA	Not recorded	Present	Absent	No	NA	NO		No		Alive	NA	775
+HF395	57	G3	F	IDC_NST	ER+/HER2-	WLE	Involved	T1c	N0	NA	Not recorded	Present	Absent	No	NA	NO		No		Alive	NA	890
+HF401	61	G2	F	IDC_NST	HER2+	Mastectomy	Un-involved	T1c	N0	NA	Not recorded	Present	Absent	No	NA	NO		No		Alive	NA	879
+HF414	61	G3	F	IDC_NST	HER2+	WLE	Un-involved	T2	N1	NA	Present	Present	Absent	No	NA	NO		No		Alive	NA	682
+HF419	62	G2	F	ILC	ER+/HER2-	Mastectomy	Un-involved	T2	N0	NA	Not recorded	Absent	Present	No	NET<30d	NO		No	LETROZOLE	Alive	NA	791
+HF420	61	G2	F	IDC_NST	ER+/HER2-	Mastectomy	Un-involved	T2	N1	M0	Not recorded	Present	Absent	No	NET>30d<90d	NO		No	LETROZOLE	Alive	NA	769
+HF422	66	G2	F	ILC	ER+/HER2-	WLE	Un-involved	T3	N0	NA	Not recorded	Absent	Present	No	NA	NO		No		Alive	NA	442
+HF424	58	G2	F	IDC_NST	ER+/HER2-	WLE	Un-involved	T2	N2a	NA	Not recorded	Present	Absent	No	NET<30d	NO		No	LETROZOLE	Alive	NA	704

@@ -1,0 +1,4 @@
+Accession	Name	Source Database	Type	Integrated Into	Integrated Signatures	GO Terms	Protein Accession	Protein Length	Matches
+IPR029396	Tuberoinfundibular peptide of 39 residues	interpro	family		PF14980,PTHR28585	GO:0007218,GO:0005576	q96a98	100	21..99
+PF14980	TIP39 peptide	pfam	family	IPR029396			q96a98	100	49..99
+PTHR28585	TUBEROINFUNDIBULAR PEPTIDE OF 39 RESIDUES	panther	family	IPR029396			q96a98	100	21..99
