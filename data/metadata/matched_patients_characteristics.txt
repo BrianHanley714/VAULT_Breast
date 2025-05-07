@@ -1,1259 +1,700 @@
-PATIENT_ID	AGE	stage	molsubtype	Histological.grade	Gender	ICD0	match	TRIAL
-TCGA-A2-A04X	34	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-A2-A0CK	60	3	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-A2-A0CS	73	4	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A2-A0CT	71	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A2-A0CU	73	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A2-A0CX	52	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-A2-A0D1	76	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-A2-A0D4	37	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A2-A0EN	70	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-A2-A0EQ	64	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-A2-A0ES	52	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-A2-A0ET	58	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A2-A0EW	53	3	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-A2-A0SV	63	4	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A2-A0SW	82	4	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A2-A0SX	48	1	TN	NA	F	8500/3	matched	TCGA
-TCGA-A2-A0SY	62	3	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-A2-A0T1	55	3	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-A2-A0T4	62	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-A2-A0T6	50	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-A2-A0T7	51	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A2-A0YD	63	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-A2-A0YF	67	1	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A2-A0YI	62	1	Luminal	NA	F	8522/3	matched	TCGA
-TCGA-A2-A0YT	56	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A2-A1FV	74	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-A2-A25D	90	3	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-A2-A3KD	47	3	Luminal	NA	F	8480/3	matched	TCGA
-TCGA-A2-A3XZ	46	1	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-A7-A0CG	78	2	Luminal	NA	F	8522/3	matched	TCGA
-TCGA-A7-A0CH	79	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A7-A0CJ	57	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A7-A0D9	37	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A7-A0DB	56	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A7-A13G	79	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A7-A26H	72	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A7-A2KD	53	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A7-A3RF	79	2	Luminal	NA	F	8480/3	matched	TCGA
-TCGA-A7-A56D	84	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A8-A06R	69	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A8-A06X	77	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A8-A06Z	84	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A8-A07B	69	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A8-A07F	65	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A8-A07G	65	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A8-A07I	69	3	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-A8-A07L	58	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A8-A07W	76	4	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A8-A07Z	85	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A8-A08B	52	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-A8-A08I	53	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A8-A08L	89	3	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-A8-A08O	45	4	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A8-A08T	64	4	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A8-A090	74	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A8-A091	61	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A8-A093	61	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A8-A094	75	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-A8-A096	73	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A8-A097	65	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A8-A09B	58	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A8-A09I	84	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A8-A09N	57	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A8-A09Q	83	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A8-A09R	82	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-A8-A09V	51	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-A8-A09W	70	3	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-A8-A09X	62	3	HER2-overexpressing	NA	F	8520/3	matched	TCGA
-TCGA-A8-A09Z	83	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-A8-A0A1	84	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-A8-A0A2	66	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-A8-A0A4	73	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-A8-A0A6	64	3	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-A8-A0AB	54	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-A8-A0AD	83	1	Luminal	NA	F	8522/3	matched	TCGA
-TCGA-AC-A23H	90	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-AC-A2B8	84	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-AC-A2FG	79	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-AC-A2FO	65	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-AC-A3HN	87	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-AC-A3OD	68	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-AC-A3QP	79	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-AC-A3W5	65	2	HER2-overexpressing	NA	F	8520/3	matched	TCGA
-TCGA-AC-A5EH	76	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-AC-A5XS	74	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-AC-A5XU	74	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-AC-A62X	72	2	TN	NA	F	8500/3	matched	TCGA
-TCGA-AC-A62Y	79	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-AN-A03X	74	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-AN-A041	29	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-AN-A046	68	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-AN-A04C	51	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-AN-A0AJ	79	2	Luminal	NA	F	8522/3	matched	TCGA
-TCGA-AN-A0AK	76	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-AN-A0AM	56	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-AN-A0FD	71	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-AN-A0FK	88	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-AN-A0FV	58	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-AN-A0XL	61	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-AO-A03N	59	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-AO-A03O	69	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-AO-A0J8	61	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-AO-A0JC	64	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-AO-A0JE	53	3	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-AO-A0JF	68	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-AO-A0JI	56	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-AO-A0JJ	54	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-AO-A12E	51	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-AO-A1KP	77	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-AO-A1KS	69	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-AO-A1KT	78	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-AQ-A1H2	84	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-AR-A0TX	64	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-AR-A0TY	54	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-AR-A0U0	73	2	TN	NA	F	8500/3	matched	TCGA
-TCGA-AR-A0U2	47	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-AR-A0U3	59	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-AR-A1AK	70	1	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-AR-A1AL	60	3	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-AR-A1AS	54	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-AR-A1AX	64	1	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-AR-A24H	65	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-AR-A24M	38	3	Luminal	NA	F	8522/3	matched	TCGA
-TCGA-AR-A24O	43	3	Luminal	NA	F	8522/3	matched	TCGA
-TCGA-AR-A24T	46	3	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-AR-A24W	55	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-AR-A24Z	57	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-AR-A254	50	3	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-AR-A2LE	69	1	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-AR-A2LK	62	3	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-AR-A2LM	49	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-AR-A2LN	65	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-AR-A5QM	62	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-AR-A5QN	68	3	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-AR-A5QP	54	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-B6-A0I1	73	2	TN	NA	F	8500/3	matched	TCGA
-TCGA-B6-A0I2	45	1	TN	NA	F	8500/3	matched	TCGA
-TCGA-B6-A0I9	62	4	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-B6-A0IB	64	4	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-B6-A0IE	38	3	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-B6-A0IH	81	3	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-B6-A0IK	63	3	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-B6-A0IP	74	1	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-B6-A0RH	51	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-B6-A0WT	61	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-B6-A0WZ	50	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-B6-A0X5	61	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-B6-A1KN	57	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-B6-A2IU	62	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-B6-A401	47	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-B6-A40B	76	1	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-B6-A40C	51	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-BH-A0AW	56	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0AZ	47	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0B5	40	3	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-BH-A0B7	42	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0B9	44	1	TN	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0BA	51	3	Luminal	NA	F	8522/3	matched	TCGA
-TCGA-BH-A0BD	47	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0BF	56	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0BM	54	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0BP	76	1	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0BR	59	1	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0BT	56	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0BV	78	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0C3	47	1	Luminal	NA	F	8522/3	matched	TCGA
-TCGA-BH-A0DG	30	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0DH	63	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0DI	63	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0DP	60	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-BH-A0DQ	42	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0DS	71	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0DZ	43	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0E0	38	3	TN	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0E9	53	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-BH-A0EA	72	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0EB	69	1	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0EE	68	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0EI	51	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0H0	69	1	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0H7	65	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0H9	69	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0HK	81	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0HP	65	3	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-BH-A0HQ	56	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0HU	52	1	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0HY	60	1	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A0W5	77	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A18F	50	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A18I	53	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A18J	56	4	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A18N	88	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A18R	50	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-BH-A18T	70	2	TN	NA	F	8500/3	matched	TCGA
-TCGA-BH-A18U	72	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A1EN	78	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-BH-A1EO	68	2	Luminal	NA	F	8522/3	matched	TCGA
-TCGA-BH-A1EU	83	1	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A1EV	45	3	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-BH-A1F8	90	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A1FL	69	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A1FN	34	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A201	64	1	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-BH-A203	78	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-BH-A5J0	63	1	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-C8-A12K	80	2	TN	NA	F	8500/3	matched	TCGA
-TCGA-C8-A12L	67	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-C8-A12M	70	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-C8-A12N	58	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-C8-A12O	50	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-C8-A12P	55	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-C8-A12Q	78	3	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-C8-A12U	46	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-C8-A12X	62	2	Luminal	NA	F	8480/3	matched	TCGA
-TCGA-C8-A12Y	44	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-C8-A132	56	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-C8-A135	64	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-C8-A137	34	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-C8-A138	54	3	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-C8-A1HE	59	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-C8-A1HG	50	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-C8-A1HK	53	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-C8-A1HL	38	3	Luminal	NA	F	8480/3	matched	TCGA
-TCGA-C8-A1HM	74	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-C8-A1HN	56	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-C8-A26V	47	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-C8-A26X	58	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-C8-A26Y	90	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-C8-A273	29	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-C8-A274	63	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-C8-A275	56	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-C8-A278	61	3	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-C8-A3M7	60	3	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-C8-A3M8	68	1	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-D8-A13Y	52	1	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-D8-A142	74	2	TN	NA	F	8500/3	matched	TCGA
-TCGA-D8-A1J8	77	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-D8-A1JC	59	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-D8-A1JG	62	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-D8-A1JI	54	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-D8-A1JL	72	2	TN	NA	F	8500/3	matched	TCGA
-TCGA-D8-A1JN	80	3	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-D8-A1JP	73	1	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-D8-A1X5	81	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-D8-A1X6	80	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-D8-A1X8	62	3	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-D8-A1XA	64	1	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-D8-A1XF	45	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-D8-A1XG	86	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-D8-A1XL	34	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-D8-A1XM	57	1	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-D8-A1XO	56	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-D8-A1XR	56	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-D8-A1XT	61	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-D8-A1XY	74	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-D8-A1XZ	81	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-D8-A1Y0	65	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-D8-A1Y1	80	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-D8-A1Y2	71	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-D8-A27G	75	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-D8-A27H	72	2	TN	NA	F	8500/3	matched	TCGA
-TCGA-D8-A27I	58	3	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-D8-A27K	47	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-D8-A27P	64	1	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-D8-A27R	41	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-D8-A27T	53	3	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-D8-A27V	62	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-D8-A27W	55	3	Luminal	NA	F	8480/3	matched	TCGA
-TCGA-D8-A3Z6	56	3	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-D8-A4Z1	68	1	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-E2-A105	79	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A107	54	3	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-E2-A109	64	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A10C	54	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A14O	76	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A14Q	50	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A14V	53	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-E2-A14Z	64	1	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A152	56	1	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-E2-A153	51	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A155	58	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A15C	61	1	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A15D	47	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A15F	64	1	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A15I	44	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A15J	51	1	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A15L	65	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-E2-A15M	66	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-E2-A15P	61	1	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A15R	64	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A15S	34	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A15T	65	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A1B0	50	3	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-E2-A1BD	53	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A1IE	61	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A1IG	45	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A1IH	80	1	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-E2-A1IJ	57	1	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-E2-A1IK	71	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A1IL	78	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-E2-A1IN	60	1	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A1IU	60	1	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A1L6	44	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A1L7	40	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A1L8	52	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-E2-A1LB	41	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-E2-A2P6	77	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-E2-A56Z	69	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E2-A573	48	1	TN	NA	F	8500/3	matched	TCGA
-TCGA-E9-A1N3	70	3	Luminal	NA	F	8522/3	matched	TCGA
-TCGA-E9-A1N4	41	3	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-E9-A1NA	58	2	Luminal	NA	F	8522/3	matched	TCGA
-TCGA-E9-A1ND	75	2	TN	NA	F	8500/3	matched	TCGA
-TCGA-E9-A1NE	28	2	Luminal	NA	F	8522/3	matched	TCGA
-TCGA-E9-A1NF	60	2	Luminal	NA	F	8522/3	matched	TCGA
-TCGA-E9-A1NH	71	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E9-A1R3	70	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E9-A1R5	63	1	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E9-A1R6	63	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E9-A1R7	64	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E9-A1RC	56	3	Luminal	NA	F	8522/3	matched	TCGA
-TCGA-E9-A1RG	62	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E9-A1RH	63	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-E9-A1RI	43	3	Luminal	NA	F	8522/3	matched	TCGA
-TCGA-E9-A227	42	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E9-A228	58	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E9-A22A	74	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E9-A22B	71	1	Luminal	NA	F	8522/3	matched	TCGA
-TCGA-E9-A22E	56	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E9-A22H	42	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E9-A248	51	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-E9-A249	45	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E9-A24A	69	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-E9-A295	71	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-E9-A2JS	72	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-E9-A2JT	63	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-E9-A54Y	63	3	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-E9-A5UO	41	2	Luminal	NA	F	8480/3	matched	TCGA
-TCGA-EW-A1IW	80	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-EW-A1IZ	53	3	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-EW-A1J2	50	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-EW-A1J3	61	1	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-EW-A1J5	59	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-EW-A1OV	56	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-EW-A1OY	63	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-EW-A1OZ	56	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-EW-A1P5	77	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-EW-A1P6	64	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-EW-A423	75	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-GM-A2D9	69	1	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-GM-A2DB	62	2	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-GM-A2DC	57	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-GM-A2DM	57	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-GM-A3NW	63	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-GM-A4E0	67	3	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-GM-A5PV	63	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-GM-A5PX	65	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-LL-A440	61	1	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-LL-A50Y	84	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-LL-A5YL	64	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-OK-A5Q2	59	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-OL-A5D7	70	2	TN	NA	F	8500/3	matched	TCGA
-TCGA-OL-A5DA	61	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-OL-A5RU	63	2	Luminal	NA	F	8500/3	matched	TCGA
-TCGA-OL-A5RZ	57	1	HER2-overexpressing	NA	F	8500/3	matched	TCGA
-TCGA-OL-A66H	74	1	Luminal	NA	F	8480/3	matched	TCGA
-TCGA-OL-A66J	80	1	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-OL-A66K	72	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-PE-A5DD	64	2	Luminal	NA	F	8520/3	matched	TCGA
-TCGA-PE-A5DE	41	2	Luminal	NA	F	8520/3	matched	TCGA
-MB-0005	48.87	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0010	78.77	4	Luminal	G3	F	8500/3	matched	Metabric
-MB-0014	56.45	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0028	86.41	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0035	84.22	2	Luminal	G2	F	8520/3	matched	Metabric
-MB-0036	85.49	4	Luminal	G2	F	8500/3	matched	Metabric
-MB-0046	83.02	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0053	70.02	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0054	66.91	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0060	45.43	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0066	61.49	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0081	49.61	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0083	64.85	1	Luminal	G2	F	8520/3	matched	Metabric
-MB-0095	80.5	3	Luminal	G2	F	8500/3	matched	Metabric
-MB-0097	78.19	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0101	46.89	2	Luminal	G2	F	8520/3	matched	Metabric
-MB-0106	49.87	3	Luminal	G1	F	8500/3	matched	Metabric
-MB-0107	65.59	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0109	82.53	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0111	54.23	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-0112	83.89	3	Luminal	G3	F	8520/3	matched	Metabric
-MB-0114	48.59	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0119	82.73	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0120	72.1	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0121	78.73	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0122	58.95	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-0123	76.89	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0126	61.95	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0129	63.53	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0131	69.16	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0134	73.11	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0140	74.07	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0143	85.39	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0145	62.4	1	Luminal	G2	F	8520/3	matched	Metabric
-MB-0146	81	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0147	79.28	2	Luminal	G2	F	8520/3	matched	Metabric
-MB-0149	77.13	2	TN	G3	F	8500/3	matched	Metabric
-MB-0150	70.22	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0151	67.7	3	Luminal	G3	F	8500/3	matched	Metabric
-MB-0165	53.75	3	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0166	44.98	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0167	76.4	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0172	48.11	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0173	83.99	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0176	38.78	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0178	74.63	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0181	68.45	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0188	82.65	2	TN	G2	F	8520/3	matched	Metabric
-MB-0189	57.79	4	Luminal	G3	F	8500/3	matched	Metabric
-MB-0191	81.02	2	TN	G3	F	8500/3	matched	Metabric
-MB-0194	56.45	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0195	75.18	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0197	50.48	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0198	43.37	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0202	46	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0203	86.24	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0205	53.56	2	Luminal	G2	F	8520/3	matched	Metabric
-MB-0218	43.39	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0221	77.72	2	TN	G3	F	8500/3	matched	Metabric
-MB-0223	50.45	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0226	58.21	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-0232	44.73	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-0235	52.55	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0236	43.63	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0241	55.09	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0243	53.72	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0247	66.75	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0257	57.61	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0259	38.99	3	TN	G3	F	8500/3	matched	Metabric
-MB-0261	63.93	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-0262	55.44	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0268	66.54	4	Luminal	G3	F	8500/3	matched	Metabric
-MB-0270	29.98	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0272	55.36	1	Luminal	G3	F	8500/3	matched	Metabric
-MB-0273	68.66	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0278	34.3	3	TN	G3	F	8500/3	matched	Metabric
-MB-0280	47.64	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0287	77.54	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0288	55.22	2	HER2-overexpressing	G2	F	8500/3	matched	Metabric
-MB-0291	51.19	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0292	80.34	2	TN	G3	F	8500/3	matched	Metabric
-MB-0301	82.46	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0302	81.53	2	Luminal	G3	F	8520/3	matched	Metabric
-MB-0303	47.71	1	TN	G3	F	8500/3	matched	Metabric
-MB-0305	60.62	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0306	82.53	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0309	89.43	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-0310	67.38	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0311	77.94	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-0312	70.49	2	Luminal	G2	F	8520/3	matched	Metabric
-MB-0313	55.52	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0314	73.48	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0315	56.32	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0321	46.86	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0322	86.28	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0324	47.64	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0325	79.34	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0336	74.76	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0339	90.43	2	Luminal	G2	F	8480/3	matched	Metabric
-MB-0340	79.97	2	TN	G3	F	8500/3	matched	Metabric
-MB-0343	70.51	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0344	59.75	2	Luminal	G2	F	8520/3	matched	Metabric
-MB-0345	37.3	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0346	32.61	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0348	81.88	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-0349	72.26	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0350	49.05	2	TN	G3	F	8500/3	matched	Metabric
-MB-0353	86.26	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0356	58.16	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0358	57.87	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0359	44.21	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0360	83.58	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-0361	40.5	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0362	52.79	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0364	48.67	3	Luminal	G2	F	8500/3	matched	Metabric
-MB-0368	74.79	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0369	65.47	2	Luminal	G3	F	8520/3	matched	Metabric
-MB-0370	64.01	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0371	78.41	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0372	39.86	1	TN	G3	F	8500/3	matched	Metabric
-MB-0373	63.31	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0374	34.68	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0375	72.69	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0378	57.15	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0379	48.22	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0380	83.9	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0381	33.65	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0382	59.05	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0384	74.58	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0385	66.58	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0386	66.83	3	Luminal	G3	F	8500/3	matched	Metabric
-MB-0388	46.63	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0389	46.87	3	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0391	61.23	3	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0392	56.28	4	Luminal	G3	F	8500/3	matched	Metabric
-MB-0393	68.74	3	Luminal	G3	F	8500/3	matched	Metabric
-MB-0395	80.38	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0398	56.41	3	Luminal	G3	F	8500/3	matched	Metabric
-MB-0399	68.47	3	TN	G3	F	8500/3	matched	Metabric
-MB-0401	48.58	1	TN	G3	F	8500/3	matched	Metabric
-MB-0404	60.71	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0406	69.32	3	Luminal	G3	F	8500/3	matched	Metabric
-MB-0410	57.41	1	Luminal	G2	F	8520/3	matched	Metabric
-MB-0412	54.06	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0413	56.58	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0417	54.22	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0418	58.72	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0419	77.92	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0421	73.53	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0422	66.72	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0425	83.17	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0426	50.48	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0427	81.89	2	Luminal	G2	F	8520/3	matched	Metabric
-MB-0428	85.21	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0429	78.86	2	Luminal	G3	F	8520/3	matched	Metabric
-MB-0431	63.61	2	Luminal	G2	F	8520/3	matched	Metabric
-MB-0434	69.79	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0438	57.41	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0439	50.32	1	Luminal	G2	F	8480/3	matched	Metabric
-MB-0440	56.73	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0442	71.58	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0443	61.67	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0445	40.07	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0449	54.38	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-0452	54.43	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0459	85.09	3	Luminal	G3	F	8500/3	matched	Metabric
-MB-0465	87.18	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0466	33.97	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0468	60.95	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0469	67.94	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0471	76.49	1	Luminal	G2	F	8480/3	matched	Metabric
-MB-0474	54.29	3	Luminal	G3	F	8500/3	matched	Metabric
-MB-0479	33.83	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0483	49.61	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0484	38.72	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0486	57.57	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0490	81.9	3	Luminal	G2	F	8500/3	matched	Metabric
-MB-0491	43.4	3	Luminal	G2	F	8520/3	matched	Metabric
-MB-0496	60	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-0497	57.27	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0501	48.93	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0503	60.77	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0504	68.16	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0505	56.38	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-0510	71.84	3	Luminal	G3	F	8500/3	matched	Metabric
-MB-0511	59.84	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0512	56.74	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-0513	73.39	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0519	61.99	3	Luminal	G3	F	8500/3	matched	Metabric
-MB-0521	52.2	2	Luminal	G2	F	8520/3	matched	Metabric
-MB-0524	40.65	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0528	53.64	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0529	67.46	4	Luminal	G2	F	8500/3	matched	Metabric
-MB-0532	59.07	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0535	46.66	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-0538	61.89	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0542	39.3	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0544	74.46	3	Luminal	G3	F	8500/3	matched	Metabric
-MB-0545	83.92	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0552	61.53	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0553	86.99	2	HER2-overexpressing	G2	F	8500/3	matched	Metabric
-MB-0559	47.71	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0568	61.28	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0569	74.96	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0570	68.99	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0574	71.21	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0575	48.1	3	Luminal	G2	F	8500/3	matched	Metabric
-MB-0576	68.47	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0577	51.42	1	Luminal	G2	F	8480/3	matched	Metabric
-MB-0579	70.53	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0580	33.8	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0582	84.76	2	TN	G3	F	8520/3	matched	Metabric
-MB-0585	76.72	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0586	77.99	3	Luminal	G2	F	8520/3	matched	Metabric
-MB-0590	60.27	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0591	84	1	Luminal	G3	F	8500/3	matched	Metabric
-MB-0593	62.34	3	HER2-overexpressing	G2	F	8520/3	matched	Metabric
-MB-0594	77.96	3	Luminal	G3	F	8500/3	matched	Metabric
-MB-0598	77.48	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0599	46.85	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0601	32.99	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0603	79.52	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0605	58.08	1	Luminal	G2	F	8520/3	matched	Metabric
-MB-0607	53.1	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0609	51.15	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0610	71.3	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0614	48.99	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0616	75.98	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0619	38.9	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0621	70.04	2	Luminal	G2	F	8520/3	matched	Metabric
-MB-0623	66.52	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-0624	64.28	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0626	61.11	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0631	84.41	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0636	26.36	1	Luminal	G3	F	8500/3	matched	Metabric
-MB-0637	75.71	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0639	50.39	1	TN	G3	F	8500/3	matched	Metabric
-MB-0643	73.46	3	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0644	71.06	3	Luminal	G2	F	8500/3	matched	Metabric
-MB-0649	60.62	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-0650	79.48	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0652	85.12	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0653	69.95	2	TN	G3	F	8520/3	matched	Metabric
-MB-0654	82.5	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-0656	35.9	3	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0657	58.65	2	Luminal	G2	F	8520/3	matched	Metabric
-MB-0660	52.43	1	TN	G3	F	8500/3	matched	Metabric
-MB-0666	61.31	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0872	82.34	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0877	79.41	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0880	73.64	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-0882	73.39	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0884	56.47	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-0891	83.68	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-0895	79.61	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-0897	41.32	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0899	50.62	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-0904	83.01	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-2613	59.63	1	Luminal	G3	F	8500/3	matched	Metabric
-MB-2617	63.3	1	Luminal	G3	F	8500/3	matched	Metabric
-MB-2629	61.22	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-2632	36.52	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-2642	30.67	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-2645	69.45	3	Luminal	G3	F	8500/3	matched	Metabric
-MB-2686	68.76	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-2725	44.88	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-2728	28.62	3	Luminal	G3	F	8500/3	matched	Metabric
-MB-2730	61.99	3	Luminal	G3	F	8500/3	matched	Metabric
-MB-2735	49.94	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-2742	48.25	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-2744	45.57	1	Luminal	G2	F	8520/3	matched	Metabric
-MB-2754	66.11	1	TN	G2	F	8520/3	matched	Metabric
-MB-2758	38.16	3	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-2760	63.1	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-2763	70.32	1	Luminal	G2	F	8480/3	matched	Metabric
-MB-2767	53.11	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-2769	59.9	1	Luminal	G2	F	8520/3	matched	Metabric
-MB-2770	60.32	3	Luminal	G2	F	8520/3	matched	Metabric
-MB-2774	66.06	3	Luminal	G2	F	8500/3	matched	Metabric
-MB-2778	62.76	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-2779	36.8	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-2781	64.32	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-2786	62.36	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-2791	40.79	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-2792	50.38	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-2793	67.62	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-2795	42.07	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-2801	70.35	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-2835	59.84	1	Luminal	G3	F	8500/3	matched	Metabric
-MB-2840	60.48	1	Luminal	G2	F	8520/3	matched	Metabric
-MB-2844	60.76	1	Luminal	G3	F	8500/3	matched	Metabric
-MB-2845	55.8	1	Luminal	G2	F	8520/3	matched	Metabric
-MB-2847	65.04	3	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-2848	60.11	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-2853	36.25	1	Luminal	G2	F	8480/3	matched	Metabric
-MB-2854	61.53	1	Luminal	G2	F	8520/3	matched	Metabric
-MB-2863	59.58	2	Luminal	G1	F	8480/3	matched	Metabric
-MB-2867	47.1	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-2896	68.18	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-2900	59.29	3	Luminal	G2	F	8520/3	matched	Metabric
-MB-2912	59.6	3	TN	G3	F	8500/3	matched	Metabric
-MB-2919	59.13	1	Luminal	G1	F	8480/3	matched	Metabric
-MB-2923	37.01	3	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-2931	46.9	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-2932	63.1	1	Luminal	G3	F	8500/3	matched	Metabric
-MB-2939	70.19	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-2951	39.07	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-2953	43.08	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-2954	69.79	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-2964	69.48	3	Luminal	G3	F	8500/3	matched	Metabric
-MB-2966	50.3	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-2971	69.6	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-2977	40.02	1	Luminal	G1	F	8500/3	matched	Metabric
-MB-2983	56.26	2	HER2-overexpressing	G2	F	8500/3	matched	Metabric
-MB-2994	46.7	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-3002	62.32	2	Luminal	G2	F	8520/3	matched	Metabric
-MB-3005	45.75	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-3007	48.48	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-3013	50.37	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-3021	63.08	1	Luminal	G3	F	8520/3	matched	Metabric
-MB-3025	37.89	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-3026	49.92	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-3032	50.01	1	Luminal	G1	F	8500/3	matched	Metabric
-MB-3049	57.17	1	Luminal	G2	F	8520/3	matched	Metabric
-MB-3057	55.3	2	TN	G3	F	8500/3	matched	Metabric
-MB-3058	47.74	2	TN	G3	F	8500/3	matched	Metabric
-MB-3060	65.69	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-3083	68.5	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-3085	43.68	1	Luminal	G2	F	8520/3	matched	Metabric
-MB-3088	65.58	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-3102	60.34	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-3104	28.96	1	HER2-overexpressing	G2	F	8500/3	matched	Metabric
-MB-3110	61.07	2	Luminal	G2	F	8520/3	matched	Metabric
-MB-3165	59.78	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-3254	50.21	1	Luminal	G1	F	8500/3	matched	Metabric
-MB-3272	63.53	3	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-3277	29.92	2	TN	G3	F	8500/3	matched	Metabric
-MB-3328	69.65	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-3344	33.76	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-3351	39.4	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-3355	48.53	3	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-3360	48.48	1	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-3365	51.18	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-3378	65.5	1	Luminal	G2	F	8520/3	matched	Metabric
-MB-3379	60.99	1	HER2-overexpressing	G3	F	8520/3	matched	Metabric
-MB-3381	53.36	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-3383	38.49	3	TN	G3	F	8500/3	matched	Metabric
-MB-3386	40.06	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-3388	59.3	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-3389	63.34	1	Luminal	G3	F	8520/3	matched	Metabric
-MB-3402	41.17	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-3403	50.92	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-3412	55.28	3	Luminal	G3	F	8500/3	matched	Metabric
-MB-3430	68.86	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-3435	37.05	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-3436	38.2	3	Luminal	G3	F	8500/3	matched	Metabric
-MB-3453	51.36	2	TN	G3	F	8500/3	matched	Metabric
-MB-3462	40.92	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-3470	56.4	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-3479	60.3	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-3488	41.1	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-3490	45.74	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-3492	62.09	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-3497	53.5	3	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-3502	50.79	2	TN	G3	F	8500/3	matched	Metabric
-MB-3525	65.56	3	Luminal	G3	F	8500/3	matched	Metabric
-MB-3526	60.3	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-3536	48.12	3	Luminal	G2	F	8500/3	matched	Metabric
-MB-3548	66.85	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-3600	60.15	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-3606	68.61	1	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-3614	63.95	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-3707	70.77	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-3711	41.52	1	Luminal	G1	F	8500/3	matched	Metabric
-MB-3754	57.01	1	Luminal	G3	F	8500/3	matched	Metabric
-MB-3838	60.45	1	Luminal	G3	F	8500/3	matched	Metabric
-MB-3842	54.6	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-3852	43.56	1	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-3866	54.29	1	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-3871	62.03	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-3874	35.5	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-4000	76.96	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-4001	74.51	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4003	70.31	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-4005	66.37	1	Luminal	G2	F	8520/3	matched	Metabric
-MB-4008	64.91	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4010	73.15	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4033	82.17	3	Luminal	G2	F	8520/3	matched	Metabric
-MB-4059	50.23	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4079	63.17	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4091	74.45	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4119	65.46	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4127	54.35	3	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-4140	71.17	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4154	54.22	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4173	74.31	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4213	67.02	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4222	58.8	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-4224	72.39	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4230	75.87	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4233	54.01	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4234	68.25	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4236	73.91	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4250	80.81	3	Luminal	G2	F	8500/3	matched	Metabric
-MB-4266	28.04	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4270	37.85	2	HER2-overexpressing	G2	F	8500/3	matched	Metabric
-MB-4274	74.32	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4276	55.07	2	HER2-overexpressing	G2	F	8500/3	matched	Metabric
-MB-4281	60	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4283	55.62	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4289	65.49	1	HER2-overexpressing	G1	F	8520/3	matched	Metabric
-MB-4300	70.58	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4317	51.93	2	HER2-overexpressing	G2	F	8500/3	matched	Metabric
-MB-4318	72.44	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4322	63.39	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4324	61.22	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4329	70.75	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4331	63.34	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4333	64.5	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-4339	74.98	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-4341	35.14	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-4348	61.57	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-4350	35.64	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-4353	59.23	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4360	59.16	3	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-4368	74.6	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4374	77.51	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4375	40.04	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-4381	59.75	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-4390	68.49	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4407	44.4	1	TN	G3	F	8500/3	matched	Metabric
-MB-4426	70.84	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4434	74.84	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4578	72.74	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4591	71.93	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4598	67.92	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4599	63.83	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4601	39.14	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-4603	42.79	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-4621	39.51	3	TN	G3	F	8500/3	matched	Metabric
-MB-4639	71.17	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4641	64.93	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4642	66.27	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4643	78.21	1	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-4648	75.19	1	Luminal	G3	F	8500/3	matched	Metabric
-MB-4649	61.67	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4651	69.96	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4653	44.5	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4654	80.82	1	Luminal	G3	F	8500/3	matched	Metabric
-MB-4655	64.01	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4661	81.11	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4663	61.97	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-4665	54.27	1	Luminal	G3	F	8500/3	matched	Metabric
-MB-4666	57.98	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4671	72.48	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4673	63.27	3	Luminal	G2	F	8500/3	matched	Metabric
-MB-4674	75.26	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4685	73.6	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4686	53.03	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4688	71.17	3	HER2-overexpressing	G2	F	8500/3	matched	Metabric
-MB-4694	76.06	1	Luminal	G3	F	8500/3	matched	Metabric
-MB-4695	61.12	2	Luminal	G2	F	8520/3	matched	Metabric
-MB-4698	59.18	2	Luminal	G3	F	8520/3	matched	Metabric
-MB-4701	47.62	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4702	52.13	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4706	75.48	1	Luminal	G3	F	8500/3	matched	Metabric
-MB-4708	63.03	1	Luminal	G3	F	8520/3	matched	Metabric
-MB-4710	77.12	1	Luminal	G3	F	8500/3	matched	Metabric
-MB-4711	56.07	3	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-4712	46.59	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4716	52.98	2	Luminal	G3	F	8520/3	matched	Metabric
-MB-4718	44.27	2	Luminal	G1	F	8520/3	matched	Metabric
-MB-4719	67.27	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4721	66.39	3	Luminal	G1	F	8520/3	matched	Metabric
-MB-4725	65.83	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-4735	54.18	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4737	52.29	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4741	53.02	2	Luminal	G2	F	8520/3	matched	Metabric
-MB-4744	64.21	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4745	50.08	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-4750	73.21	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4752	63.7	3	Luminal	G2	F	8500/3	matched	Metabric
-MB-4763	44.07	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-4764	57.95	2	Luminal	G3	F	8520/3	matched	Metabric
-MB-4767	74.86	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4770	70.22	1	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-4771	47.86	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4779	53.39	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4785	75.46	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4787	68.85	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4790	43.73	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4792	49.92	2	TN	G3	F	8500/3	matched	Metabric
-MB-4796	53.18	2	HER2-overexpressing	G2	F	8500/3	matched	Metabric
-MB-4797	81.06	1	Luminal	G2	F	8520/3	matched	Metabric
-MB-4798	44.51	2	Luminal	G2	F	8520/3	matched	Metabric
-MB-4800	61.3	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4801	65.83	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4802	71.67	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4805	45.39	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4806	49.77	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4814	39.92	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4825	65.93	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-4828	78.87	3	Luminal	G3	F	8520/3	matched	Metabric
-MB-4838	74.39	3	Luminal	G2	F	8500/3	matched	Metabric
-MB-4846	63.07	2	HER2-overexpressing	G2	F	8520/3	matched	Metabric
-MB-4849	81.52	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4851	73.95	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4860	44.95	1	Luminal	G2	F	8520/3	matched	Metabric
-MB-4862	64.32	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4865	50.7	2	TN	G3	F	8500/3	matched	Metabric
-MB-4867	47.03	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4869	67.12	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4870	57.33	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-4871	74.53	2	HER2-overexpressing	G2	F	8500/3	matched	Metabric
-MB-4873	64.47	3	Luminal	G2	F	8500/3	matched	Metabric
-MB-4878	79.35	2	HER2-overexpressing	G2	F	8500/3	matched	Metabric
-MB-4879	49.34	1	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-4886	43.42	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-4887	52.09	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4894	47.71	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4896	41.53	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-4899	40.25	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-4900	47.61	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-4906	73.03	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-4908	69.87	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-4912	78.19	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4925	76.54	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4928	75.2	2	TN	G3	F	8500/3	matched	Metabric
-MB-4929	59.49	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-4930	62.43	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-4933	50.78	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4934	74.85	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4935	36.35	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-4938	33.92	2	TN	G2	F	8500/3	matched	Metabric
-MB-4944	77.77	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-4949	69.75	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4950	69.99	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4956	69.31	3	Luminal	G3	F	8500/3	matched	Metabric
-MB-4961	56.94	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4967	61.16	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4968	56.03	2	Luminal	G2	F	8520/3	matched	Metabric
-MB-4969	76.81	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4986	41	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4987	76.37	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-4991	77.13	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-4992	66.47	2	TN	G2	F	8520/3	matched	Metabric
-MB-4994	77.54	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-4996	69.65	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-4998	75.27	2	Luminal	G3	F	8520/3	matched	Metabric
-MB-4999	44.84	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5001	71.61	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5004	42.84	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5015	44.36	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5017	65.86	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5018	72.12	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5019	49.88	1	TN	G3	F	8500/3	matched	Metabric
-MB-5033	63.92	2	Luminal	G1	F	8480/3	matched	Metabric
-MB-5039	67.7	3	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-5040	72.73	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5045	70.11	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5048	44.12	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-5057	39.25	1	TN	G3	F	8500/3	matched	Metabric
-MB-5060	75.01	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5061	71.05	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5062	75.55	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-5063	41.54	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-5066	53.58	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5072	52.23	2	TN	G3	F	8500/3	matched	Metabric
-MB-5074	70.59	2	Luminal	G3	F	8520/3	matched	Metabric
-MB-5078	56.33	2	HER2-overexpressing	G2	F	8500/3	matched	Metabric
-MB-5088	72.38	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5092	76.37	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5093	69.95	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5101	67.86	3	Luminal	G2	F	8500/3	matched	Metabric
-MB-5107	61.06	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5113	43.8	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-5116	74.71	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5117	51.09	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5119	75.33	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-5120	47.24	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-5123	69.72	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5124	83.96	3	Luminal	G2	F	8500/3	matched	Metabric
-MB-5134	46.58	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-5139	69.16	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5147	54.61	2	HER2-overexpressing	G3	F	8520/3	matched	Metabric
-MB-5150	69.29	1	Luminal	G2	F	8520/3	matched	Metabric
-MB-5152	76.19	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5160	68.52	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5166	69.23	3	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-5169	62.84	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5178	65.26	1	Luminal	G3	F	8520/3	matched	Metabric
-MB-5184	79.76	1	Luminal	G2	F	8520/3	matched	Metabric
-MB-5185	61.88	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5188	65.44	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5189	69.24	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5191	54.75	1	Luminal	G3	F	8520/3	matched	Metabric
-MB-5193	88.8	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-5197	62.11	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5205	50.24	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5208	52.43	2	TN	G3	F	8500/3	matched	Metabric
-MB-5211	68.42	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5212	80.17	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-5214	66.57	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-5223	42.05	2	TN	G2	F	8500/3	matched	Metabric
-MB-5224	90.23	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5226	75.53	1	Luminal	G3	F	8500/3	matched	Metabric
-MB-5227	74.46	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5228	72.56	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5229	39.99	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-5230	48.17	1	Luminal	G2	F	8480/3	matched	Metabric
-MB-5233	79.59	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5238	46.03	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-5244	69.2	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5256	70.31	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5258	72.77	2	TN	G3	F	8500/3	matched	Metabric
-MB-5259	41.28	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-5261	66.12	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-5266	76.83	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-5273	60.33	1	Luminal	G3	F	8500/3	matched	Metabric
-MB-5279	66.55	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5287	69.46	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-5288	70.1	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5290	69.42	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5291	67.25	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-5294	31.71	3	TN	G3	F	8500/3	matched	Metabric
-MB-5295	60.51	2	TN	G2	F	8500/3	matched	Metabric
-MB-5296	78.93	3	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-5298	49.63	2	TN	G3	F	8520/3	matched	Metabric
-MB-5299	53.35	2	TN	G3	F	8520/3	matched	Metabric
-MB-5306	58.26	1	Luminal	G3	F	8500/3	matched	Metabric
-MB-5311	73.01	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5312	50.6	3	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-5315	52.13	3	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-5326	79.26	2	Luminal	G1	F	8520/3	matched	Metabric
-MB-5327	66.94	2	HER2-overexpressing	G2	F	8520/3	matched	Metabric
-MB-5328	74.57	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5329	64.64	3	Luminal	G3	F	8520/3	matched	Metabric
-MB-5331	54.69	2	HER2-overexpressing	G2	F	8500/3	matched	Metabric
-MB-5334	78.44	1	Luminal	G3	F	8500/3	matched	Metabric
-MB-5338	61.24	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5339	71.78	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5345	76.87	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-5347	56.89	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5351	47.35	1	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-5361	76.01	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5365	79.29	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5366	75.56	2	Luminal	G3	F	8520/3	matched	Metabric
-MB-5370	62.55	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5373	67.13	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5377	35.14	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5378	57.99	3	Luminal	G3	F	8500/3	matched	Metabric
-MB-5382	69.27	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5386	65.86	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-5389	64.76	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5390	37.27	3	TN	G3	F	8520/3	matched	Metabric
-MB-5398	71.01	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5403	85.94	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5404	81.57	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5407	36.03	1	Luminal	G3	F	8500/3	matched	Metabric
-MB-5410	66.45	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5411	43.61	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-5414	61.14	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-5418	64.15	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-5420	71.49	1	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-5422	47.14	2	Luminal	G1	F	8500/3	matched	Metabric
-MB-5425	67.59	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5432	61	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5433	69.37	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5434	71.07	3	Luminal	G3	F	8500/3	matched	Metabric
-MB-5440	49.05	2	TN	G3	F	8500/3	matched	Metabric
-MB-5441	90.08	3	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-5446	51.25	2	TN	G3	F	8500/3	matched	Metabric
-MB-5450	38.92	1	TN	G3	F	8500/3	matched	Metabric
-MB-5452	66.2	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5454	55.57	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5458	54.96	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-5459	64.07	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-5465	69.83	2	TN	G3	F	8500/3	matched	Metabric
-MB-5468	48.1	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-5473	72.61	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5474	46.26	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-5475	73.55	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5481	57.62	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5482	40.75	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5483	44.5	2	HER2-overexpressing	G2	F	8500/3	matched	Metabric
-MB-5484	47.3	1	Luminal	G2	F	8520/3	matched	Metabric
-MB-5485	80.08	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5486	75.65	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5490	65.31	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5491	72.25	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5497	69.56	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-5502	51.62	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5513	86.55	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5514	63.45	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5518	72.39	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5525	63.2	2	Luminal	G3	F	8480/3	matched	Metabric
-MB-5526	45.42	1	TN	G3	F	8500/3	matched	Metabric
-MB-5530	50.61	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5532	69.66	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5534	80.09	3	Luminal	G2	F	8500/3	matched	Metabric
-MB-5535	49.87	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-5543	79.11	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5549	54.83	2	HER2-overexpressing	G2	F	8500/3	matched	Metabric
-MB-5550	84.3	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5553	70.52	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5554	57.75	2	Luminal	G1	F	8520/3	matched	Metabric
-MB-5556	53.56	1	Luminal	G3	F	8500/3	matched	Metabric
-MB-5558	35.13	3	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-5563	76.3	1	Luminal	G2	F	8520/3	matched	Metabric
-MB-5571	78.84	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5577	68.64	3	TN	G3	F	8520/3	matched	Metabric
-MB-5580	75.28	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5590	64.93	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5597	75.38	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5604	66.88	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5605	40.37	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5613	80.21	3	Luminal	G2	F	8500/3	matched	Metabric
-MB-5617	81.63	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5622	62.89	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5623	44.99	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-5626	73.75	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5632	78.55	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-5641	78.64	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5642	68.13	3	Luminal	G2	F	8500/3	matched	Metabric
-MB-5647	65.43	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-5653	60.72	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-6006	86.61	1	Luminal	G1	F	8520/3	matched	Metabric
-MB-6007	70.65	2	Luminal	G2	F	8520/3	matched	Metabric
-MB-6100	53.45	3	HER2-overexpressing	G2	F	8500/3	matched	Metabric
-MB-6108	38.01	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-6113	39.41	2	HER2-overexpressing	G2	F	8500/3	matched	Metabric
-MB-6118	41.11	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-6183	66.24	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-6208	56.93	2	Luminal	G2	F	8500/3	matched	Metabric
-MB-6218	49.67	2	Luminal	G3	F	8500/3	matched	Metabric
-MB-6224	66.94	2	HER2-overexpressing	G3	F	8500/3	matched	Metabric
-MB-6225	68.43	1	Luminal	G2	F	8500/3	matched	Metabric
-MB-6229	75.33	1	Luminal	G1	F	8500/3	matched	Metabric
-MB-6251	48.59	2	TN	G3	F	8500/3	matched	Metabric
-MB-6346	63.2	2	Luminal	G2	F	8480/3	matched	Metabric
-brca_smc_2018_BB01_002	58.91	3	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_004	46.69	2	TN	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_005	50.84	2	HER2-overexpressing	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_006	52.64	3	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_009	42.86	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_010	50.53	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_011	47.45	3	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_014	51.01	1	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_015	62.51	3	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_016	60.94	3	HER2-overexpressing	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_017	54.11	2	HER2-overexpressing	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_018	54.33	3	HER2-overexpressing	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_022	51.14	2	TN	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_023	51.98	3	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_024	44.64	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_027	59.42	3	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_028	55.62	3	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_029	53.14	2	HER2-overexpressing	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_030	46.52	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_031	55.91	3	HER2-overexpressing	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_034	53.52	2	HER2-overexpressing	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_035	52.86	3	TN	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_036	51.71	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_037	55.24	2	TN	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_039	63.01	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_040	54.01	2	TN	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_041	47.11	2	TN	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_045	53.85	3	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_046	42.73	3	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_047	49.18	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_049	54.69	3	HER2-overexpressing	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_051	64.52	1	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_053	43.8	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_061	48.13	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_067	48.18	2	TN	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_068	47.2	3	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_086	45.75	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_090	48.31	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_094	49.24	2	TN	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_099	45.37	2	TN	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_104	45.29	2	HER2-overexpressing	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_105	49.78	3	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_108	45.08	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_111	43.16	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_116	50.39	2	HER2-overexpressing	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_120	44.5	2	HER2-overexpressing	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_124	46.44	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_125	43.77	2	HER2-overexpressing	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_128	45.52	4	HER2-overexpressing	NA	F	8500/3	matched	SMB
-brca_smc_2018_BB01_130	47.54	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BR029	34.93	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BR069	36.07	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BR106	36.18	1	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BR112	35.34	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BR121	37.26	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BR127	36.14	1	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BR135	37.87	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BR136	36.81	1	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BR148	37.26	2	Luminal	NA	F	8520/3	matched	SMB
-brca_smc_2018_BR154	37.91	2	Luminal	NA	F	8520/3	matched	SMB
-brca_smc_2018_BR161	36.76	1	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BR175	35.55	1	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BR202	37.53	2	Luminal	NA	F	8520/3	matched	SMB
-brca_smc_2018_BR206	37.37	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BR251	34.12	3	Luminal	NA	F	8520/3	matched	SMB
-brca_smc_2018_BR259	35.87	2	Luminal	NA	F	8520/3	matched	SMB
-brca_smc_2018_BR307	39.2	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BR371	38.31	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BR412	35.74	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BR431	34.04	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BR437	36.97	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BR442	38.88	2	Luminal	NA	F	8500/3	matched	SMB
-brca_smc_2018_BR065	33.7	3	Luminal	NA	F	8520/3	matched	SMB
-brca_smc_2018_BR366	38.97	2	Luminal	NA	F	8520/3	matched	SMB
-HF004	46	1	TN	G3	F	8500/3	matched	HolstF
-HF006	57	2	Luminal	G2	F	8500/3	matched	HolstF
-HF007	34	2	Luminal	G3	F	8500/3	matched	HolstF
-HF016	53	3	Luminal	G2	F	8500/3	matched	HolstF
-HF017	44	2	Luminal	G1	F	8500/3	matched	HolstF
-HF031	55	2	HER2-overexpressing	G3	F	8500/3	matched	HolstF
-HF032	42	3	Luminal	G3	F	8500/3	matched	HolstF
-HF033	71	2	Luminal	G2	F	8500/3	matched	HolstF
-HF036	53	2	Luminal	G2	F	8520/3	matched	HolstF
-HF039	63	3	Luminal	G3	F	8520/3	matched	HolstF
-HF041	63	2	Luminal	G3	F	8500/3	matched	HolstF
-HF044	56	3	Luminal	G3	F	8520/3	matched	HolstF
-HF052	51	3	Luminal	G2	F	8522/3	matched	HolstF
-HF057	71	2	Luminal	G3	F	8520/3	matched	HolstF
-HF068	72	2	HER2-overexpressing	G2	F	8500/3	matched	HolstF
-HF079	59	2	Luminal	G2	F	8500/3	matched	HolstF
-HF082	68	1	HER2-overexpressing	G2	F	8500/3	matched	HolstF
-HF083	54	2	Luminal	G2	F	8520/3	matched	HolstF
-HF104	75	2	Luminal	G2	F	8500/3	matched	HolstF
-HF105	76	2	Luminal	G3	F	8500/3	matched	HolstF
-HF106	72	2	TN	G3	F	8500/3	matched	HolstF
-HF124	44	2	Luminal	G3	F	8500/3	matched	HolstF
-HF125	65	2	Luminal	G3	F	8500/3	matched	HolstF
-HF127	54	4	HER2-overexpressing	G2	F	8500/3	matched	HolstF
-HF132	53	4	Luminal	G2	F	8500/3	matched	HolstF
-HF134	52	3	Luminal	G2	F	8520/3	matched	HolstF
-HF136	59	2	HER2-overexpressing	G1	F	8500/3	matched	HolstF
-HF149	80	2	Luminal	G2	M	8500/3	matched	HolstF
-HF159	77	2	Luminal	G2	F	8520/3	matched	HolstF
-HF168	54	2	Luminal	G3	F	8500/3	matched	HolstF
-HF169	56	2	Luminal	G3	F	8500/3	matched	HolstF
-HF170	58	3	Luminal	G2	F	8500/3	matched	HolstF
-HF175	77	1	Luminal	G2	F	8520/3	matched	HolstF
-HF176	95	1	Luminal	G2	F	8500/3	matched	HolstF
-HF177	81	2	Luminal	G2	F	8500/3	matched	HolstF
-HF178	78	2	TN	G3	F	8500/3	matched	HolstF
-HF181	67	1	Luminal	G2	F	8500/3	matched	HolstF
-HF195	87	3	Luminal	G2	F	8520/3	matched	HolstF
-HF199	47	4	Luminal	G2	F	8500/3	matched	HolstF
-HF200	63	2	HER2-overexpressing	G3	F	8480/3	matched	HolstF
-HF206	56	2	Luminal	G3	F	8520/3	matched	HolstF
-HF221	47	2	Luminal	G2	F	8500/3	matched	HolstF
-HF222	72	2	Luminal	G2	F	8500/3	matched	HolstF
-HF231	51	2	Luminal	G2	F	8500/3	matched	HolstF
-HF238	50	2	Luminal	G2	F	8520/3	matched	HolstF
-HF246	64	2	Luminal	G2	F	8500/3	matched	HolstF
-HF247	40	2	Luminal	G2	F	8520/3	matched	HolstF
-HF250	55	2	Luminal	G3	F	8500/3	matched	HolstF
-HF251	79	2	Luminal	G2	F	8500/3	matched	HolstF
-HF252	53	2	Luminal	G1	F	8500/3	matched	HolstF
-HF255	53	3	Luminal	G3	F	8500/3	matched	HolstF
-HF268	50	2	Luminal	G3	F	8500/3	matched	HolstF
-HF269	66	1	Luminal	G2	F	8480/3	matched	HolstF
-HF270	64	2	Luminal	G2	F	8520/3	matched	HolstF
-HF272	71	2	Luminal	G2	F	8500/3	matched	HolstF
-HF276	42	2	Luminal	G2	F	8500/3	matched	HolstF
-HF279	61	2	Luminal	G3	F	8500/3	matched	HolstF
-HF283	50	3	Luminal	G3	F	8500/3	matched	HolstF
-HF291	69	3	HER2-overexpressing	G3	F	8522/3	matched	HolstF
-HF299	67	3	Luminal	G3	F	8522/3	matched	HolstF
-HF328	45	3	Luminal	G2	F	8520/3	matched	HolstF
-HF350	77	2	Luminal	G3	F	8500/3	matched	HolstF
-HF374	76	1	Luminal	G1	F	8500/3	matched	HolstF
-HF388	57	2	Luminal	G3	F	8500/3	matched	HolstF
-HF389	67	2	HER2-overexpressing	G3	F	8500/3	matched	HolstF
-HF390	67	3	Luminal	G2	F	8520/3	matched	HolstF
-HF394	69	1	Luminal	G3	M	8500/3	matched	HolstF
-HF395	57	1	Luminal	G3	F	8500/3	matched	HolstF
-HF401	61	1	HER2-overexpressing	G2	F	8500/3	matched	HolstF
-HF414	61	2	HER2-overexpressing	G3	F	8500/3	matched	HolstF
-HF419	62	2	Luminal	G2	F	8520/3	matched	HolstF
-HF420	61	2	Luminal	G2	F	8500/3	matched	HolstF
-HF422	66	2	Luminal	G2	F	8520/3	matched	HolstF
-HF424	58	3	Luminal	G2	F	8500/3	matched	HolstF
+PATIENT_ID	molsubtype	Gender	stage	AGE	ICD0	Histological.grade	Trial	distance	weights	subclass	match	Histologica.grade
+MB-0005	Luminal	F	2	48.87	8500/3	G2	0	0.0803177161740289	1	45	after	NA
+MB-0010	Luminal	F	4	78.77	8500/3	G3	0	0.199970470950677	1	37	after	NA
+MB-0014	Luminal	F	2	56.45	8500/3	G2	0	0.0707726691545558	1	31	after	NA
+MB-0035	Luminal	F	2	84.22	8520/3	G2	0	0.136006779007063	1	52	after	NA
+MB-0036	Luminal	F	4	85.49	8500/3	G2	0	0.233566285649277	1	30	after	NA
+MB-0066	Luminal	F	2	61.49	8500/3	G2	0	0.0650176960748492	1	14	after	NA
+MB-0095	Luminal	F	3	80.5	8500/3	G2	0	0.113686363701244	1	34	after	NA
+MB-0101	Luminal	F	2	46.89	8520/3	G2	0	0.235963559376371	1	39	after	NA
+MB-0106	Luminal	F	3	49.87	8500/3	G1	0	0.170439069420088	1	37	after	NA
+MB-0111	Luminal	F	2	54.23	8500/3	G1	0	0.0680738605428024	1	8	after	NA
+MB-0112	Luminal	F	3	83.89	8520/3	G3	0	0.230234771286603	1	2	after	NA
+MB-0114	Luminal	F	2	48.59	8500/3	G2	0	0.0806918959291221	1	45	after	NA
+MB-0145	Luminal	F	1	62.4	8520/3	G2	0	0.0823852143170935	1	33	after	NA
+MB-0147	Luminal	F	2	79.28	8520/3	G2	0	0.146830685638642	1	67	after	NA
+MB-0151	Luminal	F	3	67.7	8500/3	G3	0	0.105075405894971	1	68	after	NA
+MB-0165	HER2-overexpressing	F	3	53.75	8500/3	G3	0	0.105194619582552	1	51	after	NA
+MB-0176	Luminal	F	2	38.78	8500/3	G3	0	0.0707387937200928	1	31	after	NA
+MB-0189	Luminal	F	4	57.79	8500/3	G3	0	0.267425314921722	1	47	after	NA
+MB-0194	Luminal	F	2	56.45	8500/3	G2	0	0.0707726691545558	1	31	after	NA
+MB-0205	Luminal	F	2	53.56	8520/3	G2	0	0.214948263966991	1	53	after	NA
+MB-0257	Luminal	F	2	57.61	8500/3	G2	0	0.0694077868343792	1	42	after	NA
+MB-0259	TN	F	3	38.99	8500/3	G3	0	0.0473019654053271	1	3	after	NA
+MB-0268	Luminal	F	4	66.54	8500/3	G3	0	0.237635000447047	1	17	after	NA
+MB-0302	Luminal	F	2	81.53	8520/3	G3	0	0.107186175223261	1	68	after	NA
+MB-0312	Luminal	F	2	70.49	8520/3	G2	0	0.167843129642896	1	64	after	NA
+MB-0313	Luminal	F	2	55.52	8500/3	G3	0	0.0532718180447371	1	24	after	NA
+MB-0315	Luminal	F	2	56.32	8500/3	G2	0	0.0709271661773075	1	31	after	NA
+MB-0340	TN	F	2	79.97	8500/3	G3	0	0.00903125092943055	1	27	after	NA
+MB-0344	Luminal	F	2	59.75	8520/3	G2	0	0.196691719780449	1	39	after	NA
+MB-0345	Luminal	F	2	37.3	8500/3	G2	0	0.0971619761075757	1	60	after	NA
+MB-0361	HER2-overexpressing	F	2	40.5	8500/3	G3	0	0.0543195445411498	1	22	after	NA
+MB-0364	Luminal	F	3	48.67	8500/3	G2	0	0.185578910291081	1	16	after	NA
+MB-0369	Luminal	F	2	65.47	8520/3	G3	0	0.138252799245896	1	66	after	NA
+MB-0379	Luminal	F	2	48.22	8500/3	G2	0	0.0811887866736981	1	45	after	NA
+MB-0382	Luminal	F	2	59.05	8500/3	G2	0	0.067747346825377	1	8	after	NA
+MB-0386	Luminal	F	3	66.83	8500/3	G3	0	0.106561518461063	1	21	after	NA
+MB-0389	HER2-overexpressing	F	3	46.87	8500/3	G3	0	0.117472178781125	1	34	after	NA
+MB-0391	HER2-overexpressing	F	3	61.23	8500/3	G3	0	0.0931444848328663	1	30	after	NA
+MB-0392	Luminal	F	4	56.28	8500/3	G3	0	0.272799569219963	1	59	after	NA
+MB-0393	Luminal	F	3	68.74	8500/3	G3	0	0.103322931936813	1	46	after	NA
+MB-0398	Luminal	F	3	56.41	8500/3	G3	0	0.125841144827184	1	50	after	NA
+MB-0406	Luminal	F	3	69.32	8500/3	G3	0	0.102356862345019	1	32	after	NA
+MB-0410	Luminal	F	1	57.41	8520/3	G2	0	0.0894567000129889	1	29	after	NA
+MB-0427	Luminal	F	2	81.89	8520/3	G2	0	0.141025746268827	1	51	after	NA
+MB-0429	Luminal	F	2	78.86	8520/3	G3	0	0.111887051959904	1	25	after	NA
+MB-0431	Luminal	F	2	63.61	8520/3	G2	0	0.185913384902754	1	64	after	NA
+MB-0445	Luminal	F	2	40.07	8500/3	G2	0	0.0928627810591954	1	25	after	NA
+MB-0449	Luminal	F	2	54.38	8500/3	G1	0	0.0679022685969735	1	8	after	NA
+MB-0452	Luminal	F	2	54.43	8500/3	G3	0	0.0542730195677349	1	22	after	NA
+MB-0466	Luminal	F	2	33.97	8500/3	G2	0	0.102564727772976	1	21	after	NA
+MB-0474	Luminal	F	3	54.29	8500/3	G3	0	0.130111960928307	1	51	after	NA
+MB-0490	Luminal	F	3	81.9	8500/3	G2	0	0.111164434762861	1	25	after	NA
+MB-0491	Luminal	F	3	43.4	8520/3	G2	0	0.460953982418008	1	17	after	NA
+MB-0497	Luminal	F	2	57.27	8500/3	G2	0	0.0698052951537096	1	42	after	NA
+MB-0505	Luminal	F	2	56.38	8500/3	G1	0	0.0656523972317691	1	65	after	NA
+MB-0510	Luminal	F	3	71.84	8500/3	G3	0	0.0982518633092847	1	43	after	NA
+MB-0512	Luminal	F	2	56.74	8500/3	G1	0	0.0652548511187402	1	14	after	NA
+MB-0519	Luminal	F	3	61.99	8500/3	G3	0	0.115170835708383	1	25	after	NA
+MB-0521	Luminal	F	2	52.2	8520/3	G2	0	0.219120328555206	1	20	after	NA
+MB-0529	Luminal	F	4	67.46	8500/3	G2	0	0.296757813879166	1	52	after	NA
+MB-0542	Luminal	F	2	39.3	8500/3	G3	0	0.0701241821227205	1	12	after	NA
+MB-0544	Luminal	F	3	74.46	8500/3	G3	0	0.094140134917609	1	70	after	NA
+MB-0568	Luminal	F	2	61.28	8500/3	G2	0	0.0652485420052273	1	14	after	NA
+MB-0575	Luminal	F	3	48.1	8500/3	G2	0	0.187139209085569	1	70	after	NA
+MB-0586	Luminal	F	3	77.99	8520/3	G2	0	0.314113164660278	1	18	after	NA
+MB-0593	HER2-overexpressing	F	3	62.34	8520/3	G2	0	0.321038812248454	1	18	after	NA
+MB-0594	Luminal	F	3	77.96	8500/3	G3	0	0.0888882180953562	1	20	after	NA
+MB-0599	Luminal	F	2	46.85	8500/3	G2	0	0.0830529942714479	1	33	after	NA
+MB-0605	Luminal	F	1	58.08	8520/3	G2	0	0.0884763448299841	1	48	after	NA
+MB-0610	Luminal	F	2	71.3	8500/3	G2	0	0.0550458986075836	1	69	after	NA
+MB-0619	Luminal	F	2	38.9	8500/3	G3	0	0.0705965200429905	1	12	after	NA
+MB-0621	Luminal	F	2	70.04	8520/3	G2	0	0.168980872403574	1	66	after	NA
+MB-0624	Luminal	F	2	64.28	8500/3	G2	0	0.0620220623605239	1	38	after	NA
+MB-0644	Luminal	F	3	71.06	8500/3	G2	0	0.132021038117539	1	9	after	NA
+MB-0656	HER2-overexpressing	F	3	35.9	8500/3	G3	0	0.139608394916972	1	52	after	NA
+MB-0657	Luminal	F	2	58.65	8520/3	G2	0	0.199848338380281	1	53	after	NA
+MB-0897	Luminal	F	2	41.32	8500/3	G2	0	0.0909791917528477	1	60	after	NA
+MB-2642	Luminal	F	2	30.67	8500/3	G3	0	0.0809889720075481	1	45	after	NA
+MB-2645	Luminal	F	3	69.45	8500/3	G3	0	0.102141430238484	1	30	after	NA
+MB-2728	Luminal	F	3	28.62	8500/3	G3	0	0.192080757794029	1	47	after	NA
+MB-2730	Luminal	F	3	61.99	8500/3	G3	0	0.115170835708383	1	47	after	NA
+MB-2744	Luminal	F	1	45.57	8520/3	G2	0	0.108462976390862	1	6	after	NA
+MB-2758	HER2-overexpressing	F	3	38.16	8500/3	G3	0	0.134779262532476	1	18	after	NA
+MB-2770	Luminal	F	3	60.32	8520/3	G2	0	0.386520695274391	1	5	after	NA
+MB-2774	Luminal	F	3	66.06	8500/3	G2	0	0.142712562751785	1	32	after	NA
+MB-2781	Luminal	F	2	64.32	8500/3	G2	0	0.0619800658537753	1	38	after	NA
+MB-2845	Luminal	F	1	55.8	8520/3	G2	0	0.0918526268948727	1	68	after	NA
+MB-2853	Luminal	F	1	36.25	8480/3	G2	0	0.0771236559803377	1	23	after	NA
+MB-2863	Luminal	F	2	59.58	8480/3	G1	0	0.116120582762462	1	70	after	NA
+MB-2900	Luminal	F	3	59.29	8520/3	G2	0	0.390939109565449	1	5	after	NA
+MB-2923	HER2-overexpressing	F	3	37.01	8500/3	G3	0	0.137218698091318	1	66	after	NA
+MB-2964	Luminal	F	3	69.48	8500/3	G3	0	0.102091772236292	1	17	after	NA
+MB-3002	Luminal	F	2	62.32	8520/3	G2	0	0.189463899319604	1	37	after	NA
+MB-3049	Luminal	F	1	57.17	8520/3	G2	0	0.0898102484665402	1	48	after	NA
+MB-3085	Luminal	F	1	43.68	8520/3	G2	0	0.111806718049247	1	50	after	NA
+MB-3110	Luminal	F	2	61.07	8520/3	G2	0	0.192953663634829	1	18	after	NA
+MB-3272	HER2-overexpressing	F	3	63.53	8500/3	G3	0	0.0896959234935338	1	48	after	NA
+MB-3355	HER2-overexpressing	F	3	48.53	8500/3	G3	0	0.114400747462669	1	60	after	NA
+MB-3402	Luminal	F	2	41.17	8500/3	G3	0	0.067954540019232	1	8	after	NA
+MB-3403	Luminal	F	2	50.92	8500/3	G2	0	0.0776261049349699	1	36	after	NA
+MB-3412	Luminal	F	3	55.28	8500/3	G3	0	0.128102431418726	1	51	after	NA
+MB-3436	Luminal	F	3	38.2	8500/3	G3	0	0.166658755655242	1	4	after	NA
+MB-3462	Luminal	F	2	40.92	8500/3	G2	0	0.0915781690290676	1	21	after	NA
+MB-3497	HER2-overexpressing	F	3	53.5	8500/3	G3	0	0.105620205875059	1	50	after	NA
+MB-3525	Luminal	F	3	65.56	8500/3	G3	0	0.108764123486121	1	67	after	NA
+MB-3536	Luminal	F	3	48.12	8500/3	G2	0	0.187084291225923	1	20	after	NA
+MB-3852	HER2-overexpressing	F	1	43.56	8500/3	G3	0	0.0204784089223577	1	62	after	NA
+MB-4005	Luminal	F	1	66.37	8520/3	G2	0	0.0771266958728936	1	36	after	NA
+MB-4033	Luminal	F	3	82.17	8520/3	G2	0	0.298087585475193	1	53	after	NA
+MB-4127	HER2-overexpressing	F	3	54.35	8500/3	G3	0	0.10417938232014	1	9	after	NA
+MB-4224	Luminal	F	2	72.39	8500/3	G2	0	0.0540312539683936	1	35	after	NA
+MB-4234	Luminal	F	2	68.25	8500/3	G3	0	0.0428022026390942	1	7	after	NA
+MB-4250	Luminal	F	3	80.81	8500/3	G2	0	0.113123672471629	1	20	after	NA
+MB-4281	Luminal	F	2	60	8500/3	G3	0	0.0493371353144523	1	19	after	NA
+MB-4339	Luminal	F	1	74.98	8500/3	G2	0	0.0205358305817313	1	61	after	NA
+MB-4350	HER2-overexpressing	F	2	35.64	8500/3	G3	0	0.0590068356439036	1	44	after	NA
+MB-4360	HER2-overexpressing	F	3	59.16	8500/3	G3	0	0.0963494238206857	1	43	after	NA
+MB-4374	Luminal	F	2	77.51	8500/3	G3	0	0.0364531877102052	1	54	after	NA
+MB-4375	Luminal	F	1	40.04	8500/3	G2	0	0.03790393867544	1	11	after	NA
+MB-4381	Luminal	F	2	59.75	8500/3	G1	0	0.0620175776276066	1	38	after	NA
+MB-4434	Luminal	F	2	74.84	8500/3	G3	0	0.0381845945487699	1	63	after	NA
+MB-4641	Luminal	F	2	64.93	8500/3	G3	0	0.0453262116773968	1	15	after	NA
+MB-4673	Luminal	F	3	63.27	8500/3	G2	0	0.148986465570677	1	52	after	NA
+MB-4688	HER2-overexpressing	F	3	71.17	8500/3	G2	0	0.105668885878379	1	29	after	NA
+MB-4695	Luminal	F	2	61.12	8520/3	G2	0	0.192813138883331	1	39	after	NA
+MB-4698	Luminal	F	2	59.18	8520/3	G3	0	0.152345249913619	1	46	after	NA
+MB-4711	HER2-overexpressing	F	3	56.07	8500/3	G3	0	0.101316897175034	1	37	after	NA
+MB-4712	Luminal	F	2	46.59	8500/3	G3	0	0.0620130947249581	1	38	after	NA
+MB-4716	Luminal	F	2	52.98	8520/3	G3	0	0.167368263754013	1	46	after	NA
+MB-4718	Luminal	F	2	44.27	8520/3	G1	0	0.229790132433677	1	16	after	NA
+MB-4719	Luminal	F	2	67.27	8500/3	G2	0	0.058955083143002	1	44	after	NA
+MB-4721	Luminal	F	3	66.39	8520/3	G1	0	0.342223531959416	1	53	after	NA
+MB-4741	Luminal	F	2	53.02	8520/3	G2	0	0.216597879601968	1	29	after	NA
+MB-4750	Luminal	F	2	73.21	8500/3	G2	0	0.0532795934167894	1	24	after	NA
+MB-4752	Luminal	F	3	63.7	8500/3	G2	0	0.148004899617166	1	9	after	NA
+MB-4764	Luminal	F	2	57.95	8520/3	G3	0	0.155234947629965	1	60	after	NA
+MB-4767	Luminal	F	2	74.86	8500/3	G3	0	0.0381713362074184	1	63	after	NA
+MB-4793	TN	F	2	72.49	8500/3	G3	0	0.0103235032991232	1	13	after	NA
+MB-4798	Luminal	F	2	44.51	8520/3	G2	0	0.243797408346498	1	2	after	NA
+MB-4802	Luminal	F	2	71.67	8500/3	G2	0	0.0546994820598965	1	22	after	NA
+MB-4814	Luminal	F	2	39.92	8500/3	G2	0	0.0930911496896738	1	5	after	NA
+MB-4828	Luminal	F	3	78.87	8520/3	G3	0	0.246687184389811	1	16	after	NA
+MB-4838	Luminal	F	3	74.39	8500/3	G2	0	0.125283244224641	1	43	after	NA
+MB-4846	HER2-overexpressing	F	2	63.07	8520/3	G2	0	0.152179167898479	1	2	after	NA
+MB-4849	Luminal	F	2	81.52	8500/3	G3	0	0.0339940304315974	1	58	after	NA
+MB-4860	Luminal	F	1	44.95	8520/3	G2	0	0.109550070626176	1	21	after	NA
+MB-4867	Luminal	F	2	47.03	8500/3	G2	0	0.0828058586584816	1	33	after	NA
+MB-4873	Luminal	F	3	64.47	8500/3	G2	0	0.146260568938707	1	70	after	NA
+MB-4880	TN	F	2	69.68	8500/3	G3	0	0.0108548859939064	1	13	after	NA
+MB-4899	Luminal	F	1	40.25	8500/3	G2	0	0.037765927869677	1	63	after	NA
+MB-4928	TN	F	2	75.2	8500/3	G3	0	0.00983544118611271	1	27	after	NA
+MB-4930	HER2-overexpressing	F	2	62.43	8500/3	G3	0	0.0372219224938518	1	11	after	NA
+MB-4933	Luminal	F	2	50.78	8500/3	G2	0	0.0778072632078879	1	36	after	NA
+MB-4956	Luminal	F	3	69.31	8500/3	G3	0	0.102373450709113	1	43	after	NA
+MB-4961	Luminal	F	2	56.94	8500/3	G2	0	0.0701931248545087	1	12	after	NA
+MB-4967	Luminal	F	2	61.16	8500/3	G2	0	0.065380796051328	1	65	after	NA
+MB-4968	Luminal	F	2	56.03	8520/3	G2	0	0.207519366037356	1	47	after	NA
+MB-4986	Luminal	F	2	41	8500/3	G2	0	0.0914580905897542	1	34	after	NA
+MB-4991	Luminal	F	2	77.13	8500/3	G3	0	0.0366949147225192	1	54	after	NA
+MB-4993	TN	F	2	33.55	8500/3	G3	0	0.0206339565509453	1	61	after	NA
+MB-4996	Luminal	F	2	69.65	8500/3	G1	0	0.052399348121982	1	57	after	NA
+MB-4998	Luminal	F	2	75.27	8520/3	G3	0	0.118490977941004	1	6	after	NA
+MB-5001	Luminal	F	2	71.61	8500/3	G2	0	0.0547555178564895	1	35	after	NA
+MB-5018	Luminal	F	2	72.12	8500/3	G2	0	0.0542809326932142	1	35	after	NA
+MB-5019	TN	F	1	49.88	8500/3	G3	0	0.00599864769940161	1	1	after	NA
+MB-5033	Luminal	F	2	63.92	8480/3	G1	0	0.108317641978912	1	6	after	NA
+MB-5039	HER2-overexpressing	F	3	67.7	8500/3	G3	0	0.0837360580241872	1	33	after	NA
+MB-5061	Luminal	F	2	71.05	8500/3	G2	0	0.0552811323835719	1	69	after	NA
+MB-5063	HER2-overexpressing	F	2	41.54	8500/3	G3	0	0.0533631128082774	1	40	after	NA
+MB-5074	Luminal	F	2	70.59	8520/3	G3	0	0.127604201248927	1	29	after	NA
+MB-5079	Luminal	F	1	66.38	8500/3	G2	0	0.0239025370983474	1	28	after	NA
+MB-5088	Luminal	F	2	72.38	8500/3	G2	0	0.0540404819878891	1	35	after	NA
+MB-5092	Luminal	F	2	76.37	8500/3	G3	0	0.0371830022051071	1	54	after	NA
+MB-5101	Luminal	F	3	67.86	8500/3	G2	0	0.138782840361256	1	64	after	NA
+MB-5102	TN	F	2	69.93	8500/3	G3	0	0.0108065335376404	1	13	after	NA
+MB-5107	Luminal	F	2	61.06	8500/3	G3	0	0.0484472878149625	1	49	after	NA
+MB-5116	Luminal	F	2	74.71	8500/3	G2	0	0.0519300799243687	1	10	after	NA
+MB-5117	Luminal	F	2	51.09	8500/3	G2	0	0.0774066463975067	1	36	after	NA
+MB-5119	Luminal	F	1	75.33	8500/3	G2	0	0.0204091221803749	1	61	after	NA
+MB-5120	HER2-overexpressing	F	2	47.24	8500/3	G3	0	0.0483975344180336	1	49	after	NA
+MB-5124	Luminal	F	3	83.96	8500/3	G2	0	0.107542657733675	1	6	after	NA
+MB-5147	HER2-overexpressing	F	2	54.61	8520/3	G3	0	0.131884869100716	1	2	after	NA
+MB-5169	Luminal	F	2	62.84	8500/3	G3	0	0.0469871942865914	1	3	after	NA
+MB-5183	Luminal	F	1	74.34	8500/3	G2	0	0.0207695206219299	1	62	after	NA
+MB-5188	Luminal	F	2	65.44	8500/3	G3	0	0.0449294689371001	1	15	after	NA
+MB-5189	Luminal	F	2	69.24	8500/3	G3	0	0.0420759145680615	1	56	after	NA
+MB-5191	Luminal	F	1	54.75	8520/3	G3	0	0.0696693913349029	1	42	after	NA
+MB-5193	Luminal	F	2	88.8	8500/3	G1	0	0.0376604888549359	1	11	after	NA
+MB-5197	Luminal	F	2	62.11	8500/3	G2	0	0.0643405778251582	1	14	after	NA
+MB-5208	TN	F	2	52.43	8500/3	G3	0	0.0147622485721568	1	26	after	NA
+MB-5211	Luminal	F	2	68.42	8500/3	G3	0	0.0426766403747493	1	7	after	NA
+MB-5214	Luminal	F	1	66.57	8500/3	G2	0	0.0238226395571026	1	28	after	NA
+MB-5226	Luminal	F	1	75.53	8500/3	G3	0	0.0148575645716878	1	26	after	NA
+MB-5227	Luminal	F	2	74.46	8500/3	G2	0	0.0521527333995989	1	57	after	NA
+MB-5229	HER2-overexpressing	F	2	39.99	8500/3	G3	0	0.054794447733084	1	22	after	NA
+MB-5233	Luminal	F	2	79.59	8500/3	G2	0	0.0477599757172783	1	41	after	NA
+MB-5238	HER2-overexpressing	F	2	46.03	8500/3	G3	0	0.0494135584457053	1	19	after	NA
+MB-5244	Luminal	F	2	69.2	8500/3	G3	0	0.0421050297808324	1	56	after	NA
+MB-5259	HER2-overexpressing	F	2	41.28	8500/3	G3	0	0.0536007203671432	1	40	after	NA
+MB-5294	TN	F	3	31.71	8500/3	G3	0	0.0535896849677188	1	40	after	NA
+MB-5296	HER2-overexpressing	F	3	78.93	8500/3	G3	0	0.0694369260427583	1	42	after	NA
+MB-5299	TN	F	2	53.35	8520/3	G3	0	0.0478767782702621	1	41	after	NA
+MB-5306	Luminal	F	1	58.26	8500/3	G3	0	0.0201834949643094	1	62	after	NA
+MB-5311	Luminal	F	2	73.01	8500/3	G2	0	0.0534620102540453	1	40	after	NA
+MB-5312	HER2-overexpressing	F	3	50.6	8500/3	G3	0	0.110668891337089	1	50	after	NA
+MB-5315	HER2-overexpressing	F	3	52.13	8500/3	G3	0	0.107979466107227	1	17	after	NA
+MB-5326	Luminal	F	2	79.26	8520/3	G1	0	0.136912451215075	1	66	after	NA
+MB-5327	HER2-overexpressing	F	2	66.94	8520/3	G2	0	0.143382421280456	1	32	after	NA
+MB-5328	Luminal	F	2	74.57	8500/3	G2	0	0.0520546549452276	1	57	after	NA
+MB-5329	Luminal	F	3	64.64	8520/3	G3	0	0.297451358087984	1	30	after	NA
+MB-5334	Luminal	F	1	78.44	8500/3	G3	0	0.0141079052962352	1	26	after	NA
+MB-5338	Luminal	F	2	61.24	8500/3	G2	0	0.0652925990136216	1	65	after	NA
+MB-5347	Luminal	F	2	56.89	8500/3	G3	0	0.0520381421631481	1	10	after	NA
+MB-5365	Luminal	F	2	79.29	8500/3	G2	0	0.0480068907005363	1	49	after	NA
+MB-5366	Luminal	F	2	75.56	8520/3	G3	0	0.117945227390466	1	5	after	NA
+MB-5370	Luminal	F	2	62.55	8500/3	G3	0	0.0472221890563577	1	3	after	NA
+MB-5378	Luminal	F	3	57.99	8500/3	G3	0	0.122736712167927	1	64	after	NA
+MB-5390	TN	F	3	37.27	8520/3	G3	0	0.148762511153418	1	32	after	NA
+MB-5398	Luminal	F	2	71.01	8500/3	G2	0	0.0553188575085749	1	69	after	NA
+MB-5402	Luminal	F	1	81.76	8500/3	G2	0	0.0182130768750048	1	55	after	NA
+MB-5403	Luminal	F	2	85.94	8500/3	G2	0	0.042808518998966	1	7	after	NA
+MB-5408	TN	F	1	65.48	8500/3	G2	0	0.00622882429538183	1	1	after	NA
+MB-5411	HER2-overexpressing	F	2	43.61	8500/3	G3	0	0.0515065568918175	1	57	after	NA
+MB-5414	HER2-overexpressing	F	2	61.14	8500/3	G3	0	0.0380655535075707	1	63	after	NA
+MB-5422	Luminal	F	2	47.14	8500/3	G1	0	0.0766567201680841	1	23	after	NA
+MB-5432	Luminal	F	2	61	8500/3	G2	0	0.0655575226184507	1	65	after	NA
+MB-5434	Luminal	F	3	71.07	8500/3	G3	0	0.0994903565100434	1	34	after	NA
+MB-5454	Luminal	F	2	55.57	8500/3	G3	0	0.0532263119662814	1	24	after	NA
+MB-5458	HER2-overexpressing	F	2	54.96	8500/3	G3	0	0.0423680733059904	1	7	after	NA
+MB-5465	TN	F	2	69.83	8500/3	G3	0	0.0108258489037507	1	13	after	NA
+MB-5474	HER2-overexpressing	F	2	46.26	8500/3	G3	0	0.0492188858202602	1	19	after	NA
+MB-5484	Luminal	F	1	47.3	8520/3	G2	0	0.10547961885839	1	59	after	NA
+MB-5485	Luminal	F	2	80.08	8500/3	G3	0	0.0348581330032416	1	58	after	NA
+MB-5486	Luminal	F	2	75.65	8500/3	G3	0	0.0376511540814821	1	11	after	NA
+MB-5502	Luminal	F	2	51.62	8500/3	G2	0	0.0767260959146415	1	23	after	NA
+MB-5513	Luminal	F	2	86.55	8500/3	G2	0	0.0423595409463948	1	56	after	NA
+MB-5526	TN	F	1	45.42	8500/3	G3	0	0.00649834824246913	1	1	after	NA
+MB-5534	Luminal	F	3	80.09	8500/3	G2	0	0.114434314413834	1	16	after	NA
+MB-5553	Luminal	F	2	70.52	8500/3	G2	0	0.055782961306415	1	69	after	NA
+MB-5554	Luminal	F	2	57.75	8520/3	G1	0	0.189562974897217	1	59	after	NA
+MB-5558	HER2-overexpressing	F	3	35.13	8500/3	G3	0	0.141286519803079	1	46	after	NA
+MB-5560	TN	F	1	44.05	8500/3	G2	0	0.00914426973621922	1	27	after	NA
+MB-5562	Luminal	F	1	73.93	8500/3	G2	0	0.0209205940948994	1	62	after	NA
+MB-5571	Luminal	F	2	78.84	8500/3	G2	0	0.0483795370255968	1	49	after	NA
+MB-5577	TN	F	3	68.64	8520/3	G3	0	0.09024348047793	1	48	after	NA
+MB-5580	Luminal	F	2	75.28	8500/3	G2	0	0.0514257853706685	1	10	after	NA
+MB-5597	Luminal	F	2	75.38	8500/3	G2	0	0.0513377915293924	1	10	after	NA
+MB-5605	Luminal	F	2	40.37	8500/3	G2	0	0.0924075519827592	1	59	after	NA
+MB-5613	Luminal	F	3	80.21	8500/3	G2	0	0.114214959571703	1	9	after	NA
+MB-5622	Luminal	F	2	62.89	8500/3	G3	0	0.0469467904715663	1	3	after	NA
+MB-5623	Luminal	F	1	44.99	8500/3	G2	0	0.0347763559946304	1	58	after	NA
+MB-5626	Luminal	F	2	73.75	8500/3	G2	0	0.0527899978660005	1	24	after	NA
+MB-5632	Luminal	F	2	78.55	8500/3	G2	0	0.0486211399873627	1	41	after	NA
+MB-5634	TN	F	2	55.53	8500/3	G3	0	0.0139700023912086	1	26	after	NA
+MB-5642	Luminal	F	3	68.13	8500/3	G2	0	0.1382012742823	1	4	after	NA
+MB-5647	Luminal	F	2	65.43	8500/3	G3	0	0.0449372163037996	1	15	after	NA
+MB-5653	Luminal	F	2	60.72	8500/3	G3	0	0.0487310385261542	1	41	after	NA
+MB-6007	Luminal	F	2	70.65	8520/3	G2	0	0.167440075231527	1	4	after	NA
+MB-6100	HER2-overexpressing	F	3	53.45	8500/3	G2	0	0.139930813534193	1	68	after	NA
+MB-6118	Luminal	F	1	41.11	8500/3	G2	0	0.0372057617952186	1	54	after	NA
+MB-6183	Luminal	F	1	66.24	8500/3	G2	0	0.0239615761802256	1	28	after	NA
+MB-6201	Luminal	F	1	79.2	8500/3	G2	0	0.0190581466414794	1	55	after	NA
+MB-6208	Luminal	F	2	56.93	8500/3	G2	0	0.0702049083117757	1	12	after	NA
+MB-6218	Luminal	F	2	49.67	8500/3	G3	0	0.0588564661896496	1	44	after	NA
+MB-6224	HER2-overexpressing	F	2	66.94	8500/3	G3	0	0.0344115814085171	1	58	after	NA
+MB-6229	Luminal	F	1	75.33	8500/3	G1	0	0.0188352427242679	1	55	after	NA
+MB-6346	Luminal	F	2	63.2	8480/3	G2	0	0.117825405045202	1	67	after	NA
+MTS-T0070	TN	F	2	76	8500/3	G3	0	0.00969578126413506	1	27	after	NA
+MTS-T0088	Luminal	F	2	89	8520/3	G2	0	0.126181207576279	1	4	after	NA
+MTS-T0092	Luminal	F	2	52	8500/3	G2	0	0.0762415354089182	1	23	after	NA
+MTS-T0093	Luminal	F	2	73	8520/3	G2	0	0.16160903942132	1	39	after	NA
+MTS-T0273	Luminal	F	2	86.17	8500/3	G2	0	0.0426387007806669	1	56	after	NA
+MTS-T0304	Luminal	F	2	68.08	8500/3	G2	0	0.058149020684027	1	44	after	NA
+MTS-T0325	TN	F	2	38.26	8500/3	G3	0	0.0189839030254153	1	55	after	NA
+MTS-T1264	Luminal	F	3	46.5	8500/3	G3	0	0.146873574062017	1	67	after	NA
+MTS-T1454	TN	F	1	60.98	8500/3	G2	0	0.00675241032153868	1	1	after	NA
+MTS-T2403	Luminal	F	2	77.31	8500/3	G2	0	0.0496671704901861	1	19	after	NA
+MTS-T2408	Luminal	F	1	66.53	8500/3	G2	0	0.0238394384108097	1	28	after	NA
+MTS-T2409	Luminal	F	1	73.81	8500/3	G2	0	0.0209650138009677	1	61	after	NA
+MTS-T2412	Luminal	F	2	65.45	8500/3	G3	0	0.0449217228432552	1	15	after	NA
+TCGA-A1-A0SE	Luminal	F	1	56	8522/3	NA	0	0.13667078780789	1	59	after	NA
+TCGA-A2-A04Y	Luminal	F	2	53	8500/3	NA	0	0.0726216787278893	1	42	after	NA
+TCGA-A2-A0CK	Luminal	F	3	60	8520/3	NA	0	0.140449713959098	1	59	after	NA
+TCGA-A2-A0CS	Luminal	F	4	73	8500/3	NA	0	0.121871065318165	1	6	after	NA
+TCGA-A2-A0CU	Luminal	F	2	73	8500/3	NA	0	0.0815433466011001	1	35	after	NA
+TCGA-A2-A0CX	HER2-overexpressing	F	2	52	8500/3	NA	0	0.11077616626659	1	70	after	NA
+TCGA-A2-A0D1	HER2-overexpressing	F	2	76	8500/3	NA	0	0.126508204858421	1	21	after	NA
+TCGA-A2-A0EN	Luminal	F	2	70	8520/3	NA	0	0.122157517596466	1	6	after	NA
+TCGA-A2-A0EQ	HER2-overexpressing	F	2	64	8500/3	NA	0	0.118416207328733	1	66	after	NA
+TCGA-A2-A0ES	Luminal	F	2	52	8520/3	NA	0	0.110549530627238	1	9	after	NA
+TCGA-A2-A0ET	Luminal	F	3	58	8500/3	NA	0	0.0917586416717612	1	25	after	NA
+TCGA-A2-A0EU	Luminal	F	1	79	8500/3	NA	0	0.0686724065734129	1	14	after	NA
+TCGA-A2-A0EV	Luminal	F	1	80	8500/3	NA	0	0.0690749441364914	1	45	after	NA
+TCGA-A2-A0EW	Luminal	F	3	53	8520/3	NA	0	0.135228641267634	1	2	after	NA
+TCGA-A2-A0EY	Luminal	F	2	62	8500/3	NA	0	0.0765193674376813	1	3	after	NA
+TCGA-A2-A0SV	Luminal	F	4	63	8500/3	NA	0	0.115311457517839	1	19	after	NA
+TCGA-A2-A0SW	Luminal	F	4	82	8500/3	NA	0	0.128047057400694	1	53	after	NA
+TCGA-A2-A0SX	TN	F	1	48	8500/3	NA	0	0.0170405315477518	1	1	after	NA
+TCGA-A2-A0SY	Luminal	F	3	62	8520/3	NA	0	0.141972107172265	1	31	after	NA
+TCGA-A2-A0T1	HER2-overexpressing	F	3	55	8500/3	NA	0	0.136975437924631	1	4	after	NA
+TCGA-A2-A0T4	Luminal	F	2	62	8520/3	NA	0	0.11687403766119	1	63	after	NA
+TCGA-A2-A0T6	Luminal	F	2	50	8520/3	NA	0	0.109321156780966	1	37	after	NA
+TCGA-A2-A0T7	Luminal	F	2	51	8500/3	NA	0	0.0717807302560132	1	44	after	NA
+TCGA-A2-A0YC	Luminal	F	2	59	8500/3	NA	0	0.075199276454631	1	26	after	NA
+TCGA-A2-A0YD	Luminal	F	2	63	8520/3	NA	0	0.117523465109962	1	66	after	NA
+TCGA-A2-A0YF	Luminal	F	1	67	8500/3	NA	0	0.0640087398011351	1	28	after	NA
+TCGA-A2-A0YH	Luminal	F	3	53	8500/3	NA	0	0.089176383132927	1	43	after	NA
+TCGA-A2-A0YI	Luminal	F	1	62	8522/3	NA	0	0.141175642079973	1	16	after	NA
+TCGA-A2-A0YL	Luminal	F	3	48	8520/3	NA	0	0.131600311040143	1	18	after	NA
+TCGA-A2-A1FV	Luminal	F	2	74	8520/3	NA	0	0.124875578311289	1	7	after	NA
+TCGA-A2-A1FW	Luminal	F	3	62	8500/3	NA	0	0.0938726435525575	1	62	after	NA
+TCGA-A2-A1G0	Luminal	F	2	49	8500/3	NA	0	0.0709487748379047	1	44	after	NA
+TCGA-A2-A1G1	TN	F	2	85	8500/3	NA	0	0.0266135027066127	1	27	after	NA
+TCGA-A2-A25D	Luminal	F	3	90	8520/3	NA	0	0.164756785295216	1	60	after	NA
+TCGA-A2-A3KD	Luminal	F	3	47	8480/3	NA	0	0.128379559941113	1	18	after	NA
+TCGA-A2-A3XZ	HER2-overexpressing	F	1	46	8500/3	NA	0	0.0875547418339494	1	50	after	NA
+TCGA-A2-A4S3	Luminal	F	2	59	8500/3	NA	0	0.075199276454631	1	26	after	NA
+TCGA-A7-A0CD	Luminal	F	1	66	8500/3	NA	0	0.0636337076952068	1	28	after	NA
+TCGA-A7-A0CG	Luminal	F	2	78	8522/3	NA	0	0.185161122351882	1	52	after	NA
+TCGA-A7-A0CJ	Luminal	F	2	57	8500/3	NA	0	0.0743308721581942	1	57	after	NA
+TCGA-A7-A0DB	Luminal	F	2	56	8500/3	NA	0	0.0739001368740582	1	24	after	NA
+TCGA-A7-A13F	Luminal	F	3	44	8500/3	NA	0	0.0846931076353093	1	41	after	NA
+TCGA-A7-A26E	Luminal	F	3	71	8520/3	NA	0	0.148993912267716	1	31	after	NA
+TCGA-A7-A26H	Luminal	F	2	72	8500/3	NA	0	0.0810744768171448	1	35	after	NA
+TCGA-A7-A26J	Luminal	F	2	49	8500/3	NA	0	0.0709487748379047	1	44	after	NA
+TCGA-A7-A2KD	Luminal	F	3	53	8500/3	NA	0	0.089176383132927	1	43	after	NA
+TCGA-A7-A3RF	Luminal	F	2	79	8480/3	NA	0	0.125882383744131	1	52	after	NA
+TCGA-A7-A425	Luminal	F	3	70	8520/3	NA	0	0.148199785803316	1	16	after	NA
+TCGA-A7-A5ZX	Luminal	F	3	48	8520/3	NA	0	0.131600311040143	1	60	after	NA
+TCGA-A8-A06X	Luminal	F	2	77	8500/3	NA	0	0.0834436233988659	1	67	after	NA
+TCGA-A8-A07F	Luminal	F	2	65	8500/3	NA	0	0.0778606810199556	1	15	after	NA
+TCGA-A8-A07G	Luminal	F	2	65	8500/3	NA	0	0.0778606810199556	1	15	after	NA
+TCGA-A8-A07I	HER2-overexpressing	F	3	69	8500/3	NA	0	0.1476988116332	1	29	after	NA
+TCGA-A8-A07L	Luminal	F	3	58	8500/3	NA	0	0.0917586416717612	1	25	after	NA
+TCGA-A8-A07W	Luminal	F	4	76	8500/3	NA	0	0.123900692895645	1	6	after	NA
+TCGA-A8-A07Z	Luminal	F	2	85	8500/3	NA	0	0.0873653339426734	1	50	after	NA
+TCGA-A8-A082	Luminal	F	2	58	8500/3	NA	0	0.074763915352001	1	57	after	NA
+TCGA-A8-A086	Luminal	F	2	59	8500/3	NA	0	0.075199276454631	1	26	after	NA
+TCGA-A8-A08A	Luminal	F	1	89	8500/3	NA	0	0.0727972181791546	1	42	after	NA
+TCGA-A8-A08B	HER2-overexpressing	F	2	52	8500/3	NA	0	0.11077616626659	1	70	after	NA
+TCGA-A8-A08I	Luminal	F	2	53	8500/3	NA	0	0.0726216787278893	1	42	after	NA
+TCGA-A8-A08L	HER2-overexpressing	F	3	89	8500/3	NA	0	0.164210631675347	1	47	after	NA
+TCGA-A8-A08O	Luminal	F	4	45	8500/3	NA	0	0.104276739016056	1	30	after	NA
+TCGA-A8-A08T	Luminal	F	4	64	8500/3	NA	0	0.115953342292637	1	19	after	NA
+TCGA-A8-A08X	HER2-overexpressing	F	3	43	8500/3	NA	0	0.128312262974922	1	53	after	NA
+TCGA-A8-A094	HER2-overexpressing	F	2	75	8500/3	NA	0	0.125816206850681	1	21	after	NA
+TCGA-A8-A096	Luminal	F	2	73	8500/3	NA	0	0.0815433466011001	1	35	after	NA
+TCGA-A8-A097	Luminal	F	2	65	8500/3	NA	0	0.0778606810199556	1	38	after	NA
+TCGA-A8-A09B	Luminal	F	3	58	8500/3	NA	0	0.0917586416717612	1	25	after	NA
+TCGA-A8-A09G	HER2-overexpressing	F	3	79	8500/3	NA	0	0.155776398089581	1	51	after	NA
+TCGA-A8-A09I	Luminal	F	2	84	8500/3	NA	0	0.086866154166439	1	34	after	NA
+TCGA-A8-A09N	Luminal	F	3	57	8500/3	NA	0	0.0912368693046656	1	68	after	NA
+TCGA-A8-A09Q	Luminal	F	3	83	8500/3	NA	0	0.105701000765897	1	30	after	NA
+TCGA-A8-A09W	Luminal	F	3	70	8520/3	NA	0	0.148199785803316	1	47	after	NA
+TCGA-A8-A09X	HER2-overexpressing	F	3	62	8520/3	NA	0	0.209412836319424	1	17	after	NA
+TCGA-A8-A09Z	Luminal	F	2	83	8520/3	NA	0	0.131181083048232	1	18	after	NA
+TCGA-A8-A0A1	Luminal	F	2	84	8520/3	NA	0	0.131898136163964	1	5	after	NA
+TCGA-A8-A0A2	Luminal	F	2	66	8520/3	NA	0	0.119490540589621	1	66	after	NA
+TCGA-A8-A0A4	Luminal	F	2	73	8520/3	NA	0	0.124191241034832	1	7	after	NA
+TCGA-A8-A0A6	Luminal	F	3	64	8520/3	NA	0	0.143508247135941	1	20	after	NA
+TCGA-A8-A0A9	Luminal	F	2	80	8500/3	NA	0	0.0848951547486935	1	41	after	NA
+TCGA-A8-A0AB	Luminal	F	2	54	8520/3	NA	0	0.111789974584528	1	9	after	NA
+TCGA-A8-A0AD	Luminal	F	1	83	8522/3	NA	0	0.157925568025598	1	29	after	NA
+TCGA-AC-A23C	Luminal	F	2	62	8500/3	NA	0	0.0765193674376813	1	49	after	NA
+TCGA-AC-A23E	Luminal	F	2	50	8500/3	NA	0	0.0713636333581775	1	36	after	NA
+TCGA-AC-A23H	HER2-overexpressing	F	2	90	8500/3	NA	0	0.136541779173201	1	2	after	NA
+TCGA-AC-A2B8	Luminal	F	2	84	8520/3	NA	0	0.131898136163964	1	5	after	NA
+TCGA-AC-A2FG	Luminal	F	2	79	8520/3	NA	0	0.128345904370535	1	53	after	NA
+TCGA-AC-A2FO	Luminal	F	2	65	8520/3	NA	0	0.118831706916651	1	66	after	NA
+TCGA-AC-A3HN	Luminal	F	2	87	8520/3	NA	0	0.134069258161253	1	18	after	NA
+TCGA-AC-A3OD	Luminal	F	2	68	8520/3	NA	0	0.120817681525279	1	58	after	NA
+TCGA-AC-A3QP	Luminal	F	2	79	8520/3	NA	0	0.128345904370535	1	2	after	NA
+TCGA-AC-A3W5	HER2-overexpressing	F	2	65	8520/3	NA	0	0.177554781458973	1	60	after	NA
+TCGA-AC-A5EH	HER2-overexpressing	F	2	76	8500/3	NA	0	0.126508204858421	1	21	after	NA
+TCGA-AC-A5XS	Luminal	F	2	74	8520/3	NA	0	0.124875578311289	1	7	after	NA
+TCGA-AC-A5XU	Luminal	F	2	74	8500/3	NA	0	0.0820146859429627	1	10	after	NA
+TCGA-AC-A62Y	Luminal	F	2	79	8520/3	NA	0	0.128345904370535	1	53	after	NA
+TCGA-AN-A03X	Luminal	F	2	74	8500/3	NA	0	0.0820146859429627	1	10	after	NA
+TCGA-AN-A049	Luminal	F	2	62	8500/3	NA	0	0.0765193674376813	1	49	after	NA
+TCGA-AN-A04A	Luminal	F	3	36	8500/3	NA	0	0.0808807190840971	1	35	after	NA
+TCGA-AN-A04C	HER2-overexpressing	F	2	51	8500/3	NA	0	0.110159369677797	1	56	after	NA
+TCGA-AN-A0AJ	Luminal	F	2	79	8522/3	NA	0	0.186110032139699	1	52	after	NA
+TCGA-AN-A0AK	Luminal	F	2	76	8500/3	NA	0	0.0829648141242981	1	54	after	NA
+TCGA-AN-A0AL	TN	F	3	41	8500/3	NA	0	0.0252788996153735	1	27	after	NA
+TCGA-AN-A0AM	Luminal	F	2	56	8500/3	NA	0	0.0739001368740582	1	12	after	NA
+TCGA-AN-A0FD	Luminal	F	2	71	8500/3	NA	0	0.0806080663973352	1	35	after	NA
+TCGA-AN-A0FV	HER2-overexpressing	F	2	58	8500/3	NA	0	0.114540738297376	1	32	after	NA
+TCGA-AN-A0XL	Luminal	F	2	61	8500/3	NA	0	0.0760769924602117	1	65	after	NA
+TCGA-AN-A0XO	Luminal	F	3	59	8500/3	NA	0	0.0922830949760945	1	68	after	NA
+TCGA-AN-A0XR	Luminal	F	3	55	8500/3	NA	0	0.0902013261653433	1	43	after	NA
+TCGA-AN-A0XT	Luminal	F	3	54	8500/3	NA	0	0.089687534786552	1	43	after	NA
+TCGA-AN-A0XW	Luminal	F	3	36	8500/3	NA	0	0.0808807190840971	1	69	after	NA
+TCGA-AO-A03N	Luminal	F	2	59	8500/3	NA	0	0.075199276454631	1	26	after	NA
+TCGA-AO-A03P	Luminal	F	2	54	8500/3	NA	0	0.0730455501177731	1	22	after	NA
+TCGA-AO-A0J8	Luminal	F	2	61	8520/3	NA	0	0.11622772625468	1	63	after	NA
+TCGA-AO-A0J9	Luminal	F	3	61	8520/3	NA	0	0.141209196283066	1	47	after	NA
+TCGA-AO-A0JA	Luminal	F	3	36	8500/3	NA	0	0.0808807190840971	1	69	after	NA
+TCGA-AO-A0JD	Luminal	F	3	59	8500/3	NA	0	0.0922830949760945	1	68	after	NA
+TCGA-AO-A0JE	HER2-overexpressing	F	3	53	8500/3	NA	0	0.135498163634894	1	16	after	NA
+TCGA-AO-A0JI	Luminal	F	2	56	8500/3	NA	0	0.0739001368740582	1	57	after	NA
+TCGA-AO-A0JJ	Luminal	F	2	54	8520/3	NA	0	0.111789974584528	1	9	after	NA
+TCGA-AO-A12B	Luminal	F	2	63	8500/3	NA	0	0.0769641004723161	1	38	after	NA
+TCGA-AO-A12E	Luminal	F	2	51	8520/3	NA	0	0.109933839928221	1	70	after	NA
+TCGA-AO-A1KP	Luminal	F	2	77	8500/3	NA	0	0.0834436233988659	1	67	after	NA
+TCGA-AO-A1KS	Luminal	F	2	69	8520/3	NA	0	0.121486007909739	1	6	after	NA
+TCGA-AO-A1KT	Luminal	F	2	78	8500/3	NA	0	0.0839249431006711	1	54	after	NA
+TCGA-AQ-A1H3	Luminal	F	3	49	8500/3	NA	0	0.0871579678313394	1	34	after	NA
+TCGA-AR-A0TX	HER2-overexpressing	F	2	64	8500/3	NA	0	0.118416207328733	1	46	after	NA
+TCGA-AR-A0TY	Luminal	F	2	54	8500/3	NA	0	0.0730455501177731	1	22	after	NA
+TCGA-AR-A0U3	Luminal	F	2	59	8500/3	NA	0	0.075199276454631	1	26	after	NA
+TCGA-AR-A1AL	Luminal	F	3	60	8520/3	NA	0	0.140449713959098	1	59	after	NA
+TCGA-AR-A1AP	Luminal	F	1	80	8500/3	NA	0	0.0690749441364914	1	45	after	NA
+TCGA-AR-A1AU	Luminal	F	3	39	8500/3	NA	0	0.0822916705924915	1	10	after	NA
+TCGA-AR-A24H	Luminal	F	2	65	8520/3	NA	0	0.118831706916651	1	66	after	NA
+TCGA-AR-A24M	Luminal	F	3	38	8522/3	NA	0	0.181016579700185	1	52	after	NA
+TCGA-AR-A24O	Luminal	F	3	43	8522/3	NA	0	0.185715984521402	1	20	after	NA
+TCGA-AR-A24R	Luminal	F	3	45	8500/3	NA	0	0.0851809648003386	1	67	after	NA
+TCGA-AR-A24T	Luminal	F	3	46	8520/3	NA	0	0.13017226342068	1	4	after	NA
+TCGA-AR-A24V	Luminal	F	2	52	8500/3	NA	0	0.0722000754128517	1	42	after	NA
+TCGA-AR-A24W	Luminal	F	2	55	8500/3	NA	0	0.0734716995162913	1	24	after	NA
+TCGA-AR-A24X	Luminal	F	2	52	8522/3	NA	0	0.161790795171117	1	51	after	NA
+TCGA-AR-A24Z	Luminal	F	2	57	8500/3	NA	0	0.0743308721581942	1	24	after	NA
+TCGA-AR-A250	Luminal	F	2	58	8500/3	NA	0	0.074763915352001	1	57	after	NA
+TCGA-AR-A254	HER2-overexpressing	F	3	50	8500/3	NA	0	0.133307464189724	1	18	after	NA
+TCGA-AR-A2LK	Luminal	F	3	62	8520/3	NA	0	0.141972107172265	1	31	after	NA
+TCGA-AR-A2LM	Luminal	F	2	49	8520/3	NA	0	0.108711471183492	1	37	after	NA
+TCGA-AR-A2LN	Luminal	F	2	65	8520/3	NA	0	0.118831706916651	1	58	after	NA
+TCGA-AR-A5QM	Luminal	F	2	62	8520/3	NA	0	0.11687403766119	1	64	after	NA
+TCGA-AR-A5QN	Luminal	F	3	68	8520/3	NA	0	0.146622023671474	1	20	after	NA
+TCGA-AR-A5QP	Luminal	F	2	54	8520/3	NA	0	0.111789974584528	1	32	after	NA
+TCGA-B6-A0I2	TN	F	1	45	8500/3	NA	0	0.0167279659634146	1	1	after	NA
+TCGA-B6-A0I5	Luminal	F	2	49	8500/3	NA	0	0.0709487748379047	1	44	after	NA
+TCGA-B6-A0I9	HER2-overexpressing	F	4	62	8500/3	NA	0	0.171741041675085	1	60	after	NA
+TCGA-B6-A0IB	Luminal	F	4	64	8500/3	NA	0	0.115953342292637	1	63	after	NA
+TCGA-B6-A0IE	Luminal	F	3	38	8520/3	NA	0	0.124591334271386	1	7	after	NA
+TCGA-B6-A0IG	Luminal	F	2	50	8500/3	NA	0	0.0713636333581775	1	36	after	NA
+TCGA-B6-A0IH	Luminal	F	3	81	8520/3	NA	0	0.157129269374493	1	47	after	NA
+TCGA-B6-A0IK	HER2-overexpressing	F	3	63	8500/3	NA	0	0.143020469400483	1	31	after	NA
+TCGA-B6-A0IP	Luminal	F	1	74	8520/3	NA	0	0.102439026612165	1	39	after	NA
+TCGA-B6-A0IQ	TN	F	3	40	8500/3	NA	0	0.0251246973926857	1	27	after	NA
+TCGA-B6-A0RH	HER2-overexpressing	F	2	51	8500/3	NA	0	0.110159369677797	1	56	after	NA
+TCGA-B6-A0RI	Luminal	F	3	44	8500/3	NA	0	0.0846931076353093	1	41	after	NA
+TCGA-B6-A0RP	Luminal	F	3	73	8522/3	NA	0	0.215889464040534	1	17	after	NA
+TCGA-B6-A0RV	Luminal	F	3	42	8522/3	NA	0	0.184768627737573	1	17	after	NA
+TCGA-B6-A0WT	Luminal	F	2	61	8500/3	NA	0	0.0760769924602117	1	65	after	NA
+TCGA-B6-A0WY	Luminal	F	3	40	8500/3	NA	0	0.0827669456273847	1	11	after	NA
+TCGA-B6-A0WZ	Luminal	F	2	50	8500/3	NA	0	0.0713636333581775	1	44	after	NA
+TCGA-B6-A0X5	Luminal	F	2	61	8500/3	NA	0	0.0760769924602117	1	49	after	NA
+TCGA-B6-A1KN	Luminal	F	3	57	8500/3	NA	0	0.0912368693046656	1	25	after	NA
+TCGA-B6-A2IU	Luminal	F	2	62	8520/3	NA	0	0.11687403766119	1	63	after	NA
+TCGA-B6-A401	Luminal	F	2	47	8500/3	NA	0	0.0701257334948639	1	33	after	NA
+TCGA-B6-A409	TN	F	3	44	8500/3	NA	0	0.0257470574571511	1	27	after	NA
+TCGA-B6-A40B	Luminal	F	1	76	8520/3	NA	0	0.103599064884948	1	39	after	NA
+TCGA-B6-A40C	Luminal	F	2	51	8520/3	NA	0	0.109933839928221	1	70	after	NA
+TCGA-BH-A0AU	Luminal	F	2	45	8500/3	NA	0	0.069311527541778	1	45	after	NA
+TCGA-BH-A0AV	TN	F	1	52	8500/3	NA	0	0.0174662277502715	1	1	after	NA
+TCGA-BH-A0AW	HER2-overexpressing	F	2	56	8500/3	NA	0	0.113273663924406	1	32	after	NA
+TCGA-BH-A0AY	Luminal	F	2	62	8500/3	NA	0	0.0765193674376813	1	65	after	NA
+TCGA-BH-A0B0	Luminal	F	1	56	8500/3	NA	0	0.0599945198142626	1	61	after	NA
+TCGA-BH-A0B5	Luminal	F	3	40	8520/3	NA	0	0.125967023159802	1	53	after	NA
+TCGA-BH-A0B9	TN	F	1	44	8500/3	NA	0	0.0166250350838041	1	1	after	NA
+TCGA-BH-A0BA	Luminal	F	3	51	8522/3	NA	0	0.193429934266073	1	17	after	NA
+TCGA-BH-A0BC	Luminal	F	3	60	8500/3	NA	0	0.0928102395220005	1	25	after	NA
+TCGA-BH-A0BF	Luminal	F	2	56	8500/3	NA	0	0.0739001368740582	1	57	after	NA
+TCGA-BH-A0BL	TN	F	1	35	8500/3	NA	0	0.0157262469808523	1	1	after	NA
+TCGA-BH-A0BM	Luminal	F	2	54	8500/3	NA	0	0.0730455501177731	1	40	after	NA
+TCGA-BH-A0BO	Luminal	F	1	54	8500/3	NA	0	0.0592904436218771	1	61	after	NA
+TCGA-BH-A0BP	Luminal	F	1	76	8500/3	NA	0	0.0674777975785715	1	14	after	NA
+TCGA-BH-A0BS	Luminal	F	3	55	8500/3	NA	0	0.0902013261653433	1	43	after	NA
+TCGA-BH-A0BT	Luminal	F	2	56	8500/3	NA	0	0.0739001368740582	1	57	after	NA
+TCGA-BH-A0BV	Luminal	F	2	78	8500/3	NA	0	0.0839249431006711	1	54	after	NA
+TCGA-BH-A0C0	Luminal	F	2	62	8500/3	NA	0	0.0765193674376813	1	49	after	NA
+TCGA-BH-A0C1	Luminal	F	3	61	8520/3	NA	0	0.141209196283066	1	16	after	NA
+TCGA-BH-A0C3	Luminal	F	1	47	8522/3	NA	0	0.130140934390961	1	4	after	NA
+TCGA-BH-A0C7	Luminal	F	2	48	8500/3	NA	0	0.0705361448318109	1	33	after	NA
+TCGA-BH-A0DE	Luminal	F	2	62	8500/3	NA	0	0.0765193674376813	1	3	after	NA
+TCGA-BH-A0DH	Luminal	F	2	63	8500/3	NA	0	0.0769641004723161	1	3	after	NA
+TCGA-BH-A0DI	Luminal	F	2	63	8500/3	NA	0	0.0769641004723161	1	3	after	NA
+TCGA-BH-A0DK	Luminal	F	2	49	8500/3	NA	0	0.0709487748379047	1	44	after	NA
+TCGA-BH-A0DO	Luminal	F	1	78	8500/3	NA	0	0.0682720427809203	1	48	after	NA
+TCGA-BH-A0DP	Luminal	F	2	60	8520/3	NA	0	0.115584521158023	1	19	after	NA
+TCGA-BH-A0DQ	Luminal	F	2	42	8500/3	NA	0	0.068106613592024	1	48	after	NA
+TCGA-BH-A0DZ	Luminal	F	2	43	8500/3	NA	0	0.0685060785963428	1	14	after	NA
+TCGA-BH-A0E1	Luminal	F	2	52	8500/3	NA	0	0.0722000754128517	1	36	after	NA
+TCGA-BH-A0E2	Luminal	F	3	49	8500/3	NA	0	0.0871579678313394	1	50	after	NA
+TCGA-BH-A0E7	Luminal	F	2	79	8500/3	NA	0	0.0844087834684665	1	11	after	NA
+TCGA-BH-A0E9	Luminal	F	2	53	8520/3	NA	0	0.111168238859359	1	56	after	NA
+TCGA-BH-A0EA	Luminal	F	2	72	8500/3	NA	0	0.0810744768171448	1	69	after	NA
+TCGA-BH-A0EB	Luminal	F	1	69	8500/3	NA	0	0.0647649884429188	1	23	after	NA
+TCGA-BH-A0EE	HER2-overexpressing	F	2	68	8500/3	NA	0	0.121062502542568	1	58	after	NA
+TCGA-BH-A0GZ	Luminal	F	2	62	8500/3	NA	0	0.0765193674376813	1	3	after	NA
+TCGA-BH-A0H7	Luminal	F	3	65	8500/3	NA	0	0.0954866914571432	1	62	after	NA
+TCGA-BH-A0HI	Luminal	F	1	78	8500/3	NA	0	0.0682720427809203	1	48	after	NA
+TCGA-BH-A0HP	Luminal	F	3	65	8520/3	NA	0	0.144281492297847	1	47	after	NA
+TCGA-BH-A0HQ	Luminal	F	2	56	8500/3	NA	0	0.0739001368740582	1	40	after	NA
+TCGA-BH-A0HX	Luminal	F	2	54	8500/3	NA	0	0.0730455501177731	1	22	after	NA
+TCGA-BH-A0W3	Luminal	F	2	58	8500/3	NA	0	0.074763915352001	1	12	after	NA
+TCGA-BH-A0W5	Luminal	F	2	77	8500/3	NA	0	0.0834436233988659	1	67	after	NA
+TCGA-BH-A18I	Luminal	F	2	53	8500/3	NA	0	0.0726216787278893	1	22	after	NA
+TCGA-BH-A18J	Luminal	F	4	56	8500/3	NA	0	0.110904300185776	1	70	after	NA
+TCGA-BH-A18L	Luminal	F	3	50	8500/3	NA	0	0.0876586635461094	1	50	after	NA
+TCGA-BH-A18M	Luminal	F	3	39	8500/3	NA	0	0.0822916705924915	1	11	after	NA
+TCGA-BH-A18N	Luminal	F	2	88	8500/3	NA	0	0.088878469585986	1	34	after	NA
+TCGA-BH-A18R	HER2-overexpressing	F	2	50	8500/3	NA	0	0.109545584305075	1	37	after	NA
+TCGA-BH-A18T	TN	F	2	70	8500/3	NA	0	0.0242801556323858	1	13	after	NA
+TCGA-BH-A1EN	HER2-overexpressing	F	2	78	8500/3	NA	0	0.127901966712932	1	52	after	NA
+TCGA-BH-A1EO	Luminal	F	2	68	8522/3	NA	0	0.175877262745414	1	60	after	NA
+TCGA-BH-A1EV	HER2-overexpressing	F	3	45	8500/3	NA	0	0.129722948694676	1	51	after	NA
+TCGA-BH-A1EY	Luminal	F	2	79	8500/3	NA	0	0.0844087834684665	1	41	after	NA
+TCGA-BH-A1F8	Luminal	F	3	90	8500/3	NA	0	0.109926952336646	1	70	after	NA
+TCGA-BH-A1FD	Luminal	F	1	68	8500/3	NA	0	0.064385830216434	1	28	after	NA
+TCGA-BH-A1FE	Luminal	F	2	31	8500/3	NA	0	0.0638529330143964	1	28	after	NA
+TCGA-BH-A1FG	Luminal	F	1	88	8500/3	NA	0	0.0723746753063289	1	42	after	NA
+TCGA-BH-A1FJ	Luminal	F	3	66	8500/3	NA	0	0.0960301997736635	1	62	after	NA
+TCGA-BH-A1FM	Luminal	F	3	44	8500/3	NA	0	0.0846931076353093	1	41	after	NA
+TCGA-BH-A1FN	Luminal	F	2	34	8500/3	NA	0	0.0649878406566122	1	23	after	NA
+TCGA-BH-A202	Luminal	F	2	60	8500/3	NA	0	0.0756369654807531	1	49	after	NA
+TCGA-BH-A203	HER2-overexpressing	F	2	78	8500/3	NA	0	0.127901966712932	1	5	after	NA
+TCGA-BH-A204	Luminal	F	2	80	8500/3	NA	0	0.0848951547486935	1	41	after	NA
+TCGA-BH-A28Q	Luminal	F	2	46	8520/3	NA	0	0.106900299375965	1	30	after	NA
+TCGA-C8-A12K	TN	F	2	80	8500/3	NA	0	0.0258124463381694	1	27	after	NA
+TCGA-C8-A12L	HER2-overexpressing	F	2	67	8500/3	NA	0	0.120396186682183	1	58	after	NA
+TCGA-C8-A12N	Luminal	F	2	58	8500/3	NA	0	0.074763915352001	1	12	after	NA
+TCGA-C8-A12O	Luminal	F	2	50	8500/3	NA	0	0.0713636333581775	1	36	after	NA
+TCGA-C8-A12P	HER2-overexpressing	F	2	55	8500/3	NA	0	0.112644722956072	1	56	after	NA
+TCGA-C8-A12Q	HER2-overexpressing	F	3	78	8500/3	NA	0	0.154952703763209	1	52	after	NA
+TCGA-C8-A12T	HER2-overexpressing	F	2	43	8500/3	NA	0	0.105332558760286	1	30	after	NA
+TCGA-C8-A12W	Luminal	F	3	49	8500/3	NA	0	0.0871579678313394	1	50	after	NA
+TCGA-C8-A12X	Luminal	F	2	62	8480/3	NA	0	0.114601761998894	1	19	after	NA
+TCGA-C8-A12Y	Luminal	F	2	44	8500/3	NA	0	0.0689077133299237	1	14	after	NA
+TCGA-C8-A130	Luminal	F	3	52	8500/3	NA	0	0.0886678609054129	1	34	after	NA
+TCGA-C8-A132	Luminal	F	2	56	8500/3	NA	0	0.0739001368740582	1	12	after	NA
+TCGA-C8-A135	HER2-overexpressing	F	2	64	8500/3	NA	0	0.118416207328733	1	46	after	NA
+TCGA-C8-A138	HER2-overexpressing	F	3	54	8500/3	NA	0	0.136235114241523	1	16	after	NA
+TCGA-C8-A1HE	Luminal	F	2	59	8500/3	NA	0	0.075199276454631	1	8	after	NA
+TCGA-C8-A1HG	Luminal	F	2	50	8500/3	NA	0	0.0713636333581775	1	36	after	NA
+TCGA-C8-A1HI	Luminal	F	3	40	8500/3	NA	0	0.0827669456273847	1	11	after	NA
+TCGA-C8-A1HK	HER2-overexpressing	F	2	53	8500/3	NA	0	0.111395984045035	1	9	after	NA
+TCGA-C8-A1HL	Luminal	F	3	38	8480/3	NA	0	0.122189777894082	1	6	after	NA
+TCGA-C8-A1HM	Luminal	F	2	74	8500/3	NA	0	0.0820146859429627	1	10	after	NA
+TCGA-C8-A1HN	Luminal	F	2	56	8500/3	NA	0	0.0739001368740582	1	40	after	NA
+TCGA-C8-A26W	Luminal	F	2	58	8500/3	NA	0	0.074763915352001	1	12	after	NA
+TCGA-C8-A26X	HER2-overexpressing	F	2	58	8500/3	NA	0	0.114540738297376	1	32	after	NA
+TCGA-C8-A26Y	HER2-overexpressing	F	2	90	8500/3	NA	0	0.136541779173201	1	59	after	NA
+TCGA-C8-A275	HER2-overexpressing	F	2	56	8500/3	NA	0	0.113273663924406	1	32	after	NA
+TCGA-C8-A278	HER2-overexpressing	F	3	61	8500/3	NA	0	0.141488688173342	1	59	after	NA
+TCGA-C8-A3M7	Luminal	F	3	60	8520/3	NA	0	0.140449713959098	1	16	after	NA
+TCGA-D8-A140	Luminal	F	2	62	8500/3	NA	0	0.0765193674376813	1	49	after	NA
+TCGA-D8-A142	TN	F	2	74	8500/3	NA	0	0.0248821296310043	1	13	after	NA
+TCGA-D8-A1J8	Luminal	F	2	77	8500/3	NA	0	0.0834436233988659	1	54	after	NA
+TCGA-D8-A1JB	Luminal	F	2	54	8500/3	NA	0	0.0730455501177731	1	40	after	NA
+TCGA-D8-A1JC	Luminal	F	3	59	8500/3	NA	0	0.0922830949760945	1	68	after	NA
+TCGA-D8-A1JD	Luminal	F	2	41	8500/3	NA	0	0.0677093085879802	1	48	after	NA
+TCGA-D8-A1JE	Luminal	F	2	62	8500/3	NA	0	0.0765193674376813	1	3	after	NA
+TCGA-D8-A1JF	HER2-overexpressing	F	3	79	8500/3	NA	0	0.155776398089581	1	29	after	NA
+TCGA-D8-A1JG	HER2-overexpressing	F	2	62	8500/3	NA	0	0.117111931888345	1	64	after	NA
+TCGA-D8-A1JH	Luminal	F	1	56	8500/3	NA	0	0.0599945198142626	1	61	after	NA
+TCGA-D8-A1JI	Luminal	F	2	54	8500/3	NA	0	0.0730455501177731	1	22	after	NA
+TCGA-D8-A1JJ	Luminal	F	2	54	8500/3	NA	0	0.0730455501177731	1	22	after	NA
+TCGA-D8-A1JL	TN	F	2	72	8500/3	NA	0	0.0245793462617735	1	13	after	NA
+TCGA-D8-A1JN	Luminal	F	3	80	8520/3	NA	0	0.156299745917646	1	17	after	NA
+TCGA-D8-A1X5	Luminal	F	3	81	8500/3	NA	0	0.104520170628469	1	39	after	NA
+TCGA-D8-A1X6	Luminal	F	3	80	8500/3	NA	0	0.103934135778102	1	39	after	NA
+TCGA-D8-A1X8	Luminal	F	3	62	8520/3	NA	0	0.141972107172265	1	31	after	NA
+TCGA-D8-A1XB	Luminal	F	2	62	8500/3	NA	0	0.0765193674376813	1	65	after	NA
+TCGA-D8-A1XF	Luminal	F	2	45	8500/3	NA	0	0.069311527541778	1	45	after	NA
+TCGA-D8-A1XL	Luminal	F	2	34	8500/3	NA	0	0.0649878406566122	1	23	after	NA
+TCGA-D8-A1XM	Luminal	F	1	57	8500/3	NA	0	0.0603494863103223	1	61	after	NA
+TCGA-D8-A1XO	Luminal	F	2	56	8520/3	NA	0	0.113042568242262	1	56	after	NA
+TCGA-D8-A1XQ	TN	F	2	69	8500/3	NA	0	0.0241318949514732	1	13	after	NA
+TCGA-D8-A1XR	Luminal	F	2	56	8500/3	NA	0	0.0739001368740582	1	40	after	NA
+TCGA-D8-A1XT	HER2-overexpressing	F	2	61	8500/3	NA	0	0.116464478422497	1	63	after	NA
+TCGA-D8-A1XU	Luminal	F	1	56	8500/3	NA	0	0.0599945198142626	1	61	after	NA
+TCGA-D8-A1XY	Luminal	F	2	74	8500/3	NA	0	0.0820146859429627	1	10	after	NA
+TCGA-D8-A1XZ	Luminal	F	3	81	8500/3	NA	0	0.104520170628469	1	39	after	NA
+TCGA-D8-A1Y0	Luminal	F	3	65	8500/3	NA	0	0.0954866914571432	1	62	after	NA
+TCGA-D8-A1Y2	Luminal	F	2	71	8500/3	NA	0	0.0806080663973352	1	69	after	NA
+TCGA-D8-A27G	Luminal	F	2	75	8520/3	NA	0	0.125563145893325	1	21	after	NA
+TCGA-D8-A27H	TN	F	2	72	8500/3	NA	0	0.0245793462617735	1	13	after	NA
+TCGA-D8-A27I	Luminal	F	3	58	8520/3	NA	0	0.138941002148292	1	5	after	NA
+TCGA-D8-A27L	Luminal	F	3	49	8500/3	NA	0	0.0871579678313394	1	50	after	NA
+TCGA-D8-A27N	Luminal	F	3	36	8500/3	NA	0	0.0808807190840971	1	69	after	NA
+TCGA-D8-A27R	Luminal	F	3	41	8500/3	NA	0	0.0832447166178813	1	54	after	NA
+TCGA-D8-A27T	Luminal	F	3	53	8520/3	NA	0	0.135228641267634	1	4	after	NA
+TCGA-D8-A27V	Luminal	F	2	62	8520/3	NA	0	0.11687403766119	1	64	after	NA
+TCGA-D8-A27W	Luminal	F	3	55	8480/3	NA	0	0.134104183641343	1	18	after	NA
+TCGA-D8-A3Z6	Luminal	F	3	56	8520/3	NA	0	0.137445905424203	1	59	after	NA
+TCGA-E2-A105	Luminal	F	2	79	8500/3	NA	0	0.0844087834684665	1	11	after	NA
+TCGA-E2-A107	Luminal	F	3	54	8520/3	NA	0	0.135964356536371	1	4	after	NA
+TCGA-E2-A109	Luminal	F	2	64	8500/3	NA	0	0.0774112016373941	1	15	after	NA
+TCGA-E2-A10A	Luminal	F	2	41	8500/3	NA	0	0.0677093085879802	1	55	after	NA
+TCGA-E2-A10C	Luminal	F	2	54	8500/3	NA	0	0.0730455501177731	1	40	after	NA
+TCGA-E2-A14P	HER2-overexpressing	F	3	79	8500/3	NA	0	0.155776398089581	1	51	after	NA
+TCGA-E2-A14T	Luminal	F	2	52	8500/3	NA	0	0.0722000754128517	1	42	after	NA
+TCGA-E2-A14V	HER2-overexpressing	F	2	53	8500/3	NA	0	0.111395984045035	1	9	after	NA
+TCGA-E2-A152	HER2-overexpressing	F	1	56	8500/3	NA	0	0.0927008310289477	1	68	after	NA
+TCGA-E2-A153	Luminal	F	2	51	8500/3	NA	0	0.0717807302560132	1	36	after	NA
+TCGA-E2-A154	Luminal	F	1	68	8500/3	NA	0	0.064385830216434	1	28	after	NA
+TCGA-E2-A155	Luminal	F	2	58	8500/3	NA	0	0.074763915352001	1	8	after	NA
+TCGA-E2-A15D	Luminal	F	2	47	8500/3	NA	0	0.0701257334948639	1	33	after	NA
+TCGA-E2-A15E	Luminal	F	2	40	8500/3	NA	0	0.0673141538755103	1	55	after	NA
+TCGA-E2-A15I	Luminal	F	2	44	8500/3	NA	0	0.0689077133299237	1	14	after	NA
+TCGA-E2-A15K	Luminal	F	2	58	8500/3	NA	0	0.074763915352001	1	12	after	NA
+TCGA-E2-A15L	Luminal	F	2	65	8520/3	NA	0	0.118831706916651	1	66	after	NA
+TCGA-E2-A15M	Luminal	F	2	66	8520/3	NA	0	0.119490540589621	1	58	after	NA
+TCGA-E2-A15R	Luminal	F	2	64	8500/3	NA	0	0.0774112016373941	1	15	after	NA
+TCGA-E2-A15S	Luminal	F	2	34	8500/3	NA	0	0.0649878406566122	1	23	after	NA
+TCGA-E2-A15T	Luminal	F	2	65	8500/3	NA	0	0.0778606810199556	1	38	after	NA
+TCGA-E2-A1B0	HER2-overexpressing	F	3	50	8500/3	NA	0	0.133307464189724	1	2	after	NA
+TCGA-E2-A1IE	Luminal	F	2	61	8500/3	NA	0	0.0760769924602117	1	65	after	NA
+TCGA-E2-A1IG	Luminal	F	2	45	8500/3	NA	0	0.069311527541778	1	14	after	NA
+TCGA-E2-A1IH	Luminal	F	1	80	8520/3	NA	0	0.10595403193792	1	30	after	NA
+TCGA-E2-A1IJ	Luminal	F	1	57	8520/3	NA	0	0.0930356225463276	1	25	after	NA
+TCGA-E2-A1IK	Luminal	F	2	71	8500/3	NA	0	0.0806080663973352	1	35	after	NA
+TCGA-E2-A1IL	Luminal	F	2	78	8520/3	NA	0	0.127645323122704	1	20	after	NA
+TCGA-E2-A1L6	Luminal	F	2	44	8500/3	NA	0	0.0689077133299237	1	45	after	NA
+TCGA-E2-A1L7	Luminal	F	3	40	8500/3	NA	0	0.0827669456273847	1	11	after	NA
+TCGA-E2-A1L8	Luminal	F	2	52	8520/3	NA	0	0.110549530627238	1	9	after	NA
+TCGA-E2-A1L9	Luminal	F	2	40	8500/3	NA	0	0.0673141538755103	1	55	after	NA
+TCGA-E2-A1LA	Luminal	F	2	59	8500/3	NA	0	0.075199276454631	1	26	after	NA
+TCGA-E2-A2P6	Luminal	F	2	77	8520/3	NA	0	0.126948009074951	1	4	after	NA
+TCGA-E2-A573	TN	F	1	48	8500/3	NA	0	0.0170405315477518	1	1	after	NA
+TCGA-E9-A1N3	Luminal	F	3	70	8522/3	NA	0	0.212718833467552	1	60	after	NA
+TCGA-E9-A1N4	Luminal	F	3	41	8520/3	NA	0	0.126659730482293	1	21	after	NA
+TCGA-E9-A1N5	Luminal	F	2	45	8522/3	NA	0	0.155920298455904	1	29	after	NA
+TCGA-E9-A1NA	Luminal	F	2	58	8522/3	NA	0	0.166963509926959	1	51	after	NA
+TCGA-E9-A1ND	TN	F	2	75	8500/3	NA	0	0.025034881331245	1	27	after	NA
+TCGA-E9-A1NE	Luminal	F	2	28	8522/3	NA	0	0.142386373766259	1	2	after	NA
+TCGA-E9-A1NF	Luminal	F	2	60	8522/3	NA	0	0.168716886092056	1	20	after	NA
+TCGA-E9-A1NG	Luminal	F	2	62	8500/3	NA	0	0.0765193674376813	1	65	after	NA
+TCGA-E9-A1NH	Luminal	F	2	71	8500/3	NA	0	0.0806080663973352	1	69	after	NA
+TCGA-E9-A1NI	Luminal	F	2	51	8522/3	NA	0	0.160941361400957	1	29	after	NA
+TCGA-E9-A1R0	Luminal	F	2	58	8500/3	NA	0	0.074763915352001	1	8	after	NA
+TCGA-E9-A1R2	Luminal	F	3	51	8500/3	NA	0	0.0881619578075755	1	34	after	NA
+TCGA-E9-A1R4	Luminal	F	1	66	8500/3	NA	0	0.0636337076952068	1	28	after	NA
+TCGA-E9-A1R6	Luminal	F	2	63	8500/3	NA	0	0.0769641004723161	1	38	after	NA
+TCGA-E9-A1R7	Luminal	F	2	64	8500/3	NA	0	0.0774112016373941	1	15	after	NA
+TCGA-E9-A1RB	Luminal	F	2	40	8500/3	NA	0	0.0673141538755103	1	55	after	NA
+TCGA-E9-A1RC	Luminal	F	3	56	8522/3	NA	0	0.198373545596385	1	17	after	NA
+TCGA-E9-A1RH	HER2-overexpressing	F	2	63	8500/3	NA	0	0.117762504959702	1	46	after	NA
+TCGA-E9-A1RI	Luminal	F	3	43	8522/3	NA	0	0.185715984521402	1	20	after	NA
+TCGA-E9-A226	Luminal	F	3	45	8500/3	NA	0	0.0851809648003386	1	67	after	NA
+TCGA-E9-A227	Luminal	F	2	42	8500/3	NA	0	0.068106613592024	1	48	after	NA
+TCGA-E9-A228	Luminal	F	2	58	8500/3	NA	0	0.074763915352001	1	8	after	NA
+TCGA-E9-A22A	Luminal	F	2	74	8500/3	NA	0	0.0820146859429627	1	10	after	NA
+TCGA-E9-A22B	Luminal	F	1	71	8522/3	NA	0	0.14816485707908	1	47	after	NA
+TCGA-E9-A22E	Luminal	F	3	56	8500/3	NA	0	0.090717767570464	1	34	after	NA
+TCGA-E9-A22H	Luminal	F	2	42	8500/3	NA	0	0.068106613592024	1	48	after	NA
+TCGA-E9-A248	HER2-overexpressing	F	2	51	8500/3	NA	0	0.110159369677797	1	56	after	NA
+TCGA-E9-A249	Luminal	F	2	45	8500/3	NA	0	0.069311527541778	1	45	after	NA
+TCGA-E9-A295	Luminal	F	2	71	8520/3	NA	0	0.122832220060045	1	6	after	NA
+TCGA-E9-A2JS	Luminal	F	2	72	8520/3	NA	0	0.123510124738985	1	7	after	NA
+TCGA-E9-A2JT	Luminal	F	2	63	8520/3	NA	0	0.117523465109962	1	64	after	NA
+TCGA-E9-A3HO	Luminal	F	2	49	8520/3	NA	0	0.108711471183492	1	37	after	NA
+TCGA-E9-A54Y	Luminal	F	3	63	8520/3	NA	0	0.142738454764724	1	29	after	NA
+TCGA-E9-A5FK	Luminal	F	3	60	8520/3	NA	0	0.140449713959098	1	2	after	NA
+TCGA-E9-A5UO	Luminal	F	2	41	8480/3	NA	0	0.101890856107779	1	39	after	NA
+TCGA-EW-A1IW	Luminal	F	2	80	8520/3	NA	0	0.129049761936163	1	53	after	NA
+TCGA-EW-A1IZ	Luminal	F	3	53	8500/3	NA	0	0.089176383132927	1	43	after	NA
+TCGA-EW-A1J2	Luminal	F	2	50	8520/3	NA	0	0.109321156780966	1	37	after	NA
+TCGA-EW-A1J3	Luminal	F	1	61	8520/3	NA	0	0.0951759614687568	1	62	after	NA
+TCGA-EW-A1J5	Luminal	F	2	59	8520/3	NA	0	0.114944412610339	1	19	after	NA
+TCGA-EW-A1J6	Luminal	F	1	70	8500/3	NA	0	0.0651462240049807	1	23	after	NA
+TCGA-EW-A1OV	HER2-overexpressing	F	2	56	8500/3	NA	0	0.113273663924406	1	32	after	NA
+TCGA-EW-A1OY	Luminal	F	2	63	8500/3	NA	0	0.0769641004723161	1	38	after	NA
+TCGA-EW-A1OZ	Luminal	F	2	56	8500/3	NA	0	0.0739001368740582	1	24	after	NA
+TCGA-EW-A1P3	Luminal	F	2	48	8500/3	NA	0	0.0705361448318109	1	33	after	NA
+TCGA-EW-A1P5	Luminal	F	2	77	8500/3	NA	0	0.0834436233988659	1	54	after	NA
+TCGA-EW-A1P6	Luminal	F	2	64	8500/3	NA	0	0.0774112016373941	1	15	after	NA
+TCGA-EW-A1PA	Luminal	F	2	59	8500/3	NA	0	0.075199276454631	1	8	after	NA
+TCGA-EW-A2FR	HER2-overexpressing	F	3	59	8500/3	NA	0	0.139970633116492	1	31	after	NA
+TCGA-EW-A2FS	Luminal	F	2	41	8500/3	NA	0	0.0677093085879802	1	55	after	NA
+TCGA-EW-A423	Luminal	F	2	75	8520/3	NA	0	0.125563145893325	1	21	after	NA
+TCGA-GM-A2D9	Luminal	F	1	69	8500/3	NA	0	0.0647649884429188	1	23	after	NA
+TCGA-GM-A2DA	Luminal	F	2	46	8500/3	NA	0	0.0697175310006736	1	33	after	NA
+TCGA-GM-A2DB	HER2-overexpressing	F	2	62	8500/3	NA	0	0.117111931888345	1	64	after	NA
+TCGA-GM-A2DC	Luminal	F	2	57	8500/3	NA	0	0.0743308721581942	1	24	after	NA
+TCGA-GM-A2DK	Luminal	F	1	58	8500/3	NA	0	0.0607064173848066	1	61	after	NA
+TCGA-GM-A2DM	Luminal	F	2	57	8500/3	NA	0	0.0743308721581942	1	24	after	NA
+TCGA-GM-A2DN	Luminal	F	2	58	8500/3	NA	0	0.074763915352001	1	8	after	NA
+TCGA-GM-A3NW	Luminal	F	2	63	8520/3	NA	0	0.117523465109962	1	46	after	NA
+TCGA-GM-A4E0	Luminal	F	3	67	8520/3	NA	0	0.145838372717322	1	5	after	NA
+TCGA-GM-A5PV	Luminal	F	2	63	8520/3	NA	0	0.117523465109962	1	64	after	NA
+TCGA-GM-A5PX	Luminal	F	2	65	8520/3	NA	0	0.118831706916651	1	58	after	NA
+TCGA-LL-A440	Luminal	F	1	61	8520/3	NA	0	0.0951759614687568	1	62	after	NA
+TCGA-LL-A50Y	Luminal	F	2	84	8520/3	NA	0	0.131898136163964	1	5	after	NA
+TCGA-LL-A5YL	Luminal	F	2	64	8520/3	NA	0	0.118176018304116	1	46	after	NA
+TCGA-LL-A5YN	Luminal	F	2	46	8500/3	NA	0	0.0697175310006736	1	33	after	NA
+TCGA-OK-A5Q2	Luminal	F	2	59	8520/3	NA	0	0.114944412610339	1	19	after	NA
+TCGA-OL-A5D7	TN	F	2	70	8500/3	NA	0	0.0242801556323858	1	13	after	NA
+TCGA-OL-A5D8	Luminal	F	2	40	8500/3	NA	0	0.0673141538755103	1	55	after	NA
+TCGA-OL-A5DA	Luminal	F	2	61	8520/3	NA	0	0.11622772625468	1	63	after	NA
+TCGA-OL-A5RU	Luminal	F	2	63	8500/3	NA	0	0.0769641004723161	1	38	after	NA
+TCGA-OL-A5RV	Luminal	F	3	43	8500/3	NA	0	0.0842077873824736	1	67	after	NA
+TCGA-OL-A5RZ	HER2-overexpressing	F	1	57	8500/3	NA	0	0.0932301167053898	1	68	after	NA
+TCGA-OL-A66J	Luminal	F	1	80	8520/3	NA	0	0.10595403193792	1	30	after	NA
+TCGA-OL-A66K	Luminal	F	2	72	8520/3	NA	0	0.123510124738985	1	7	after	NA
+TCGA-PE-A5DC	Luminal	F	3	72	8520/3	NA	0	0.149791545737983	1	51	after	NA
+TCGA-PE-A5DD	Luminal	F	2	64	8520/3	NA	0	0.118176018304116	1	46	after	NA

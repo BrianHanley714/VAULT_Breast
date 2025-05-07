@@ -7,7 +7,7 @@ library(tidyverse)
 # PATHS -------------------------------------------------------------------
 
 BASE = here::here()
-BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
+BASE = "/Users/hanleyb/Documents/GitHub/VAULT_Breast/"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 VARIANTS_VAULT = file.path(BASE, "data","variants", "variant_calls_VAULT.txt")
 VARIANTS_MBTCGA = file.path(BASE, "data","variants", "variant_calls_TCGA_MB.txt")
@@ -21,10 +21,10 @@ CLINDATA = file.path(BASE, "data", "metadata", "clinical_data.txt")
 rs_patients = read.delim(INCLUDED_PATIENTS)[,1]
 vault = read.delim(VARIANTS_VAULT)
 mbtcga = read.delim(VARIANTS_MBTCGA)
-matched_patients = read.delim(MATCHED_PT_MBTCGA)
 matched_patients_char = read.delim(MATCHED_PT_CHAR_MBTCGA)
 tumour_IDs = read.delim(IDMAP)
-matched_patients = c(matched_patients$PATIENT_ID, unique(tumour_IDs$sample[match(matched_patients$PATIENT_ID, tumour_IDs$metabricId)]))
+matched_patients = c(matched_patients_char$PATIENT_ID, unique(tumour_IDs$sample[match(matched_patients_char$PATIENT_ID, tumour_IDs$metabricId)]))
+matched_patients = matched_patients[!is.na(matched_patients)]
 clinical_data = read.delim(CLINDATA)
 
 # FUNCTIONS ---------------------------------------------------------------

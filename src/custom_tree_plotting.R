@@ -43,17 +43,22 @@ plot_pyclone_tree = function(sample_pyclone_tree, node_size_reduction, ccf_y, sa
   cols[prim_sr] = "#33A02Cff"
   cols[met_sr] = "#FF7F00db"
   
-  if(length(met_sr) == 1){
-    colour_frames = if_else(sample_pyclone_tree$nested_pyclone$ccf_cluster_table[,met_sr]>0, "black", "grey")  
-  }
+  colour_frames = rep("grey", length(prim_sr))
   
-  if(length(met_sr) > 1){
-    colour_frames = if_else(rowSums(sample_pyclone_tree$nested_pyclone$ccf_cluster_table[,met_sr])>0, "black", "grey")
-  }
   
-  colour_frames = colour_frames[match(names(vcol),
-                                      rownames(sample_pyclone_tree$nested_pyclone$ccf_cluster_table))
-                                , drop = F]
+  if(length(met_sr >=1)){
+    if(length(met_sr) == 1){
+      colour_frames = if_else(sample_pyclone_tree$nested_pyclone$ccf_cluster_table[,met_sr]>0, "black", "grey")  
+    }
+    
+    if(length(met_sr) > 1){
+      colour_frames = if_else(rowSums(sample_pyclone_tree$nested_pyclone$ccf_cluster_table[,met_sr])>0, "black", "grey")
+    }
+    
+    colour_frames = colour_frames[match(names(vcol),
+                                        rownames(sample_pyclone_tree$nested_pyclone$ccf_cluster_table))
+                                  , drop = F]
+  }
   
   
   pie.colors <- lapply(1:nrow(pie.colors), function(x) {

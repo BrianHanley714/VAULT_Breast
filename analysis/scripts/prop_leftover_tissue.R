@@ -11,7 +11,7 @@ library(htmlwidgets)
 # PATHS -------------------------------------------------------------------
 
 BASE = here::here()
-BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
+BASE = "/Users/hanleyb/Documents/GitHub/VAULT_Breast/"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 TUM_COUNTS = file.path(BASE, "data", "image_analysis", "tumour_cell_counts.tsv")
 
@@ -50,6 +50,14 @@ annotations_tumour = annotations_tumour%>%
          mass_leftover = Tumour_Weight
   )
 
+annotations_tumour_out = annotations_tumour%>%
+  mutate(prop_tumour_sampled = numtumourcells_ERWSI / (numtumourcells_FFPEmol + numtumourcells_FFPEother + numtumourcells_leftover + numtumourcells_ERWSI),
+         n_possible_samples = round(1/prop_tumour_sampled)
+  )
+
+
+# WRITE CALCULATIONS FOR PAPER SUPPLEMENTARY ------------------------------
+write.table(annotations_tumour_out, file.path(BASE, "data", "image_analysis", "tumour_cell_counts_w_calcs.tsv"), sep = "\t", row.names = F, col.names = T, quote = F)
 
 plotting_dataframe = (annotations_tumour%>%
                         dplyr::select(starts_with(c("Trial_id", "numtumour", "mass")))%>%
