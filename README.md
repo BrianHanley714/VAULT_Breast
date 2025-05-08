@@ -6,7 +6,7 @@
 
 ## Overview
 
-This is a repository containing the data and code required to reproduce the results and figures of the manuscript "*Capturing actionable breast cancer evolution in discarded tissue*". Below is a summary table of how the scripts relate to the different figures.
+This is a repository containing the data and code required to reproduce the results and figures of the manuscript "*Capturing actionable breast cancer evolution in discarded tissue*". Below is a summary table of how the scripts relate to the different figures. 
 
 ------------------------------------------------------------------------
 
@@ -51,16 +51,18 @@ The table below links which code reproduces each manuscript figure
 | Main            | 5c            | [analysis/scripts/plot_phenophylogenies.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/plot_phenophylogenies.R)                                 |
 | Main            | 5d            | [analysis/scripts/HF299_phenophylogeny.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/HF299_phenophylogeny.R)                                   |
 | Extended        | 1             | [analysis/scripts/Consort_Diagram.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/Consort_Diagram.R)                                             |
-| Extended        | 2a,b          | [analysis/scripts/secondary_endpoints.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/secondary_endpoints.R)                                     |
-| Extended        | 3a            | None, this was generated using graphical design software)                                                                                                                     |
-| Extended        | 3b-p          | [analysis/scripts/secondary_endpoints.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/secondary_endpoints.R)                                     |
+| Extended        | 2a-b          | [analysis/scripts/secondary_endpoints.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/secondary_endpoints.R)                                     |
+| Extended        | 3a            | None, this was generated using graphical design software                                                                                                                      |
+| Extended        | 3b-p          | [analysis/scripts/analyse_simulation_outputs.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/analyse_simulation_outputs.R)                       |
 | Extended        | 4             | [analysis/scripts/get_matching_data.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/get_matching_data.R)                                         |
-| Extended        | 5             | [analysis/scripts/neoadj_Rx_increases_ITH.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/neoadj_Rx_increases_ITH.R)                             |
-| Extended        | 6             | [analysis/scripts/compare_ffpesig.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/compare_ffpesig.R)                                             |
-| Extended        | 7             | [analysis/scripts/lvi_captures_met.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/lvi_captures_met.R)                                           |
+| Extended        | 5a            | None, these are microphotographs                                                                                                                                              |
+| Extended        | 5b            | [analysis/scripts/neoadj_Rx_increases_ITH.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/neoadj_Rx_increases_ITH.R)                             |      
+| Extended        | 6a-b          | [analysis/scripts/compare_ffpesig.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/compare_ffpesig.R)                                             |
+| Extended        | 7a            |  None, these are microphotographs                                                                                                                                             |
+| Extended        | 7b            | [analysis/scripts/lvi_captures_met.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/lvi_captures_met.R)                                           |
 | Extended        | 8             | [analysis/scripts/draw_trees_clonal_illusion.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/draw_trees_clonal_illusion.R)                       |
-
-
+| Extended        | 9             | [analysis/scripts/sequencing_saturation.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/sequencing_saturation.R)                                 |
+| Extended        | 10a-c         | [analysis/scripts/correlation_w_Ki67_fixedfacs.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/correlation_w_Ki67_fixedfacs.R)                   |
 
 ------------------------------------------------------------------------
 
