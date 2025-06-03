@@ -9,7 +9,6 @@ library(tidyverse)
 
 
 BASE = here::here()
-BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 CLINDATA = file.path(BASE, "data", "metadata", "clinical_data.txt")
 ENDPOINT = file.path(BASE, "data", "metadata", "VAULT_endpoint_data.txt")

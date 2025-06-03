@@ -11,7 +11,6 @@ library(htmlwidgets)
 # PATHS -------------------------------------------------------------------
 
 BASE = here::here()
-BASE = "/Users/hanleyb/Documents/GitHub/VAULT_Breast/"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 TUM_COUNTS = file.path(BASE, "data", "image_analysis", "tumour_cell_counts.tsv")
 

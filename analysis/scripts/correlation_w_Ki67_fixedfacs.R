@@ -8,7 +8,6 @@ library(cowplot)
 # PATHS -------------------------------------------------------------------
 
 BASE = here::here()
-BASE = "/Users/hanleyb/Documents/GitHub/VAULT_Breast"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 FLOW_PATH = file.path(BASE, "data", "fixed_flow", "fixed_flow.txt")
 KI67_PATH = file.path(BASE, "data", "image_analysis", "Ki67_pathologist_scores.txt")

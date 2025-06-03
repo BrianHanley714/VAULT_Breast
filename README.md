@@ -63,7 +63,6 @@ The table below links which code reproduces each manuscript figure
 | Extended        | 8             | [analysis/scripts/draw_trees_clonal_illusion.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/draw_trees_clonal_illusion.R)                       |
 | Extended        | 9             | [analysis/scripts/sequencing_saturation.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/sequencing_saturation.R)                                 |
 | Extended        | 10a-c         | [analysis/scripts/correlation_w_Ki67_fixedfacs.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/correlation_w_Ki67_fixedfacs.R)                   |
-
 ------------------------------------------------------------------------
 
 ## Citation
@@ -79,4 +78,4 @@ For questions, feedback, or collaborations, please contact:
 -   Dr Brian Hanley (Bioinformatics Lead) \| [brian.hanley\@crick.ac.uk](mailto:brian.hanley@crick.ac.uk)
 -   Prof Samra Turajlic (Principal Investigator) \| [samra.turajlic\@crick.ac.uk](mailto:samra.turajlic@crick.ac.uk)
 -   Project Website \| [crick.ac.uk/RepSamp](https://www.crick.ac.uk/research/labs/samra-turajlic/areas-of-interest/representative-sampling)
--   Clinical Trial : [clinicaltrials.gov/VAULT](https://clinicaltrials.gov/study/NCT03832062?term=NCT03832062&rank=1)
+-   Clinical Trial \| [clinicaltrials.gov/VAULT](https://clinicaltrials.gov/study/NCT03832062?term=NCT03832062&rank=1)

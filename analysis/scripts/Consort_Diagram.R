@@ -11,7 +11,6 @@ library(rsvg)
 
 # LOAD DATA ---------------------------------------------------------------
 BASE = here::here()
-BASE = "/Users/hanleyb/Documents/Github/VAULT_Breast"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 
 
@@ -19,8 +18,9 @@ OUT_DIR = file.path(BASE, "analysis", "figures")
 total_breast_surgeries = 5508
 total_cancer_surgeries = 3317
 non_cancer_surgeries = total_breast_surgeries - total_cancer_surgeries
-total_invcancer_surgeries = 3000
-tum_remains_n = 410
+total_invcancer_surgeries = 2604
+inv_borderline = total_cancer_surgeries - total_invcancer_surgeries
+tum_remains_n = 396
 tum_remains_prop = round((tum_remains_n / total_invcancer_surgeries)*100, digits = 1)
 ci = prop.test(tum_remains_n, total_invcancer_surgeries)
 ci_lower = round(ci$conf.int[1]*100, digits = 1)
@@ -49,10 +49,10 @@ digraph consort {{
   node [shape = box, style = filled, fillcolor = lavender, fontname = Helvetica]
 
   Start [label=<Total Breast Surgeries<br/> 10/09/2018 – 09/03/2022 <br/> (n=<b><u>{total_breast_surgeries}</u></b> )>]
-  NON_CANCER [label=<<u>Excluded</u> <br/>- Non-Cancer Surgeries <br/>(n=<b><u>{non_cancer_surgeries}</u></b>)>, fillcolor = {excluded_col}]
-  CANCER [label=<Cancer Surgeries<br/> (n=<b><u>{total_cancer_surgeries}</u></b>)>]
+  BENIGN [label=<<u>Excluded</u> <br/>- Benign Surgeries <br/>(n=<b><u>{non_cancer_surgeries}</u></b>)>, fillcolor = {excluded_col}]
+  CANCER [label=<Non-Benign Surgeries<br/> (n=<b><u>{total_cancer_surgeries}</u></b>)>]
   
-  NON_INVASIVE [label=<<u>Excluded</u><br/>-Carcinoma In-Situ (n=<b><u>500</u></b>)<br/>-Borderline Tumours (n=<b><u>500</u></b>)>, fillcolor = {excluded_col}]
+  NON_INVASIVE [label=<<u>Excluded</u><br/>- In-Situ / Borderline (n=<b><u>{inv_borderline}</u></b>)<br/>>, fillcolor = {excluded_col}]
   INVASIVE [label=<Invasive Cancer Surgeries<br/>(n=<b><u>{total_invcancer_surgeries}</u></b>)>]  
   TUMOUR_REMAINS [label=<Tumour-Remains
     <br/>(n=<b><u>{tum_remains_n}</u></b>)>]
@@ -73,7 +73,7 @@ digraph consort {{
   SNV_INDEL_ONLY [label=<SNVs and INDELS only <br/>(n=<b><u>{snv_indel_only}</u></b>)>]
   SNV_INDEL_CN [label=<SNVs,INDELS and COPY NUMBER <br/>(n=<b><u>{snv_indel_cn}</u></b>)>]
 
-  Start -> NON_CANCER
+  Start -> BENIGN
   Start -> CANCER
   CANCER -> NON_INVASIVE  
   CANCER -> INVASIVE
@@ -90,7 +90,7 @@ digraph consort {{
 ")
 )
 
-
+out
 # WRITE PLOT --------------------------------------------------------------
 svg <- export_svg(out)
 rsvg_png(charToRaw(svg), file = file.path(OUT_DIR, "Extended_Data_Figure1_consort.png"), width = 800, height = 600)

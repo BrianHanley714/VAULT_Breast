@@ -13,7 +13,6 @@ library(cowplot)
 
 # LOAD DATA ---------------------------------------------------------------
 BASE = here::here()
-BASE = "/Users/hanleyb/Documents/GitHub/VAULT_Breast/"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 CLINDATA = file.path(BASE, "data", "metadata", "clinical_data.txt")
 ENDPOINT = file.path(BASE, "data", "metadata", "VAULT_endpoint_data.txt")

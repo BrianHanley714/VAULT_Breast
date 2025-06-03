@@ -6,7 +6,6 @@ library(tidyverse)
 library(cowplot)
 # PATHS -------------------------------------------------------------------
 BASE = here::here()
-BASE = "/Users/hanleyb/Documents/GitHub/VAULT_Breast/"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 VARIANTS_VAULT = file.path(BASE, "data","variants", "variant_calls_VAULT.txt")
 VARIANTS_MBTCGA = file.path(BASE, "data","variants", "variant_calls_TCGA_MB.txt")

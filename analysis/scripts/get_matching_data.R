@@ -7,7 +7,6 @@ library(cowplot)
 
 # PATHS -------------------------------------------------------------------
 BASE = here::here()
-BASE = "/Users/hanleyb/Documents/GitHub/VAULT_Breast/"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 MB_PATH = file.path(BASE, "data","metadata", "whole_METABRIC_metadata.txt")
 TCGA_PATH = file.path(BASE, "data","metadata", "whole_TCGA_Breast_metadata.txt")
@@ -125,7 +124,7 @@ vault$subtype = case_when(vault$Receptor.Subtype == "ER+/HER2-" ~"Luminal",
           vault$Receptor.Subtype == "HER2+" ~"HER2-overexpressing",
           vault$Receptor.Subtype == "TN" ~"TN")
 
-tcga$AGE
+
 
 metabric$Gender = if_else(metabric$Gender == FALSE, "F", NA)
 
@@ -196,6 +195,11 @@ ggsave(file.path(OUT_DIR, "Extended_Data_Figure4_matching_TCGA_MB_VAULT.png"))
 
 
 # WRITE MATCHED PATIENTS --------------------------------------------------
-write.table(bind_rows(Metabric_after, TCGA_after), file.path(BASE, "data", "metadata", "matched_patients_characteristics.txt"), sep = "\t", quote = F, row.names = F, col.names = T)
+out_df = bind_rows(Metabric_after, TCGA_after)
+out_df$Gender = if_else(out_df$Gender == "F","FEMALE", if_else(out_df$Gender == "M","MALE", NA))
+out_df = out_df%>%
+  select(everything(), ICD10 = ICD0)
+
+write.table(out_df, file.path(BASE, "data", "metadata", "matched_patients_characteristics.txt"), sep = "\t", quote = F, row.names = F, col.names = T)
 
 

@@ -10,7 +10,6 @@ library(igraph)
 
 # PATHS -------------------------------------------------------------------
 BASE = here::here()
-BASE = "/Users/hanleyb/Documents/GitHub/VAULT_Breast/"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 DRIVERS_LOC = file.path(BASE, "data", "variants", "drivers.txt")
 

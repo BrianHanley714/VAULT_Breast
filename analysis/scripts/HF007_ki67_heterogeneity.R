@@ -8,7 +8,6 @@ library(ggpubr)
 
 # PATHS -------------------------------------------------------------------
 BASE = here::here()
-BASE = "/Users/hanleyb/Dropbox (The Francis Crick)/HoLSTF_Breast/Github_Repo"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 HF007_LOC = file.path(BASE, "data", "image_analysis", "HF007_image_analysis.txt")
 

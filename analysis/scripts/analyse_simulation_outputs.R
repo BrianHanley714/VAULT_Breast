@@ -11,7 +11,6 @@ library(ggpubr)
 # PATHS -------------------------------------------------------------------
 run = "run001"
 BASE = here::here()
-BASE = "/Users/hanleyb/Documents/GitHub/VAULT_Breast/"
 OUT_DIR = file.path(BASE, "analysis", "figures")
 input_dir = file.path(BASE, "data/simulations", run, "out/")
 
