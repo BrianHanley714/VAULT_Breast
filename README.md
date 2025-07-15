@@ -19,7 +19,7 @@ Please refer to the data license terms before use.
 
 ## Installation
 
-R package requirements are given in [requirements.txt](https://github.com/BrianHanley714/VAULT_Breast/tree/main/requirements.txt). Installation of packages should run in minutes on a standard desktop computer.\
+R package requirements are given in [requirements.txt](https://github.com/BrianHanley714/VAULT_Breast/tree/main/requirements.txt). Installation of packages should run in minutes on a standard desktop computer.
 
 ------------------------------------------------------------------------
 
