@@ -103,6 +103,29 @@ plot_time_repseq = clinical_data%>%
 
 
 
+# Statistical Tests -------------------------------------------------------
+clinical_data%>%
+  dplyr::select(Time..Buffer.to.Homogenisation..days., Time..Surgery.to.Homogenisation..days., Time..in.formalin..days., Time..Surgery.to.Grossing..days., Trial.ID)%>%
+  pivot_longer(values_to = "days", cols = c(Time..Buffer.to.Homogenisation..days., Time..in.formalin..days.))%>%
+  filter(!is.na(days))%>%
+  group_by(Trial.ID)%>%
+  mutate(Time_to_Homogenisation = sum(days))%>%
+  ungroup()%>%
+  mutate(name = if_else(name == "Time..Buffer.to.Homogenisation..days.", "PBS", "Formalin"),
+         Solution = factor(name, levels = c("PBS", "Formalin")))%>%
+  filter(Solution == "Formalin")%>%
+  pull(days)%>%
+  wilcox.test(., mu = 3, alternative = "two.sided", conf.int = T)
+
+
+# dissection sigificantly less time than homogenisation
+clinical_data%>%
+  dplyr::select(Time.for.homogenisation..minutes., Time.for.dissection..minutes., Trial.ID)%>%
+  pivot_longer(cols = c(Time.for.homogenisation..minutes., Time.for.dissection..minutes.), names_to = "Task", values_to = "Time")%>%
+  mutate(Task = if_else(Task == "Time.for.homogenisation..minutes.", "Homogenisation", "Dissection"))%>%
+  wilcox.test(Time ~ Task, data = ., conf.int = T, alternative = "two.sided")
+
+
 # PLOT GRID ---------------------------------------------------------------
 plot_grid(plot_time_formalin, plot_time_repseq, nrow = 1, labels = LETTERS[1:2],
           label_size = 25)

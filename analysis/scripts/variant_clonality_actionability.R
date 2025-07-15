@@ -16,7 +16,7 @@ INCLUDED_PATIENTS = file.path(BASE, "data","metadata", "cases_included.xlsx")
 CLINDATA = file.path(BASE, "data", "metadata", "clinical_data.txt")
 
 # LOAD DATA ---------------------------------------------------------------
-rs_patients = read.delim(INCLUDED_PATIENTS)[,1]
+rs_patients = read.xlsx(INCLUDED_PATIENTS, colNames = F)[,1]
 vault = read.delim(VARIANTS_VAULT)
 mbtcga = read.delim(VARIANTS_MBTCGA)
 matched_patients_char = read.delim(MATCHED_PT_CHAR_MBTCGA)
@@ -72,8 +72,13 @@ chisquare = combined_df%>%
   pivot_wider(names_from = study, values_from = c(count, sum))%>%
   rowwise()%>%
   mutate(p_value = (chisq.test(matrix(c(count_RepSamp,sum_RepSamp-count_RepSamp, count_SingReg, sum_SingReg-count_SingReg), ncol = 2))$p.value),
+         Xsquared = (chisq.test(matrix(c(count_RepSamp,sum_RepSamp-count_RepSamp, count_SingReg, sum_SingReg-count_SingReg), ncol = 2))$statistic),
          p_label =  ifelse(p_value < 0.001, "p < 0.001", paste0("p = ", round(p_value, 3))))
 
+
+
+# Statistics output -------------------------------------------------------
+chisquare
 
 
 # DRAW PLOT  -------------------------------------------------------------

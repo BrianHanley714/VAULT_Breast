@@ -17,7 +17,7 @@ INCLUDED_PATIENTS = file.path(BASE, "data","metadata", "cases_included.xlsx")
 CLINDATA = file.path(BASE, "data", "metadata", "clinical_data.txt")
 
 # LOAD DATA ---------------------------------------------------------------
-rs_patients = read.delim(INCLUDED_PATIENTS)[,1]
+rs_patients = read.xlsx(INCLUDED_PATIENTS)[,1]
 vault = read.delim(VARIANTS_VAULT)
 mbtcga = read.delim(VARIANTS_MBTCGA)
 matched_patients_char = read.delim(MATCHED_PT_CHAR_MBTCGA)

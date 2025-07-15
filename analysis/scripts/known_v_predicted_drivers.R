@@ -18,7 +18,7 @@ CLINDATA = file.path(BASE, "data", "metadata", "clinical_data.txt")
 
 # LOAD DATA ---------------------------------------------------------------
 
-rs_patients = read.delim(INCLUDED_PATIENTS)[,1]
+rs_patients = read.xlsx(INCLUDED_PATIENTS, colNames = T)[,1]
 vault = read.delim(VARIANTS_VAULT)
 mbtcga = read.delim(VARIANTS_MBTCGA)
 matched_patients_char = read.delim(MATCHED_PT_CHAR_MBTCGA)
@@ -83,6 +83,47 @@ combined_df%>%
   theme(axis.title.x = element_blank(),
         axis.text.x = element_text(size = 15),
         legend.position = "none")
+
+
+
+# Statistical Tests -------------------------------------------------------
+anova = combined_df%>%
+  annotate_driver_summary()%>%  
+  filter_rs()%>%
+  filter(study != "METABRIC")%>%
+  filter_matched()%>%
+  mutate(Consensus_annotated = if_else(trial_specific =="trial_inclusion_criterion" & 
+                                         grepl("pred", CGI.Oncogenic.Summary) & 
+                                         Consensus_annotated == "Non_Driver", "pDriver;CTI" , 
+                                       if_else(trial_specific !="trial_inclusion_criterion" & 
+                                                 grepl("pred", CGI.Oncogenic.Summary) & 
+                                                 Consensus_annotated == "Non_Driver", "pDriver;other", Consensus_annotated)))%>%
+  mutate(Consensus_annotated = if_else(grepl("Biomarker|Driver_Other", Consensus_annotated), "kDriver", Consensus_annotated))%>%
+  mutate(Consensus_annotated = factor(Consensus_annotated, levels = c("kDriver", "pDriver;CTI", "pDriver;other", "Non_Driver")))%>%
+  aov(ccf_expected_copies ~ Consensus_annotated, data = .)
+  
+
+# anova test for lower ccf of predicted drivers
+summary(anova)
+
+# number of drivers by study 
+combined_df%>%
+  annotate_driver_summary()%>%  
+  filter_rs()%>%
+  filter(study != "METABRIC")%>%
+  filter_matched()%>%
+  mutate(Consensus_annotated = if_else(trial_specific =="trial_inclusion_criterion" & 
+                                         grepl("pred", CGI.Oncogenic.Summary) & 
+                                         Consensus_annotated == "Non_Driver", "pDriver;CTI" , 
+                                       if_else(trial_specific !="trial_inclusion_criterion" & 
+                                                 grepl("pred", CGI.Oncogenic.Summary) & 
+                                                 Consensus_annotated == "Non_Driver", "pDriver;other", Consensus_annotated)))%>%
+  mutate(Consensus_annotated = if_else(grepl("Biomarker|Driver_Other", Consensus_annotated), "kDriver", Consensus_annotated))%>%
+  mutate(Consensus_annotated = factor(Consensus_annotated, levels = c("kDriver", "pDriver;CTI", "pDriver;other", "Non_Driver")))%>%
+  filter(grepl("kDriver|pDriver", Consensus_annotated))%>%
+  group_by(Tumor_Sample_Barcode, study)%>%
+  count()%>%
+  wilcox.test(n~study, data = .)
 
 
 # WRITE PLOT --------------------------------------------------------------

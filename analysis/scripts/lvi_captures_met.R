@@ -43,6 +43,10 @@ df%>%
   ylab("SingReg Count")
 
 
+test = df%>%pivot_wider(names_from = c(LVI), values_from = n)%>%
+  dplyr::select(-met)
+chisq.test(test)
+
 # WRITE PLOT --------------------------------------------------------------
 ggsave(file.path(OUT_DIR, "Extended_Data_Figure7_LVIregions_met.png"))
 

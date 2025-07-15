@@ -19,7 +19,7 @@ CLINDATA = file.path(BASE, "data", "metadata", "clinical_data.txt")
 
 # LOAD DATA ---------------------------------------------------------------
 
-rs_patients = read.delim(INCLUDED_PATIENTS)[,1]
+rs_patients = read.xlsx(INCLUDED_PATIENTS, colNames = F)[,1]
 vault = read.delim(VARIANTS_VAULT)
 mbtcga = read.delim(VARIANTS_MBTCGA)
 matched_patients_char = read.delim(MATCHED_PT_CHAR_MBTCGA)
@@ -71,6 +71,18 @@ combined_df%>%
   theme(axis.title.x = element_blank(), 
         legend.position = "none")+
   scale_fill_manual(values = c("RepSamp" = rs_col, "SingReg" = sr_col))
+
+
+# Statistical Test --------------------------------------------------------
+combined_df%>%
+  filter(!is.na(clonality)& clonality != "INDETERMINATE")%>%
+  filter_rs()%>%
+  filter_matched()%>%annotate_driver_summary()%>%
+  mutate(actionable_summary = if_else(grepl("Biomarker|trial", actionable_summary), "Actionable Driver", if_else(grepl("Other", actionable_summary), "Non-actionable Driver", "Non-Driver")))%>%
+  mutate(study = if_else(study %in% c("METABRIC", "TCGA"), "SingReg", "RepSamp"))%>%
+  filter(actionable_summary == "Actionable Driver")%>%
+  filter(clonality == "SUBCLONAL")%>%
+  wilcox.test(ccf_expected_copies ~ study, data = .)
 
 
 # WRITE PLOT --------------------------------------------------------------

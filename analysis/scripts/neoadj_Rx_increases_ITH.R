@@ -16,7 +16,7 @@ CLINDATA = file.path(BASE, "data", "metadata", "clinical_data.txt")
 
 # LOAD DATA ---------------------------------------------------------------
 
-rs_patients = read.delim(INCLUDED_PATIENTS)[,1]
+rs_patients = read.xlsx(INCLUDED_PATIENTS, colNames = F)[,1]
 vault = read.delim(VARIANTS_VAULT)
 clinical_data = read.delim(CLINDATA)
 source(file.path(BASE, "src", "custom_filters.R"))
@@ -24,7 +24,7 @@ source(file.path(BASE, "src", "custom_filters.R"))
 
 
 # DRAW PLOT AND CALCULATE ITH INDEX ---------------------------------------
-vault%>%
+plotting_df = vault%>%
   mutate(study = "VAULT")%>%
   filter_rs()%>%
   group_by(Tumor_Sample_Barcode, clonality)%>%
@@ -34,7 +34,9 @@ vault%>%
   mutate(ITH_Index = SUBCLONAL/CLONAL)%>%
   mutate(Trial.ID = substr(Tumor_Sample_Barcode, 1, 5))%>%
   left_join(clinical_data, by = "Trial.ID")%>%
-  mutate(neoadj_RX = if_else(is.na(neo_adj_treatment_class), "naive", "treated"))%>%
+  mutate(neoadj_RX = if_else(is.na(neo_adj_treatment_class), "naive", "treated"))
+  
+plotting_df%>%
   ggplot(aes(neoadj_RX, ITH_Index))+
   geom_boxplot(outlier.alpha = 0)+
   geom_jitter(size = 5)+
@@ -43,6 +45,10 @@ vault%>%
   theme_classic(base_size = 30)
 
 
+# statistical test --------------------------------------------------------
+
+plotting_df%>%
+  wilcox.test(ITH_Index ~ neoadj_RX, data = .)
 
 # WRITE PLOT --------------------------------------------------------------
 ggsave(file.path(OUT_DIR, "Extended_Data_Figure5_neoadjuvantRX_increases_ITH.png"))
