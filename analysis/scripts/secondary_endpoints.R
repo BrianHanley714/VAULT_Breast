@@ -49,7 +49,7 @@ col_blends <- col_palette(5)
 plot_time_formalin = clinical_data%>%
   dplyr::select(Time..Buffer.to.Homogenisation..days., Time..Surgery.to.Homogenisation..days., Time..in.formalin..days., Time..Surgery.to.Grossing..days., Trial.ID)%>%
   pivot_longer(values_to = "days", cols = c(Time..Buffer.to.Homogenisation..days., Time..in.formalin..days.))%>%
-  filter(!is.na(days))%>%
+  dplyr::filter(!is.na(days))%>%
   group_by(Trial.ID)%>%
   mutate(Time_to_Homogenisation = sum(days))%>%
   ungroup()%>%
@@ -77,7 +77,14 @@ plot_time_formalin = clinical_data%>%
   )+
   scale_fill_manual(values = c("PBS" = rs_col, "Formalin" = sr_col))
 
+clinical_data%>%dplyr::filter(Trial.ID%in% substr(ck_included_cases_vault, 1, 5))%>%
+  pull(Time..in.formalin..days.)%>%median(., na.rm = T)
 
+clinical_data%>%dplyr::filter(Trial.ID%in% substr(ck_included_cases_vault, 1, 5))%>%
+  pull(Time..in.formalin..days.)%>%sd(., na.rm=T)
+
+clinical_data%>%dplyr::filter(Trial.ID%in% substr(ck_included_cases_vault, 1, 5))%>%
+  pull(Time..in.formalin..days.)%>%t.test(., mu = 2, alternative = "greater")
 
 # DRAW TIME FOR REPSAMP PLOT ----------------------------------------------
 plot_time_repseq = clinical_data%>%

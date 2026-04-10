@@ -13,8 +13,7 @@ annotate_driver_summary = function(dataframe){dataframe%>%
                                                          if_else(Biomarker_oncoKB== "Biomarker" & Biomarker_ACMG == "Biomarker", "Biomarker", "Driver_Other"))))
 
                                                          )%>%
-    #mutate(Consensus_annotated = if_else(Biomarker_ACMG == "Non_Driver" & Biomarker_oncoKB != "Non_Driver", Biomarker_oncoKB, Biomarker_ACMG))%>%
-    mutate(rec_type = clinical_data$Receptor.Subtype[match(substr(Tumor_Sample_Barcode, 1, 5), clinical_data$Trial.ID)],
+    mutate(rec_type = if_else(study == "VAULT", clinical_data$subtype[match(substr(Tumor_Sample_Barcode, 1, 5), clinical_data$Trial.ID)], NA),
            rec_type = if_else(study == "TCGA", matched_patients_char$molsubtype[match(Tumor_Sample_Barcode, matched_patients_char$PATIENT_ID)], rec_type))%>%
     mutate(trial_specific = if_else(!is.na(MCG_n_trials_all_bc)&MCG_n_trials_all_bc>0|
                                       !is.na(MCG_n_trial_TN)&MCG_n_trial_TN>0 &rec_type == "TN"|
@@ -22,6 +21,6 @@ annotate_driver_summary = function(dataframe){dataframe%>%
                                       !is.na(MCG_n_trials_ERpos)&MCG_n_trials_ERpos>0 &rec_type == "Luminal", 
                                     "trial_inclusion_criterion",
                                     "non_trial_inclusion"))%>%
-    mutate(#actiionable_summary = if_else(Consensus_annotated == "Non_Driver" & trial_specific == "trial_inclusion_criterion", trial_specific, Consensus_annotated),
+    mutate(
       actionable_summary = if_else(grepl("Biomarker|Driver_Other", Consensus_annotated) & trial_specific == "trial_inclusion_criterion", paste(Consensus_annotated, trial_specific, sep = ";"), Consensus_annotated))}
 

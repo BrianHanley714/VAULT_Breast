@@ -27,6 +27,10 @@ rs_col = "#6A3D9Aff"
 
 # DRAW PLOT ---------------------------------------------------------------
 # get x-axis order
+mat_out%>%
+  group_by(Trial_ID)%>%
+  reframe(mad = mad(exp_perc))%>%pull(mad)%>%range
+
 order = 
   mat_out%>%
   group_by(filenames)%>%

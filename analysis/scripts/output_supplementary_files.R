@@ -5,14 +5,15 @@ rm(list = ls(all = TRUE))
 #library(tidyverse)
 library(tools)
 library(openxlsx)
+library(qs)
 # PATHS -------------------------------------------------------------------
-
-BASE = here::here()
+BASE = "/Users/hanleyb/Documents/GitHub/VAULT_Breast/"
+#BASE = here::here()
 OUT_DIR = file.path(BASE, "data", "metadata")
 DATA = file.path(BASE, "data")
 
 
-paths = list.files(DATA, recursive = T, pattern = ".txt$|.tsv$|.xlsx$", full.names = T)
+paths = list.files(DATA, recursive = T, pattern = ".txt$|.tsv$|.xlsx$|.rdata", full.names = T)
 paths = grep("simulations", paths, invert = T, value = T)
 paths = grep("VAULT_manuscript_supplementary.xlsx", paths, invert = T, value = T)
 text_files = lapply(paths, function(fn){
@@ -20,7 +21,11 @@ text_files = lapply(paths, function(fn){
     if(file_ext(fn) == "xlsx"){
     return(read.xlsx(fn, fillMergedCells = T))
                    
-  }
+    }
+  if(file_ext(fn) == "rdata"){
+      return(qread(fn))
+      
+    }
   else{
   return(read.delim(fn))
     }
@@ -29,12 +34,14 @@ text_files = lapply(paths, function(fn){
 names(text_files) = basename(paths)
 names(text_files)%>%sort
 
+
+text_files$variant_calls_VAULT.rdata_curtailed = text_files$variant_calls_VAULT.rdata[,colnames(text_files$variant_calls_VAULT.rdata) %in% colnames(text_files$variant_calls_TCGA_MB.txt)]
 out_list = list(
   "ST1_Excluded_Cases" = text_files$Cases_excluded.xlsx,
   "ST2_VAULTPatients" = text_files$clinical_data.txt,
   "ST3_Recurrences" = text_files$Recurrence_data.xlsx,
   "ST4_ImageAnalysis" = text_files$tumour_cell_counts_w_calcs.tsv,
-  "ST5_VAULTvariants" = text_files$variant_calls_VAULT.txt,
+  "ST5_VAULTvariants" = text_files$variant_calls_VAULT.rdata_curtailed,
   "ST6_TCGA_MBvariants" = text_files$variant_calls_TCGA_MB.txt,
   "ST7_MatchedPatients" = text_files$matched_patients_characteristics.txt,
   "ST8_Ki67expression" = text_files$Ki67_pathologist_scores.txt,

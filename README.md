@@ -33,46 +33,55 @@ Expected outputs are present in the [figures](https://github.com/BrianHanley714/
 
 | Figure location | Figure number | Code location |
 |-----------------------|-------------------------|-------------------------|
-| Main | 1a | None, this was generated using graphical design software |
-| Main | 1b | [analysis/scripts/circos_cohort_overview.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/circos_cohort_overview.R) |
-| Main | 1c | None, this was generated using graphical design software and QuPath |
-| Main | 1d | None, this was generated using graphical design software |
-| Main | 1e | [analysis/scripts/prop_leftover_tissue.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/prop_leftover_tissue.R) |
-| Main | 2a | [analysis/scripts/density_histogram_rw_vault.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/density_histogram_rw_vault.R) |
-| Main | 2b | [analysis/scripts/assess_limitofdetection.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/assess_limitofdetection.R) |
-| Main | 2c | [analysis/scripts/density_histogram_simulated.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/density_histogram_simulated.R) |
-| Main | 2d | [analysis/scripts/density_histogram_rw_vault.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/density_histogram_rw_vault.R) |
-| Main | 2e | [analysis/scripts/variant_clonality_variant_count.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/variant_clonality_variant_count.R) |
-| Main | 3a | [analysis/scripts/Prop_cohort_w_drivers.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/Prop_cohort_w_drivers.R) |
-| Main | 3b | [analysis/scripts/biomarker_status_by_clonality.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/biomarker_status_by_clonality.R) |
-| Main | 3c | [analysis/scripts/vault_biomarkers_clonality_genes.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/vault_biomarkers_clonality_genes.R) |
-| Main | 3d | [analysis/scripts/PIK3CA_lollipop.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/PIK3CA_lollipop.R) |
-| Main | 3e | [analysis/scripts/variant_clonality_actionability.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/umap.R) |
-| Main | 3f | [analysis/scripts/driver_CCF_by_study.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/variant_clonality_actionability.R) |
-| Main | 3g | [analysis/scripts/proportion_patients_w_driver_by_study.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/proportion_patients_w_driver_by_study.R) |
-| Main | 3h | [analysis/scripts/known_v_predicted_drivers.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/known_v_predicted_drivers.R) |
-| Main | 3i | [analysis/scripts/MYEOV_PTH2_lollipops.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/MYEOV_PTH2_lollipops.R) |
-| Main | 3j | [analysis/scripts/clonality_selected_drivers.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/clonality_selected_drivers.R) |
-| Main | 4a | [analysis/scripts/draw_trees_for_VAULT.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/draw_trees_for_VAULT.R) |
-| Main | 4b | [analysis/scripts/draw_trees_for_VAULT.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/draw_trees_for_VAULT.R) |
-| Main | 4c | [analysis/scripts/draw_trees_for_VAULT.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/draw_trees_for_VAULT.R) |
-| Main | 5a | [analysis/scripts/ki67_heterogeneity.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/ki67_heterogeneity.R) |
-| Main | 5b | [analysis/scripts/HF007_ki67_heterogeneity.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/HF007_ki67_heterogeneity.R) |
-| Main | 5c | [analysis/scripts/plot_phenophylogenies.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/plot_phenophylogenies.R) |
-| Main | 5d | [analysis/scripts/HF299_phenophylogeny.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/HF299_phenophylogeny.R) |
-| Extended | 1 | [analysis/scripts/Consort_Diagram.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/Consort_Diagram.R) |
-| Extended | 2a-b | [analysis/scripts/secondary_endpoints.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/secondary_endpoints.R) |
-| Extended | 3a | None, this was generated using graphical design software |
-| Extended | 3b-p | [analysis/scripts/analyse_simulation_outputs.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/analyse_simulation_outputs.R) |
-| Extended | 4 | [analysis/scripts/get_matching_data.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/get_matching_data.R) |
-| Extended | 5a | None, these are microphotographs |
-| Extended | 5b | [analysis/scripts/neoadj_Rx_increases_ITH.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/neoadj_Rx_increases_ITH.R) |
-| Extended | 6a-b | [analysis/scripts/compare_ffpesig.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/compare_ffpesig.R) |
-| Extended | 7a | None, these are microphotographs |
-| Extended | 7b | [analysis/scripts/lvi_captures_met.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/lvi_captures_met.R) |
-| Extended | 8 | [analysis/scripts/draw_trees_clonal_illusion.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/draw_trees_clonal_illusion.R) |
-| Extended | 9 | [analysis/scripts/sequencing_saturation.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/sequencing_saturation.R) |
-| Extended | 10a-c | [analysis/scripts/correlation_w_Ki67_fixedfacs.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/correlation_w_Ki67_fixedfacs.R) |
+| Main | 1a | None, this was generated using graphical design software including biorender |
+| Main | 1b | [analysis/scripts/1b_circos_cohort_overview.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/1b_circos_cohort_overview.R) |
+| Main | 1c | [analysis/scripts/1c_prop_leftover_tissue.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/1c_prop_leftover_tissue.R) |
+| Main | 1d | [analysis/scripts/1d_time_for_repsamp.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/1d_time_for_repsamp.R) |
+| Main | 1e | [analysis/scripts/1e_time_in_formalin.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/1e_time_in_formalin.R) |
+| Main | 2a | [analysis/scripts/2a_h_variant_qualities.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/2a_h_variant_qualities.R) |
+| Main | 2b | [analysis/scripts/2a_h_variant_qualities.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/2a_h_variant_qualities.R) |
+| Main | 2c | [analysis/scripts/2a_h_variant_qualities.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/2a_h_variant_qualities.R) |
+| Main | 2d | [analysis/scripts/2a_h_variant_qualities.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/2a_h_variant_qualities.R) |
+| Main | 2e | [analysis/scripts/2a_h_variant_qualities.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/2a_h_variant_qualities.R) |
+| Main | 2f | [analysis/scripts/2a_h_variant_qualities.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/2a_h_variant_qualities.R) |
+| Main | 2g | [analysis/scripts/2a_h_variant_qualities.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/2a_h_variant_qualities.R) |
+| Main | 2h | [analysis/scripts/2a_h_variant_qualities.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/2a_h_variant_qualities.R) |
+| Main | 2i | [analysis/scripts/2a_h_variant_qualities.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/2a_h_variant_qualities.R) |
+| Main | 3a | [analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R) |
+| Main | 3b | [analysis/scripts/3b_dndscv_VAULT.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/3b_dndscv_VAULT.R) |
+| Main | 3c | [analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R) |
+| Main | 3d | [analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R) |
+| Main | 3e | [analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R) |
+| Main | 3f | [analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R) |
+| Main | 4a | [analysis/scripts/4a_h_SOC_v_RepSeq.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/4a_h_SOC_v_RepSeq.R) |
+| Main | 4b | [analysis/scripts/4a_h_SOC_v_RepSeq.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/4a_h_SOC_v_RepSeq.R) |
+| Main | 4c | [analysis/scripts/4a_h_SOC_v_RepSeq.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/4a_h_SOC_v_RepSeq.R) |
+| Main | 4d | [analysis/scripts/4a_h_SOC_v_RepSeq.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/4a_h_SOC_v_RepSeq.R) |
+| Main | 4e | [analysis/scripts/4a_h_SOC_v_RepSeq.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/4a_h_SOC_v_RepSeq.R) |
+| Main | 4f | [analysis/scripts/4a_h_SOC_v_RepSeq.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/4a_h_SOC_v_RepSeq.R) |
+| Main | 4g | [analysis/scripts/4a_h_SOC_v_RepSeq.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/4a_h_SOC_v_RepSeq.R) |
+| Main | 4h | [analysis/scripts/4a_h_SOC_v_RepSeq.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/4a_h_SOC_v_RepSeq.R) |
+| Main | 4i | [analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R) |
+| Main | 4j | [analysis/scripts/4_Trees.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/5_Trees.R) |
+| Main | 5a | [analysis/scripts/5a_I_IHC_biomarkers.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/5a_I_IHC_biomarkers.R) |
+| Main | 5b | [analysis/scripts/5a_I_IHC_biomarkers.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/5a_I_IHC_biomarkers.R) |
+| Main | 5c | [analysis/scripts/5a_I_IHC_biomarkers.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/5a_I_IHC_biomarkers.R) |
+| Main | 5d | [analysis/scripts/5a_I_IHC_biomarkers.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/5a_I_IHC_biomarkers.R) |
+| Main | 5e | [analysis/scripts/5a_I_IHC_biomarkers.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/5a_I_IHC_biomarkers.R) |
+| Main | 5f | [analysis/scripts/5a_I_IHC_biomarkers.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/5a_I_IHC_biomarkers.R) |
+| Main | 5g | [analysis/scripts/5a_I_IHC_biomarkers.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/5a_I_IHC_biomarkers.R) |
+| Main | 5h | [analysis/scripts/5a_I_IHC_biomarkers.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/5a_I_IHC_biomarkers.R) |
+| Main | 5i | [analysis/scripts/5a_I_IHC_biomarkers.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/5a_I_IHC_biomarkers.R) |
+| Main | 6a | [analysis/scripts/6a_Trees_ki67.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/6a_Trees_ki67.R) |
+| Main | 6b | None, these are annotated whole slide images taken in QuPath |
+| Main | 6c | [analysis/scripts/6c_Features_Ki67clones.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/6c_Features_Ki67clones.R) |
+| Main | 7a | [analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R) |
+| Main | 7b | [analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R) |
+| Main | 7c | [analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R) |
+| Main | 7d | [analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R) |
+| Main | 7e | [analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R) |
+| Main | 7f | [analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R) |
+| Main | 7g | [analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R](https://github.com/BrianHanley714/VAULT_Breast/tree/main/analysis/scripts/3a_c_d_e_f_4i_7_Genomic_Variants_overview.R) |
 
 ------------------------------------------------------------------------
 
